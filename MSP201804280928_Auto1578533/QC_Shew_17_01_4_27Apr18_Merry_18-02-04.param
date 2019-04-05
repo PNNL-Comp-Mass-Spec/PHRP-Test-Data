@@ -1,0 +1,21 @@
+SpecFile	QC_Shew_17_01_4_27Apr18_Merry_18-02-04.pbf
+DatabaseFile	ID_006407_8F27399B.fasta
+FeatureFile	QC_Shew_17_01_4_27Apr18_Merry_18-02-04.ms1ft
+InternalCleavageMode	SingleInternalCleavage
+Tag-based search	True
+Tda	Target+Decoy
+PrecursorIonTolerancePpm	10
+ProductIonTolerancePpm	10
+MinSequenceLength	21
+MaxSequenceLength	300
+MinPrecursorIonCharge	2
+MaxPrecursorIonCharge	30
+MinProductIonCharge	1
+MaxProductIonCharge	20
+MinSequenceMass	3000
+MaxSequenceMass	50000
+ActivationMethod	Unknown
+MaxDynamicModificationsPerSequence	4
+Modification	C(0) H(0) N(0) O(1) S(0),M,opt,Everywhere,Oxidation
+Modification	C(0) H(-1) N(0) O(0) S(0),C,opt,Everywhere,Dehydro
+Modification	C(2) H(2) N(0) O(1) S(0),*,opt,ProteinNTerm,Acetyl
