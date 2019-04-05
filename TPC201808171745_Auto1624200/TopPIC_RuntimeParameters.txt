@@ -1,0 +1,21 @@
+Protein database file:                      	G:\DMS_Temp_Org\ID_005649_5ECA3D02.fasta
+Spectrum file:                              	MZ20170525_Mnx_PFA_ms2.msalign
+Number of combined spectra:                 	1
+Fragmentation method:                       	FILE
+Search type:                                	TARGET+DECOY
+Fixed modifications:                        	None
+TopFD feature file:                         	MZ20170525_Mnx_PFA.feature
+Maximum number of unexpected modifications: 	1
+Error tolerance:                            	15 ppm
+Spectrum-level cutoff type:                 	EVALUE
+Spectrum-level cutoff value:                	0.01
+Proteoform-level cutoff type:               	EVALUE
+Proteoform-level cutoff value:              	0.01
+Allowed N-terminal forms:                   	NONE,NME,NME_ACETYLATION,M_ACETYLATION
+Maximum mass shift of modifications:        	500 Da
+Thread number:                              	1
+E-value computation:                        	Lookup table
+Executable file directory:                  	C:\DMS_Programs\TopPIC
+Start time:                                 	Tue Mar 19 12:31:01 2019
+End time:                                   	Tue Mar 19 12:31:09 2019
+Running time:                               	8 seconds

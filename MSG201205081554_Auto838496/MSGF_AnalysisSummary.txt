@@ -1,0 +1,329 @@
+Loaded resourcer: AnalysisManagerMSGFPlugin.clsAnalysisResourcesMSGF from AnalysisManagerMSGFPlugin.dll
+Loaded ToolRunner: AnalysisManagerMSGFPlugin.clsMSGFRunner from AnalysisManagerMSGFPlugin.dll
+
+
+=====================================================================================
+
+
+Job Number	838496
+Job Step	5
+Date	5/8/2012 4:00:02 PM
+Processor	Pub-67-8
+Tool	MSGF (MSGFDB)
+Dataset Name	QC_Shew_11_06_Run-03_7May12_Roc_12-04-08
+Xfer Folder	\\proto-3\DMS3_Xfer\
+Param File Name	MSGFDB_PartTryp_MetOx_50ppmParTol_NoDecoy_EstimateFDR.txt
+Settings File Name	IonTrapDefSettings_DeconMSN.xml
+Legacy Organism Db Name	ID_003456_9B916A8B.fasta
+Protein Collection List	Shewanella_oneidensis_MR1_2010-04-22,Tryp_Pig_Bov
+Protein Options List	seq_direction=forward,filetype=fasta
+Fasta File Name	
+Analysis Time (hh:mm:ss)	0:00:01
+
+
+=====================================================================================
+
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AM_Shared.dll
+Product:          AM_Shared
+ProductVersion:   2.3.4510.25026
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerDecon2lsPlugIn.dll
+Product:          AnalysisManagerDecon2lsPlugIn
+ProductVersion:   1.0.4485.26355
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerDecon2lsV2PlugIn.dll
+Product:          AnalysisManagerDecon2lsV2PlugIn
+ProductVersion:   1.0.4485.26335
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerDtaImportPlugIn.dll
+Product:          AnalysisManagerDtaImportPlugIn
+ProductVersion:   1.0.4483.28721
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerDtaRefineryPlugIn.dll
+Product:          AnalysisManagerDtaRefineryPlugIn
+ProductVersion:   1.0.4485.26288
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerDtaSplitPlugIn.dll
+Product:          AnalysisManagerDtaSplitPlugIn
+ProductVersion:   1.0.4485.26315
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerExtractionPlugin.dll
+Product:          AnalysisManagerExtractionPlugin
+ProductVersion:   1.2.4504.29762
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerICR2LSPlugIn.dll
+Product:          AnalysisManagerICR2LSPlugIn
+ProductVersion:   1.0.4485.29141
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerInSpecTPlugIn.dll
+Product:          AnalysisManagerInSpecTPlugIn
+ProductVersion:   1.0.4485.26393
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerInspResultsAssemblyPlugIn.dll
+Product:          AnalysisManagerInspResultsAssemblyPlugIn
+ProductVersion:   1.0.4485.26399
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerLCMSFeatureFinderPlugIn.dll
+Product:          AnalysisManagerLCMSFeatureFinderPlugIn
+ProductVersion:   1.0.4485.26577
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerMasicPlugin.dll
+Product:          AnalysisManagerMasicPlugin
+ProductVersion:   1.0.4484.28418
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerMSAlignPlugIn.dll
+Product:          AnalysisManagerMSAlignPlugIn
+ProductVersion:   1.0.4485.26416
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerMSClusterDTAtoDATPlugIn.dll
+Product:          AnalysisManagerMSClusterDTAtoDATPlugIn
+ProductVersion:   1.0.4483.30263
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerMSDeconvPlugIn.dll
+Product:          AnalysisManagerMSDeconvPlugIn
+ProductVersion:   1.0.4485.26433
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerMSGFDBPlugIn.dll
+Product:          AnalysisManagerMSGFDBPlugIn
+ProductVersion:   1.0.4510.30492
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerMSGFPlugin.dll
+Product:          AnalysisManagerTPPToolsPlugin
+ProductVersion:   1.3.4500.25348
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerMsXmlBrukerPlugIn.dll
+Product:          AnalysisManagerMsXmlBrukerPlugIn
+ProductVersion:   1.1.4485.26452
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerMsXmlGenPlugIn.dll
+Product:          AnalysisManagerMsXmlGenPlugIn
+ProductVersion:   1.0.4486.22008
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerMultiAlignPlugIn.dll
+Product:          AnalysisManagerMultiAlignPlugIn
+ProductVersion:   1.0.4483.30769
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerMultiAlign_AggregatorPlugIn.dll
+Product:          AnalysisManagerMultiAlign_AggregatorPlugIn
+ProductVersion:   1.0.4421.29807
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerOMSSAPlugIn.dll
+Product:          AnalysisManagerOMSSAPlugIn
+ProductVersion:   1.0.4485.26475
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerPhospho_FDR_AggregatorPlugIn.dll
+Product:          AnalysisManagerPhospho_FDR_AggregatorPlugIn
+ProductVersion:   1.0.4485.26480
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerPRIDEMzXMLPlugIn.dll
+Product:          AnalysisManagerPRIDEMzXMLPlugIn
+ProductVersion:   1.0.4485.26486
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerResultsXferPlugin.dll
+Product:          AnalysisManagerResultsXferPlugin
+ProductVersion:   2.1.4485.26492
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerSequestPlugin.dll
+Product:          AnalysisManagerSequestPlugin
+ProductVersion:   1.2.4504.16166
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerSMAQCPlugIn.dll
+Product:          AnalysisManagerSMAQCPlugIn
+ProductVersion:   1.0.4502.26951
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerXTandemHPCPlugIn.dll
+Product:          AnalysisManagerXTandemHPCPlugIn
+ProductVersion:   1.0.4499.37600
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManagerXTandemPlugIn.dll
+Product:          AnalysisManagerXTandemPlugIn
+ProductVersion:   1.0.4499.37359
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManager_Ape_PlugIn.dll
+Product:          AM_Ape_PlugIn
+ProductVersion:   1.0.4484.22045
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManager_AScore_PlugIn.dll
+Product:          AM_AScore_PlugIn
+ProductVersion:   1.0.4484.22096
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManager_Cyclops_PlugIn.dll
+Product:          AM_Cyclops_PlugIn
+ProductVersion:   1.0.4484.22059
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManager_Mage_PlugIn.dll
+Product:          AM_Mage_PlugIn
+ProductVersion:   1.0.4484.28924
+
+File:             C:\DMS_Programs\AnalysisToolManager8\AnalysisManager_MultiAlign_Aggregator_PlugIn.dll
+Product:          AM_MultiAlign_Aggregator_PlugIn
+ProductVersion:   1.0.4485.18819
+
+File:             C:\DMS_Programs\AnalysisToolManager8\Apache.NMS.ActiveMQ.dll
+Product:          Apache NMS for ActiveMQ Class Library
+ProductVersion:   1.1.0
+FileVersion:      1.1.0.0
+
+File:             C:\DMS_Programs\AnalysisToolManager8\Apache.NMS.dll
+Product:          Apache NMS Class Library
+ProductVersion:   1.1.0
+FileVersion:      1.1.0.0
+
+File:             C:\DMS_Programs\AnalysisToolManager8\Ape.dll
+Product:          DbAccess
+ProductVersion:   1.0.3.5
+
+File:             C:\DMS_Programs\AnalysisToolManager8\CondenseCDTAFile.dll
+Product:          CondenseCDTAFile
+ProductVersion:   1.0.3841.35494
+
+File:             C:\DMS_Programs\AnalysisToolManager8\Cyclops.dll
+Product:          Cyclops
+ProductVersion:   1.0.4506.19448
+
+File:             C:\DMS_Programs\AnalysisToolManager8\DTASpectraFileGen.dll
+Product:          DTASpectraFileGen
+ProductVersion:   1.2.4504.37197
+
+File:             C:\DMS_Programs\AnalysisToolManager8\DtaTextConverter.dll
+ProductVersion:   1.1.3862.32418
+
+File:             C:\DMS_Programs\AnalysisToolManager8\FileConcatenator.dll
+ProductVersion:   1.0.2.0
+
+File:             C:\DMS_Programs\AnalysisToolManager8\FilterMsMsSpectra.dll
+ProductVersion:   1.0.4258.19920
+
+File:             C:\DMS_Programs\AnalysisToolManager8\icr2ls32.dll
+ProductVersion:   
+
+File:             C:\DMS_Programs\AnalysisToolManager8\ICSharpCode.SharpZipLib.dll
+Product:          #ZipLibrary
+ProductVersion:   0.86.0
+FileVersion:      0.86.0.518
+FileDescription:  SharpZipLib for .NET Framework 2.0
+
+File:             C:\DMS_Programs\AnalysisToolManager8\IMSCOMP.dll
+ProductVersion:   
+
+File:             C:\DMS_Programs\AnalysisToolManager8\Interop.icr2ls.dll
+InternalName:     Interop.icr2ls
+OriginalFilename: Interop.icr2ls.dll
+Product:          Assembly imported from type library 'icr2ls'.
+ProductVersion:   1.0.0.0
+
+File:             C:\DMS_Programs\AnalysisToolManager8\Interop.MSFileReaderLib.dll
+Product:          Assembly imported from type library 'MSFileReaderLib'.
+ProductVersion:   1.0.0.0
+
+File:             C:\DMS_Programs\AnalysisToolManager8\Interop.XRAWFILE2Lib.dll
+InternalName:     Interop.XRAWFILE2Lib
+OriginalFilename: Interop.XRAWFILE2Lib.dll
+Product:          Assembly imported from type library 'XRAWFILE2Lib'.
+ProductVersion:   1.0.0.0
+
+File:             C:\DMS_Programs\AnalysisToolManager8\Ionic.Zip.dll
+Product:          DotNetZip Library
+ProductVersion:   1.9.1.8
+FileDescription:  Ionic's Zip Library
+
+File:             C:\DMS_Programs\AnalysisToolManager8\log4net.dll
+Product:          log4net
+ProductVersion:   1.2
+FileVersion:      1.2.10.0
+FileDescription:  log4net for .NET Framework 2.0
+
+File:             C:\DMS_Programs\AnalysisToolManager8\Mage.dll
+Product:          Mage
+ProductVersion:   1.3.4303.11542
+
+File:             C:\DMS_Programs\AnalysisToolManager8\MageDisplayLib.dll
+Product:          MageDisplayLib
+ProductVersion:   1.3.4303.11543
+
+File:             C:\DMS_Programs\AnalysisToolManager8\MageExtContentFilters.dll
+Product:          MageExtContentFilters
+ProductVersion:   1.3.4303.11545
+
+File:             C:\DMS_Programs\AnalysisToolManager8\MageExtExtractionFilters.dll
+Product:          MageExtExtractionFilters
+ProductVersion:   1.3.4303.11547
+
+File:             C:\DMS_Programs\AnalysisToolManager8\MascotGenericFileToDTA.dll
+ProductVersion:   1.1.4486.26147
+
+File:             C:\DMS_Programs\AnalysisToolManager8\MSDataFileReader.dll
+ProductVersion:   1.2.3198.21364
+
+File:             C:\DMS_Programs\AnalysisToolManager8\MSFileInfoScannerInterfaces.dll
+Product:          MSFileInfoScannerInterfaces
+ProductVersion:   1.0.4475.24714
+
+File:             C:\DMS_Programs\AnalysisToolManager8\MsMsDataFileReader.dll
+ProductVersion:   1.1.4486.25061
+
+File:             C:\DMS_Programs\AnalysisToolManager8\MSMSSpectrumFilter.dll
+ProductVersion:   1.5.3975.27830
+
+File:             C:\DMS_Programs\AnalysisToolManager8\MSMSSpectrumFilterAM.dll
+Product:          MSMSSpectrumFilterAM
+ProductVersion:   1.2.4485.26517
+
+File:             C:\DMS_Programs\AnalysisToolManager8\ParamFileGenerator.dll
+ProductVersion:   1.2.4248.34745
+FileDescription:  Parameter File Generator
+
+File:             C:\DMS_Programs\AnalysisToolManager8\PeptideFileExtractor.dll
+ProductVersion:   1.7.4492.33844
+
+File:             C:\DMS_Programs\AnalysisToolManager8\PeptideToProteinMapEngine.dll
+Product:          PeptideToProteinMapEngine
+ProductVersion:   1.1.4309.25868
+
+File:             C:\DMS_Programs\AnalysisToolManager8\PHRPReader.dll
+Product:          PHRPReader
+ProductVersion:   1.1.4510.25593
+
+File:             C:\DMS_Programs\AnalysisToolManager8\PRISM.dll
+ProductVersion:   2.0.4416.29345
+
+File:             C:\DMS_Programs\AnalysisToolManager8\ProteinCoverageSummarizer.dll
+Product:          ProteinCoverageSummarizer
+ProductVersion:   1.1.4309.25868
+
+File:             C:\DMS_Programs\AnalysisToolManager8\ProteinFileReader.dll
+ProductVersion:   1.1.3847.22126
+
+File:             C:\DMS_Programs\AnalysisToolManager8\Protein_Exporter.dll
+ProductVersion:   1.2.5.0
+
+File:             C:\DMS_Programs\AnalysisToolManager8\Protein_Storage.dll
+ProductVersion:   1.1.4.0
+
+File:             C:\DMS_Programs\AnalysisToolManager8\R.NET.dll
+Product:          R.NET
+ProductVersion:   1.4.1.0
+
+File:             C:\DMS_Programs\AnalysisToolManager8\System.Data.SQLite.dll
+InternalName:     SQLite.Interop.DLL
+OriginalFilename: SQLite3.DLL 3.6.23.1
+Product:          System.Data.SQLite
+ProductVersion:   1.0
+FileVersion:      1.0.66.0
+FileDescription:  System.Data.SQLite Interop Library
+
+File:             C:\DMS_Programs\AnalysisToolManager8\TableFunctions.dll
+Product:          TableFunctions
+ProductVersion:   1.0.0.0
+
+File:             C:\DMS_Programs\AnalysisToolManager8\TableManipulationBase.dll
+ProductVersion:   1.0.4276.16154
+
+File:             C:\DMS_Programs\AnalysisToolManager8\ThermoRawFileReaderDLL.dll
+Product:          ThermoRawFileReaderDLL
+ProductVersion:   1.1.4492.26651
+
+File:             C:\DMS_Programs\AnalysisToolManager8\UIMFLibrary.dll
+ProductVersion:   2.0.4454.20142
+

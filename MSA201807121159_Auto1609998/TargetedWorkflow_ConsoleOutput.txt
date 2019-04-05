@@ -1,0 +1,3092 @@
+TargetedWorkflowConsole.exe F:\DMS_WorkDir5\20180709PDX_13.raw F:\DMS_WorkDir5\TargetedWorkflowParams.xml
+--------------------------------------------------------------------------------
+xml file: TargetedWorkflowParams.xml; missing parameter: AppendTargetsFileNameToResultFile. Using default value: False
+xml file: TargetedWorkflowParams.xml; missing parameter: ChromGenSourceDataIsThresholded. Using default value: True
+xml file: TargetedWorkflowParams.xml; missing parameter: ChromGenSourceDataPeakBR. Using default value: 2
+xml file: TargetedWorkflowParams.xml; missing parameter: ChromGenSourceDataProcessMsMs. Using default value: False
+xml file: TargetedWorkflowParams.xml; missing parameter: ChromGenSourceDataSigNoise. Using default value: 3
+xml file: TargetedWorkflowParams.xml; missing parameter: ExportChromatogramData. Using default value: False
+xml file: TargetedWorkflowParams.xml; missing parameter: IsMassAlignmentPerformed. Using default value: False
+xml file: TargetedWorkflowParams.xml; missing parameter: IsNetAlignmentPerformed. Using default value: False
+xml file: TargetedWorkflowParams.xml; missing parameter: MaxMzForDefiningChargeStateTargets. Using default value: 1500
+xml file: TargetedWorkflowParams.xml; missing parameter: MaxNumberOfChargeStateTargetsToCreate. Using default value: 100
+xml file: TargetedWorkflowParams.xml; missing parameter: MinMzForDefiningChargeStateTargets. Using default value: 400
+xml file: TargetedWorkflowParams.xml; missing parameter: OutputFolderBase. Using default value: 
+xml file: TargetedWorkflowParams.xml; missing parameter: ReferenceTargetsFilePath. Using default value: 
+xml file: TargetedWorkflowParams.xml; missing parameter: TargetedAlignmentIsPerformed. Using default value: False
+xml file: TargetedWorkflowParams.xml; missing parameter: TargetedAlignmentWorkflowParameterFile. Using default value: 
+xml file: TargetedWorkflowParams.xml; missing parameter: TargetsBaseFolder. Using default value: 
+Total targets loaded= 815
+xml file: MSAlign_Quant_Workflow_2012-07-25.xml; missing parameter: ChromGenTolerance. Using default value: 10
+xml file: MSAlign_Quant_Workflow_2012-07-25.xml; missing parameter: ChromGenToleranceUnit. Using default value: PPM
+xml file: MSAlign_Quant_Workflow_2012-07-25.xml; missing parameter: ProcessMsMs. Using default value: False
+xml file: MSAlign_Quant_Workflow_2012-07-25.xml; missing parameter: SaveChromatogramData. Using default value: False
+xml file: MSAlign_Quant_Workflow_2012-07-25.xml; missing parameter: SmartChromPeakSelectorNumMSSummed. Using default value: 1
+xml file: MSAlign_Quant_Workflow_2012-07-25.xml; missing parameter: ChromGenTolerance. Using default value: 10
+xml file: MSAlign_Quant_Workflow_2012-07-25.xml; missing parameter: ChromGenToleranceUnit. Using default value: PPM
+xml file: MSAlign_Quant_Workflow_2012-07-25.xml; missing parameter: ProcessMsMs. Using default value: False
+xml file: MSAlign_Quant_Workflow_2012-07-25.xml; missing parameter: SaveChromatogramData. Using default value: False
+xml file: MSAlign_Quant_Workflow_2012-07-25.xml; missing parameter: SmartChromPeakSelectorNumMSSummed. Using default value: 1
+Started Processing....
+
+Dataset = F:\DMS_WorkDir5\20180709PDX_13.raw
+
+Parameters:
+AreaOfPeakToSumInDynamicSumming	2
+ChromatogramCorrelationIsPerformed	False
+ChromGeneratorMode	MOST_ABUNDANT_PEAK
+ChromGenSourceDataPeakBR	2
+ChromGenSourceDataSigNoise	3
+ChromGenTolerance	10
+ChromGenToleranceUnit	PPM
+ChromNETTolerance	0.025
+ChromPeakDetectorPeakBR	0.1
+ChromPeakDetectorSigNoise	0.1
+ChromPeakSelectorMode	Smart
+ChromSmootherNumPointsInSmooth	9
+MaxScansSummedInDynamicSumming	100
+MSPeakDetectorPeakBR	1.3
+MSPeakDetectorSigNoise	2
+MSToleranceInPPM	25
+MultipleHighQualityMatchesAreAllowed	True
+NumChromPeaksAllowedDuringSelection	10
+NumMSScansToSum	5
+ProcessMsMs	False
+ResultType	TOPDOWN_TARGETED_RESULT
+SaveChromatogramData	False
+SmartChromPeakSelectorNumMSSummed	1
+SummingMode	SUMMINGMODE_STATIC
+WorkflowType	TopDownTargeted1
+
+Run initialized successfully.
+
+Creating _Peaks.txt file for extracted ion chromatogram (XIC) source data ... takes 1-5 minutes
+
+Peak creation progress: 26.4%
+Peak creation progress: 35.6%
+Peak creation progress: 43.4%
+Peak creation progress: 50.8%
+Peak creation progress: 57.6%
+Peak creation progress: 65.6%
+Peak creation progress: 73.8%
+Peak creation progress: 88.6%
+Peak creation progress: 100.0%
+Done creating _Peaks.txt file
+
+Peak loading started...
+
+Peak importer progress (%) = 84
+Peak Loading complete.
+
+20180709PDX_13 is NOT mass aligned
+FYI - Run has NOT been mass aligned.
+
+Run has been NET aligned using info in either the _NETAlignment.txt file or the _UMCs.txt file
+
+Processing...
+
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 322	353	383
+
+  MT= 1;z= 6; mz= 1420.938;  ------------------------- PeaksWithinTol = 2
+1	processing time = 362
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 322	353	383
+
+  MT= 2;z= 7; mz= 1218.091;  ------------------------- PeaksWithinTol = 9
+2	processing time = 13
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 322	353	383
+
+  MT= 3;z= 8; mz= 1065.955;  ------------------------- PeaksWithinTol = 4
+3	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 322	353	383
+
+  MT= 4;z= 9; mz= 947.628;  ------------------------- PeaksWithinTol = 4
+4	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 320	351	381
+
+  MT= 5;z= 10; mz= 852.966;  ------------------------- PeaksWithinTol = 4
+5	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 315	346	376
+
+  MT= 6;z= 11; mz= 775.515;  ------------------------- PeaksWithinTol = 4
+6	processing time = 13
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 317	348	378
+
+  MT= 7;z= 12; mz= 710.973;  ------------------------- PeaksWithinTol = 4
+7	processing time = 11
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 317	348	378
+
+  MT= 8;z= 13; mz= 656.360;  ------------------------- PeaksWithinTol = 4
+8	processing time = 29
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 317	348	378
+
+  MT= 9;z= 14; mz= 609.549;  ------------------------- PeaksWithinTol = 3
+9	processing time = 15
+10	processing time = 6
+11	processing time = 0
+12	processing time = 0
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 72	103	133
+
+  MT= 13;z= 4; mz= 928.050;  ------------------------- PeaksWithinTol = 3
+13	processing time = 3
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 72	103	133
+
+  MT= 14;z= 5; mz= 742.642;  ------------------------- PeaksWithinTol = 3
+14	processing time = 5
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 72	103	133
+
+  MT= 15;z= 6; mz= 619.036;  ------------------------- PeaksWithinTol = 10
+15	processing time = 2
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 72	103	133
+
+  MT= 16;z= 7; mz= 530.746;  ------------------------- PeaksWithinTol = 10
+16	processing time = 2
+17	processing time = 0
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 137	168	198
+
+  MT= 18;z= 5; mz= 1204.909;  ------------------------- PeaksWithinTol = 0
+18	processing time = 5
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 137	168	198
+
+  MT= 19;z= 6; mz= 1004.259;  ------------------------- PeaksWithinTol = 3
+19	processing time = 4
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 137	168	198
+
+  MT= 20;z= 7; mz= 860.937;  ------------------------- PeaksWithinTol = 22
+20	processing time = 1
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 137	168	198
+
+  MT= 21;z= 8; mz= 753.446;  ------------------------- PeaksWithinTol = 13
+21	processing time = 1
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 137	168	198
+
+  MT= 22;z= 9; mz= 669.841;  ------------------------- PeaksWithinTol = 22
+22	processing time = 1
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 137	168	198
+
+  MT= 23;z= 10; mz= 602.958;  ------------------------- PeaksWithinTol = 5
+23	processing time = 2
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 137	168	198
+
+  MT= 24;z= 11; mz= 548.235;  ------------------------- PeaksWithinTol = 1
+24	processing time = 4
+25	processing time = 0
+26	processing time = 0
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 149	180	210
+
+  MT= 27;z= 6; mz= 1070.470;  ------------------------- PeaksWithinTol = 1
+27	processing time = 4
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 149	180	210
+
+  MT= 28;z= 7; mz= 917.690;  ------------------------- PeaksWithinTol = 9
+28	processing time = 4
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 149	180	210
+
+  MT= 29;z= 8; mz= 803.104;  ------------------------- PeaksWithinTol = 5
+29	processing time = 3
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 149	180	210
+
+  MT= 30;z= 9; mz= 713.982;  ------------------------- PeaksWithinTol = 12
+30	processing time = 1
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 149	180	210
+
+  MT= 31;z= 10; mz= 642.685;  ------------------------- PeaksWithinTol = 13
+31	processing time = 1
+32	processing time = 0
+33	processing time = 0
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 64	95	125
+
+  MT= 34;z= 4; mz= 967.076;  ------------------------- PeaksWithinTol = 1
+34	processing time = 3
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 64	95	125
+
+  MT= 35;z= 5; mz= 773.862;  ------------------------- PeaksWithinTol = 1
+35	processing time = 3
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 64	95	125
+
+  MT= 36;z= 6; mz= 645.053;  ------------------------- PeaksWithinTol = 2
+36	processing time = 1
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 64	95	125
+
+  MT= 37;z= 7; mz= 553.046;  ------------------------- PeaksWithinTol = 9
+37	processing time = 5
+38	processing time = 0
+39	processing time = 0
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 131	162	192
+
+  MT= 40;z= 8; mz= 875.139;  ------------------------- PeaksWithinTol = 3
+40	processing time = 5
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 131	162	192
+
+  MT= 41;z= 9; mz= 778.013;  ------------------------- PeaksWithinTol = 3
+41	processing time = 5
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 131	162	192
+
+  MT= 42;z= 10; mz= 700.313;  ------------------------- PeaksWithinTol = 3
+42	processing time = 5
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 131	162	192
+
+  MT= 43;z= 11; mz= 636.740;  ------------------------- PeaksWithinTol = 5
+43	processing time = 5
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 131	162	192
+
+  MT= 44;z= 12; mz= 583.762;  ------------------------- PeaksWithinTol = 4
+44	processing time = 5
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 131	162	192
+
+  MT= 45;z= 13; mz= 538.935;  ------------------------- PeaksWithinTol = 2
+45	processing time = 5
+46	processing time = 1
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 290	321	351
+
+  MT= 47;z= 11; mz= 859.866;  ------------------------- PeaksWithinTol = 3
+47	processing time = 7
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 290	321	351
+
+  MT= 48;z= 12; mz= 788.294;  ------------------------- PeaksWithinTol = 1
+48	processing time = 6
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 290	321	351
+
+  MT= 49;z= 13; mz= 727.734;  ------------------------- PeaksWithinTol = 3
+49	processing time = 8
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 290	321	351
+
+  MT= 50;z= 14; mz= 675.825;  ------------------------- PeaksWithinTol = 2
+50	processing time = 8
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 290	321	351
+
+  MT= 51;z= 15; mz= 630.837;  ------------------------- PeaksWithinTol = 1
+51	processing time = 7
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 290	321	351
+
+  MT= 52;z= 16; mz= 591.472;  ------------------------- PeaksWithinTol = 1
+52	processing time = 6
+53	processing time = 1
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 169	200	230
+
+  MT= 54;z= 3; mz= 1339.228;  ------------------------- PeaksWithinTol = 1
+54	processing time = 3
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 169	200	230
+
+  MT= 55;z= 4; mz= 1004.673;  ------------------------- PeaksWithinTol = 1
+55	processing time = 3
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 169	200	230
+
+  MT= 56;z= 5; mz= 803.940;  ------------------------- PeaksWithinTol = 1
+56	processing time = 5
+57	processing time = 2
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 169	200	230
+
+  MT= 58;z= 7; mz= 574.530;  ------------------------- PeaksWithinTol = 0
+58	processing time = 2
+59	processing time = 1
+60	processing time = 0
+61	processing time = 0
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 85	116	146
+
+  MT= 62;z= 3; mz= 948.383;  ------------------------- PeaksWithinTol = 6
+62	processing time = 4
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 85	116	146
+
+  MT= 63;z= 4; mz= 711.539;  ------------------------- PeaksWithinTol = 10
+63	processing time = 6
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 85	116	146
+
+  MT= 64;z= 5; mz= 569.433;  ------------------------- PeaksWithinTol = 6
+64	processing time = 3
+65	processing time = 0
+66	processing time = 0
+67	processing time = 1
+68	processing time = 1
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 70	101	131
+
+  MT= 69;z= 3; mz= 959.729;  ------------------------- PeaksWithinTol = 4
+69	processing time = 4
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 70	101	131
+
+  MT= 70;z= 4; mz= 720.049;  ------------------------- PeaksWithinTol = 12
+70	processing time = 3
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 70	101	131
+
+  MT= 71;z= 5; mz= 576.241;  ------------------------- PeaksWithinTol = 13
+71	processing time = 11
+72	processing time = 1
+73	processing time = 1
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 305	336	366
+
+  MT= 74;z= 11; mz= 938.552;  ------------------------- PeaksWithinTol = 2
+74	processing time = 9
+75	processing time = 5
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 305	336	366
+
+  MT= 76;z= 13; mz= 794.314;  ------------------------- PeaksWithinTol = 1
+76	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 305	336	366
+
+  MT= 77;z= 14; mz= 737.650;  ------------------------- PeaksWithinTol = 2
+77	processing time = 19
+78	processing time = 5
+79	processing time = 5
+80	processing time = 5
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 310	341	371
+
+  MT= 81;z= 10; mz= 1032.298;  ------------------------- PeaksWithinTol = 1
+81	processing time = 9
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 310	341	371
+
+  MT= 82;z= 11; mz= 938.545;  ------------------------- PeaksWithinTol = 6
+82	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 310	341	371
+
+  MT= 83;z= 12; mz= 860.416;  ------------------------- PeaksWithinTol = 3
+83	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 310	341	371
+
+  MT= 84;z= 13; mz= 794.308;  ------------------------- PeaksWithinTol = 3
+84	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 310	341	371
+
+  MT= 85;z= 14; mz= 737.644;  ------------------------- PeaksWithinTol = 3
+85	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 310	341	371
+
+  MT= 86;z= 15; mz= 688.535;  ------------------------- PeaksWithinTol = 3
+86	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 310	341	371
+
+  MT= 87;z= 16; mz= 645.564;  ------------------------- PeaksWithinTol = 3
+87	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 327	358	388
+
+  MT= 88;z= 7; mz= 1564.911;  ------------------------- PeaksWithinTol = 1
+88	processing time = 17
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 327	358	388
+
+  MT= 89;z= 8; mz= 1369.423;  ------------------------- PeaksWithinTol = 8
+89	processing time = 22
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 327	358	388
+
+  MT= 90;z= 9; mz= 1217.377;  ------------------------- PeaksWithinTol = 3
+90	processing time = 30
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 327	358	388
+
+  MT= 91;z= 10; mz= 1095.740;  ------------------------- PeaksWithinTol = 5
+91	processing time = 17
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 327	358	388
+
+  MT= 92;z= 11; mz= 996.219;  ------------------------- PeaksWithinTol = 5
+92	processing time = 16
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 327	358	388
+
+  MT= 93;z= 12; mz= 913.285;  ------------------------- PeaksWithinTol = 6
+93	processing time = 19
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 327	358	388
+
+  MT= 94;z= 13; mz= 843.109;  ------------------------- PeaksWithinTol = 4
+94	processing time = 20
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 425	456	486
+
+  MT= 95;z= 18; mz= 988.506;  ------------------------- PeaksWithinTol = 0
+95	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 425	456	486
+
+  MT= 96;z= 19; mz= 936.532;  ------------------------- PeaksWithinTol = 3
+96	processing time = 18
+97	processing time = 13
+98	processing time = 13
+99	processing time = 13
+100	processing time = 19
+7/12/2018 4:18:20 PM	Percent complete = 12.3	Target 100 of 815
+101	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 297	328	358
+
+  MT= 102;z= 13; mz= 1115.790;  ------------------------- PeaksWithinTol = 2
+102	processing time = 19
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 297	328	358
+
+  MT= 103;z= 14; mz= 1036.163;  ------------------------- PeaksWithinTol = 2
+103	processing time = 20
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 297	328	358
+
+  MT= 104;z= 15; mz= 967.152;  ------------------------- PeaksWithinTol = 2
+104	processing time = 19
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 297	328	358
+
+  MT= 105;z= 16; mz= 906.768;  ------------------------- PeaksWithinTol = 2
+105	processing time = 16
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 297	328	358
+
+  MT= 106;z= 17; mz= 853.488;  ------------------------- PeaksWithinTol = 1
+106	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 297	328	358
+
+  MT= 107;z= 18; mz= 806.128;  ------------------------- PeaksWithinTol = 1
+107	processing time = 22
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 297	328	358
+
+  MT= 108;z= 19; mz= 763.753;  ------------------------- PeaksWithinTol = 0
+108	processing time = 11
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 742	773	803
+
+  MT= 109;z= 18; mz= 1178.836;  ------------------------- PeaksWithinTol = 0
+109	processing time = 19
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 742	773	803
+
+  MT= 110;z= 19; mz= 1116.845;  ------------------------- PeaksWithinTol = 1
+110	processing time = 41
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 742	773	803
+
+  MT= 111;z= 20; mz= 1061.054;  ------------------------- PeaksWithinTol = 1
+111	processing time = 56
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 742	773	803
+
+  MT= 112;z= 21; mz= 1010.575;  ------------------------- PeaksWithinTol = 0
+112	processing time = 20
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 742	773	803
+
+  MT= 113;z= 22; mz= 964.686;  ------------------------- PeaksWithinTol = 2
+113	processing time = 40
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 742	773	803
+
+  MT= 114;z= 23; mz= 922.787;  ------------------------- PeaksWithinTol = 2
+114	processing time = 40
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 742	773	803
+
+  MT= 115;z= 24; mz= 884.379;  ------------------------- PeaksWithinTol = 4
+115	processing time = 26
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 422	453	483
+
+  MT= 116;z= 21; mz= 836.462;  ------------------------- PeaksWithinTol = 5
+116	processing time = 31
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 422	453	483
+
+  MT= 117;z= 22; mz= 798.487;  ------------------------- PeaksWithinTol = 5
+117	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 422	453	483
+
+  MT= 118;z= 23; mz= 763.814;  ------------------------- PeaksWithinTol = 4
+118	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 422	453	483
+
+  MT= 119;z= 24; mz= 732.031;  ------------------------- PeaksWithinTol = 3
+119	processing time = 20
+120	processing time = 11
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 422	453	483
+
+  MT= 121;z= 26; mz= 675.798;  ------------------------- PeaksWithinTol = 2
+121	processing time = 16
+122	processing time = 11
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 304	335	365
+
+  MT= 123;z= 11; mz= 938.539;  ------------------------- PeaksWithinTol = 4
+123	processing time = 17
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 304	335	365
+
+  MT= 124;z= 12; mz= 860.411;  ------------------------- PeaksWithinTol = 3
+124	processing time = 34
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 304	335	365
+
+  MT= 125;z= 13; mz= 794.303;  ------------------------- PeaksWithinTol = 3
+125	processing time = 16
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 304	335	365
+
+  MT= 126;z= 14; mz= 737.639;  ------------------------- PeaksWithinTol = 3
+126	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 304	335	365
+
+  MT= 127;z= 15; mz= 688.531;  ------------------------- PeaksWithinTol = 3
+127	processing time = 18
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 304	335	365
+
+  MT= 128;z= 16; mz= 645.560;  ------------------------- PeaksWithinTol = 3
+128	processing time = 17
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 304	335	365
+
+  MT= 129;z= 17; mz= 607.646;  ------------------------- PeaksWithinTol = 3
+129	processing time = 19
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 291	322	352
+
+  MT= 130;z= 7; mz= 1058.146;  ------------------------- PeaksWithinTol = 3
+130	processing time = 9
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 291	322	352
+
+  MT= 131;z= 8; mz= 926.003;  ------------------------- PeaksWithinTol = 7
+131	processing time = 7
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 291	322	352
+
+  MT= 132;z= 9; mz= 823.226;  ------------------------- PeaksWithinTol = 4
+132	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 291	322	352
+
+  MT= 133;z= 10; mz= 741.004;  ------------------------- PeaksWithinTol = 5
+133	processing time = 9
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 291	322	352
+
+  MT= 134;z= 11; mz= 673.732;  ------------------------- PeaksWithinTol = 4
+134	processing time = 8
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 291	322	352
+
+  MT= 135;z= 12; mz= 617.671;  ------------------------- PeaksWithinTol = 1
+135	processing time = 8
+136	processing time = 2
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 891	922	952
+
+  MT= 137;z= 17; mz= 1236.609;  ------------------------- PeaksWithinTol = 4
+137	processing time = 22
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 891	922	952
+
+  MT= 138;z= 18; mz= 1167.964;  ------------------------- PeaksWithinTol = 3
+138	processing time = 21
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 891	922	952
+
+  MT= 139;z= 19; mz= 1106.546;  ------------------------- PeaksWithinTol = 4
+139	processing time = 20
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 891	922	952
+
+  MT= 140;z= 20; mz= 1051.269;  ------------------------- PeaksWithinTol = 5
+140	processing time = 21
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 891	922	952
+
+  MT= 141;z= 21; mz= 1001.256;  ------------------------- PeaksWithinTol = 3
+141	processing time = 21
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 891	922	952
+
+  MT= 142;z= 22; mz= 955.790;  ------------------------- PeaksWithinTol = 5
+142	processing time = 43
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 891	922	952
+
+  MT= 143;z= 23; mz= 914.278;  ------------------------- PeaksWithinTol = 1
+143	processing time = 43
+144	processing time = 18
+145	processing time = 18
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 302	333	363
+
+  MT= 146;z= 18; mz= 832.993;  ------------------------- PeaksWithinTol = 1
+146	processing time = 18
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 302	333	363
+
+  MT= 147;z= 19; mz= 789.204;  ------------------------- PeaksWithinTol = 1
+147	processing time = 20
+148	processing time = 9
+149	processing time = 9
+150	processing time = 8
+151	processing time = 5
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 360	390	421
+
+  MT= 152;z= 8; mz= 1225.603;  ------------------------- PeaksWithinTol = 1
+152	processing time = 21
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 360	390	421
+
+  MT= 153;z= 9; mz= 1089.537;  ------------------------- PeaksWithinTol = 2
+153	processing time = 8
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 360	390	421
+
+  MT= 154;z= 10; mz= 980.684;  ------------------------- PeaksWithinTol = 2
+154	processing time = 7
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 360	390	421
+
+  MT= 155;z= 11; mz= 891.622;  ------------------------- PeaksWithinTol = 2
+155	processing time = 7
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 360	390	421
+
+  MT= 156;z= 12; mz= 817.405;  ------------------------- PeaksWithinTol = 2
+156	processing time = 21
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 360	390	421
+
+  MT= 157;z= 13; mz= 754.605;  ------------------------- PeaksWithinTol = 0
+157	processing time = 6
+158	processing time = 26
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 392	423	453
+
+  MT= 159;z= 23; mz= 1054.642;  ------------------------- PeaksWithinTol = 3
+159	processing time = 33
+160	processing time = 26
+161	processing time = 26
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 392	423	453
+
+  MT= 162;z= 26; mz= 933.069;  ------------------------- PeaksWithinTol = 3
+162	processing time = 32
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 392	423	453
+
+  MT= 163;z= 27; mz= 898.548;  ------------------------- PeaksWithinTol = 21
+163	processing time = 28
+164	processing time = 26
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 862	893	923
+
+  MT= 165;z= 35; mz= 939.755;  ------------------------- PeaksWithinTol = 1
+165	processing time = 57
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 862	893	923
+
+  MT= 166;z= 36; mz= 913.678;  ------------------------- PeaksWithinTol = 1
+166	processing time = 54
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 862	893	923
+
+  MT= 167;z= 37; mz= 889.012;  ------------------------- PeaksWithinTol = 1
+167	processing time = 55
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 862	893	923
+
+  MT= 168;z= 38; mz= 865.643;  ------------------------- PeaksWithinTol = 0
+168	processing time = 47
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 862	893	923
+
+  MT= 169;z= 39; mz= 843.473;  ------------------------- PeaksWithinTol = 1
+169	processing time = 52
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 862	893	923
+
+  MT= 170;z= 40; mz= 822.411;  ------------------------- PeaksWithinTol = 0
+170	processing time = 32
+171	processing time = 31
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 389	420	450
+
+  MT= 172;z= 20; mz= 897.755;  ------------------------- PeaksWithinTol = 18
+172	processing time = 13
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 389	420	450
+
+  MT= 173;z= 21; mz= 855.053;  ------------------------- PeaksWithinTol = 16
+173	processing time = 13
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 389	420	450
+
+  MT= 174;z= 22; mz= 816.233;  ------------------------- PeaksWithinTol = 17
+174	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 389	420	450
+
+  MT= 175;z= 23; mz= 780.788;  ------------------------- PeaksWithinTol = 17
+175	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 389	420	450
+
+  MT= 176;z= 24; mz= 748.297;  ------------------------- PeaksWithinTol = 17
+176	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 389	420	450
+
+  MT= 177;z= 25; mz= 718.406;  ------------------------- PeaksWithinTol = 17
+177	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 389	420	450
+
+  MT= 178;z= 26; mz= 690.813;  ------------------------- PeaksWithinTol = 13
+178	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 277	308	338
+
+  MT= 179;z= 11; mz= 934.710;  ------------------------- PeaksWithinTol = 2
+179	processing time = 10
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 277	308	338
+
+  MT= 180;z= 12; mz= 856.902;  ------------------------- PeaksWithinTol = 2
+180	processing time = 7
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 277	308	338
+
+  MT= 181;z= 13; mz= 791.064;  ------------------------- PeaksWithinTol = 3
+181	processing time = 6
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 277	308	338
+
+  MT= 182;z= 14; mz= 734.631;  ------------------------- PeaksWithinTol = 2
+182	processing time = 6
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 277	308	338
+
+  MT= 183;z= 15; mz= 685.723;  ------------------------- PeaksWithinTol = 2
+183	processing time = 7
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 277	308	338
+
+  MT= 184;z= 16; mz= 642.928;  ------------------------- PeaksWithinTol = 1
+184	processing time = 7
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 277	308	338
+
+  MT= 185;z= 17; mz= 605.168;  ------------------------- PeaksWithinTol = 3
+185	processing time = 6
+186	processing time = 1
+187	processing time = 1
+188	processing time = 1
+189	processing time = 1
+190	processing time = 1
+191	processing time = 1
+192	processing time = 2
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 426	457	487
+
+  MT= 193;z= 16; mz= 1111.868;  ------------------------- PeaksWithinTol = 6
+193	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 426	457	487
+
+  MT= 194;z= 17; mz= 1046.523;  ------------------------- PeaksWithinTol = 9
+194	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 426	457	487
+
+  MT= 195;z= 18; mz= 988.439;  ------------------------- PeaksWithinTol = 11
+195	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 426	457	487
+
+  MT= 196;z= 19; mz= 936.469;  ------------------------- PeaksWithinTol = 6
+196	processing time = 32
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 426	457	487
+
+  MT= 197;z= 20; mz= 889.696;  ------------------------- PeaksWithinTol = 5
+197	processing time = 16
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 426	457	487
+
+  MT= 198;z= 21; mz= 847.378;  ------------------------- PeaksWithinTol = 5
+198	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 426	457	487
+
+  MT= 199;z= 22; mz= 808.906;  ------------------------- PeaksWithinTol = 5
+199	processing time = 14
+200	processing time = 3
+7/12/2018 4:18:22 PM	Percent complete = 24.5	Target 200 of 815
+201	processing time = 3
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 215	246	276
+
+  MT= 202;z= 5; mz= 1108.115;  ------------------------- PeaksWithinTol = 5
+202	processing time = 7
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 215	246	276
+
+  MT= 203;z= 6; mz= 923.597;  ------------------------- PeaksWithinTol = 3
+203	processing time = 7
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 215	246	276
+
+  MT= 204;z= 7; mz= 791.799;  ------------------------- PeaksWithinTol = 2
+204	processing time = 5
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 215	246	276
+
+  MT= 205;z= 8; mz= 692.950;  ------------------------- PeaksWithinTol = 1
+205	processing time = 7
+206	processing time = 3
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 577	607	638
+
+  MT= 207;z= 30; mz= 1215.038;  ------------------------- PeaksWithinTol = 2
+207	processing time = 63
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 577	607	638
+
+  MT= 208;z= 31; mz= 1175.876;  ------------------------- PeaksWithinTol = 2
+208	processing time = 65
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 577	607	638
+
+  MT= 209;z= 32; mz= 1139.161;  ------------------------- PeaksWithinTol = 4
+209	processing time = 79
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 577	607	638
+
+  MT= 210;z= 33; mz= 1104.672;  ------------------------- PeaksWithinTol = 2
+210	processing time = 54
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 577	607	638
+
+  MT= 211;z= 34; mz= 1072.211;  ------------------------- PeaksWithinTol = 1
+211	processing time = 62
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 577	607	638
+
+  MT= 212;z= 35; mz= 1041.605;  ------------------------- PeaksWithinTol = 6
+212	processing time = 63
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 577	607	638
+
+  MT= 213;z= 36; mz= 1012.700;  ------------------------- PeaksWithinTol = 1
+213	processing time = 55
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 296	326	357
+
+  MT= 214;z= 13; mz= 1115.774;  ------------------------- PeaksWithinTol = 2
+214	processing time = 19
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 296	326	357
+
+  MT= 215;z= 14; mz= 1036.148;  ------------------------- PeaksWithinTol = 1
+215	processing time = 29
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 296	326	357
+
+  MT= 216;z= 15; mz= 967.138;  ------------------------- PeaksWithinTol = 1
+216	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 296	326	357
+
+  MT= 217;z= 16; mz= 906.755;  ------------------------- PeaksWithinTol = 1
+217	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 296	326	357
+
+  MT= 218;z= 17; mz= 853.476;  ------------------------- PeaksWithinTol = 1
+218	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 296	326	357
+
+  MT= 219;z= 18; mz= 806.117;  ------------------------- PeaksWithinTol = 1
+219	processing time = 19
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 296	326	357
+
+  MT= 220;z= 19; mz= 763.742;  ------------------------- PeaksWithinTol = 1
+220	processing time = 22
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 311	342	372
+
+  MT= 221;z= 10; mz= 1019.478;  ------------------------- PeaksWithinTol = 3
+221	processing time = 8
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 311	342	372
+
+  MT= 222;z= 11; mz= 926.890;  ------------------------- PeaksWithinTol = 3
+222	processing time = 8
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 311	342	372
+
+  MT= 223;z= 12; mz= 849.733;  ------------------------- PeaksWithinTol = 3
+223	processing time = 8
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 311	342	372
+
+  MT= 224;z= 13; mz= 784.446;  ------------------------- PeaksWithinTol = 4
+224	processing time = 8
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 311	342	372
+
+  MT= 225;z= 14; mz= 728.487;  ------------------------- PeaksWithinTol = 4
+225	processing time = 8
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 311	342	372
+
+  MT= 226;z= 15; mz= 679.988;  ------------------------- PeaksWithinTol = 4
+226	processing time = 8
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 311	342	372
+
+  MT= 227;z= 16; mz= 637.552;  ------------------------- PeaksWithinTol = 3
+227	processing time = 8
+228	processing time = 11
+229	processing time = 10
+230	processing time = 11
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 527	558	588
+
+  MT= 231;z= 21; mz= 820.303;  ------------------------- PeaksWithinTol = 0
+231	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 527	558	588
+
+  MT= 232;z= 22; mz= 783.062;  ------------------------- PeaksWithinTol = 1
+232	processing time = 16
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 527	558	588
+
+  MT= 233;z= 23; mz= 749.060;  ------------------------- PeaksWithinTol = 1
+233	processing time = 30
+234	processing time = 11
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 461	492	522
+
+  MT= 235;z= 18; mz= 966.507;  ------------------------- PeaksWithinTol = 11
+235	processing time = 13
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 461	492	522
+
+  MT= 236;z= 19; mz= 915.691;  ------------------------- PeaksWithinTol = 12
+236	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 461	492	522
+
+  MT= 237;z= 20; mz= 869.957;  ------------------------- PeaksWithinTol = 9
+237	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 461	492	522
+
+  MT= 238;z= 21; mz= 828.578;  ------------------------- PeaksWithinTol = 7
+238	processing time = 13
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 461	492	522
+
+  MT= 239;z= 22; mz= 790.962;  ------------------------- PeaksWithinTol = 6
+239	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 461	492	522
+
+  MT= 240;z= 23; mz= 756.616;  ------------------------- PeaksWithinTol = 9
+240	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 461	492	522
+
+  MT= 241;z= 24; mz= 725.132;  ------------------------- PeaksWithinTol = 7
+241	processing time = 14
+242	processing time = 10
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 412	443	473
+
+  MT= 243;z= 21; mz= 836.530;  ------------------------- PeaksWithinTol = 2
+243	processing time = 13
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 412	443	473
+
+  MT= 244;z= 22; mz= 798.552;  ------------------------- PeaksWithinTol = 0
+244	processing time = 11
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 412	443	473
+
+  MT= 245;z= 23; mz= 763.876;  ------------------------- PeaksWithinTol = 0
+245	processing time = 10
+246	processing time = 10
+247	processing time = 9
+248	processing time = 10
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 402	433	463
+
+  MT= 249;z= 21; mz= 1154.913;  ------------------------- PeaksWithinTol = 9
+249	processing time = 43
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 402	433	463
+
+  MT= 250;z= 22; mz= 1102.463;  ------------------------- PeaksWithinTol = 9
+250	processing time = 29
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 402	433	463
+
+  MT= 251;z= 23; mz= 1054.573;  ------------------------- PeaksWithinTol = 20
+251	processing time = 25
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 402	433	463
+
+  MT= 252;z= 24; mz= 1010.675;  ------------------------- PeaksWithinTol = 8
+252	processing time = 26
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 402	433	463
+
+  MT= 253;z= 25; mz= 970.288;  ------------------------- PeaksWithinTol = 4
+253	processing time = 35
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 402	433	463
+
+  MT= 254;z= 26; mz= 933.008;  ------------------------- PeaksWithinTol = 3
+254	processing time = 56
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 402	433	463
+
+  MT= 255;z= 27; mz= 898.489;  ------------------------- PeaksWithinTol = 20
+255	processing time = 25
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 492	522	553
+
+  MT= 256;z= 15; mz= 1145.188;  ------------------------- PeaksWithinTol = 2
+256	processing time = 28
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 492	522	553
+
+  MT= 257;z= 16; mz= 1073.676;  ------------------------- PeaksWithinTol = 4
+257	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 492	522	553
+
+  MT= 258;z= 17; mz= 1010.578;  ------------------------- PeaksWithinTol = 5
+258	processing time = 29
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 492	522	553
+
+  MT= 259;z= 18; mz= 954.491;  ------------------------- PeaksWithinTol = 5
+259	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 492	522	553
+
+  MT= 260;z= 19; mz= 904.308;  ------------------------- PeaksWithinTol = 6
+260	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 492	522	553
+
+  MT= 261;z= 20; mz= 859.143;  ------------------------- PeaksWithinTol = 7
+261	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 492	522	553
+
+  MT= 262;z= 21; mz= 818.279;  ------------------------- PeaksWithinTol = 6
+262	processing time = 15
+263	processing time = 1
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 79	110	140
+
+  MT= 264;z= 2; mz= 1431.089;  ------------------------- PeaksWithinTol = 2
+264	processing time = 4
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 79	110	140
+
+  MT= 265;z= 3; mz= 954.395;  ------------------------- PeaksWithinTol = 10
+265	processing time = 5
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 79	110	140
+
+  MT= 266;z= 4; mz= 716.048;  ------------------------- PeaksWithinTol = 14
+266	processing time = 2
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 79	110	140
+
+  MT= 267;z= 5; mz= 573.040;  ------------------------- PeaksWithinTol = 11
+267	processing time = 2
+268	processing time = 1
+269	processing time = 10
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 449	480	510
+
+  MT= 270;z= 18; mz= 932.540;  ------------------------- PeaksWithinTol = 0
+270	processing time = 12
+271	processing time = 10
+272	processing time = 11
+273	processing time = 11
+274	processing time = 11
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 451	482	512
+
+  MT= 275;z= 23; mz= 730.033;  ------------------------- PeaksWithinTol = 2
+275	processing time = 15
+276	processing time = 10
+277	processing time = 11
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 256	287	317
+
+  MT= 278;z= 5; mz= 1224.796;  ------------------------- PeaksWithinTol = 2
+278	processing time = 6
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 256	287	317
+
+  MT= 279;z= 6; mz= 1020.831;  ------------------------- PeaksWithinTol = 2
+279	processing time = 6
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 256	287	317
+
+  MT= 280;z= 7; mz= 875.142;  ------------------------- PeaksWithinTol = 2
+280	processing time = 6
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 256	287	317
+
+  MT= 281;z= 8; mz= 765.875;  ------------------------- PeaksWithinTol = 1
+281	processing time = 6
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 256	287	317
+
+  MT= 282;z= 9; mz= 680.890;  ------------------------- PeaksWithinTol = 1
+282	processing time = 6
+283	processing time = 2
+284	processing time = 2
+285	processing time = 0
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 139	170	200
+
+  MT= 286;z= 3; mz= 1325.233;  ------------------------- PeaksWithinTol = 1
+286	processing time = 5
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 139	170	200
+
+  MT= 287;z= 4; mz= 994.176;  ------------------------- PeaksWithinTol = 3
+287	processing time = 4
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 139	170	200
+
+  MT= 288;z= 5; mz= 795.543;  ------------------------- PeaksWithinTol = 5
+288	processing time = 3
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 139	170	200
+
+  MT= 289;z= 6; mz= 663.120;  ------------------------- PeaksWithinTol = 1
+289	processing time = 5
+290	processing time = 0
+291	processing time = 0
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 470	501	531
+
+  MT= 292;z= 18; mz= 969.387;  ------------------------- PeaksWithinTol = 11
+292	processing time = 11
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 470	501	531
+
+  MT= 293;z= 19; mz= 918.419;  ------------------------- PeaksWithinTol = 10
+293	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 470	501	531
+
+  MT= 294;z= 20; mz= 872.549;  ------------------------- PeaksWithinTol = 10
+294	processing time = 13
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 470	501	531
+
+  MT= 295;z= 21; mz= 831.047;  ------------------------- PeaksWithinTol = 13
+295	processing time = 10
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 470	501	531
+
+  MT= 296;z= 22; mz= 793.318;  ------------------------- PeaksWithinTol = 10
+296	processing time = 13
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 470	501	531
+
+  MT= 297;z= 23; mz= 758.869;  ------------------------- PeaksWithinTol = 8
+297	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 470	501	531
+
+  MT= 298;z= 24; mz= 727.292;  ------------------------- PeaksWithinTol = 8
+298	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 276	307	337
+
+  MT= 299;z= 11; mz= 934.708;  ------------------------- PeaksWithinTol = 1
+299	processing time = 14
+300	processing time = 4
+7/12/2018 4:18:24 PM	Percent complete = 36.8	Target 300 of 815
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 276	307	337
+
+  MT= 301;z= 13; mz= 791.062;  ------------------------- PeaksWithinTol = 2
+301	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 276	307	337
+
+  MT= 302;z= 14; mz= 734.630;  ------------------------- PeaksWithinTol = 1
+302	processing time = 14
+303	processing time = 5
+304	processing time = 12
+305	processing time = 15
+306	processing time = 2
+307	processing time = 2
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 871	902	932
+
+  MT= 308;z= 3; mz= 1454.470;  ------------------------- PeaksWithinTol = 4
+308	processing time = 6
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 871	902	932
+
+  MT= 309;z= 4; mz= 1091.104;  ------------------------- PeaksWithinTol = 7
+309	processing time = 24
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 871	902	932
+
+  MT= 310;z= 5; mz= 873.085;  ------------------------- PeaksWithinTol = 11
+310	processing time = 3
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 871	902	932
+
+  MT= 311;z= 6; mz= 727.738;  ------------------------- PeaksWithinTol = 1
+311	processing time = 23
+312	processing time = 2
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 532	563	593
+
+  MT= 313;z= 17; mz= 1013.056;  ------------------------- PeaksWithinTol = 9
+313	processing time = 27
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 532	563	593
+
+  MT= 314;z= 18; mz= 956.832;  ------------------------- PeaksWithinTol = 5
+314	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 532	563	593
+
+  MT= 315;z= 19; mz= 906.525;  ------------------------- PeaksWithinTol = 8
+315	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 532	563	593
+
+  MT= 316;z= 20; mz= 861.249;  ------------------------- PeaksWithinTol = 4
+316	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 532	563	593
+
+  MT= 317;z= 21; mz= 820.285;  ------------------------- PeaksWithinTol = 6
+317	processing time = 13
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 532	563	593
+
+  MT= 318;z= 22; mz= 783.045;  ------------------------- PeaksWithinTol = 9
+318	processing time = 11
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 532	563	593
+
+  MT= 319;z= 23; mz= 749.044;  ------------------------- PeaksWithinTol = 4
+319	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 724	754	785
+
+  MT= 320;z= 31; mz= 1021.344;  ------------------------- PeaksWithinTol = 1
+320	processing time = 50
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 724	754	785
+
+  MT= 321;z= 32; mz= 989.458;  ------------------------- PeaksWithinTol = 1
+321	processing time = 54
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 724	754	785
+
+  MT= 322;z= 33; mz= 959.505;  ------------------------- PeaksWithinTol = 3
+322	processing time = 78
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 724	754	785
+
+  MT= 323;z= 34; mz= 931.314;  ------------------------- PeaksWithinTol = 1
+323	processing time = 53
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 724	754	785
+
+  MT= 324;z= 35; mz= 904.734;  ------------------------- PeaksWithinTol = 1
+324	processing time = 53
+325	processing time = 31
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 724	754	785
+
+  MT= 326;z= 37; mz= 855.884;  ------------------------- PeaksWithinTol = 0
+326	processing time = 33
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 385	416	446
+
+  MT= 327;z= 16; mz= 1121.932;  ------------------------- PeaksWithinTol = 13
+327	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 385	416	446
+
+  MT= 328;z= 17; mz= 1055.995;  ------------------------- PeaksWithinTol = 21
+328	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 385	416	446
+
+  MT= 329;z= 18; mz= 997.385;  ------------------------- PeaksWithinTol = 14
+329	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 385	416	446
+
+  MT= 330;z= 19; mz= 944.944;  ------------------------- PeaksWithinTol = 15
+330	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 385	416	446
+
+  MT= 331;z= 20; mz= 897.747;  ------------------------- PeaksWithinTol = 16
+331	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 385	416	446
+
+  MT= 332;z= 21; mz= 855.045;  ------------------------- PeaksWithinTol = 14
+332	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 385	416	446
+
+  MT= 333;z= 22; mz= 816.225;  ------------------------- PeaksWithinTol = 16
+333	processing time = 14
+334	processing time = 8
+335	processing time = 8
+336	processing time = 8
+337	processing time = 8
+338	processing time = 8
+339	processing time = 8
+340	processing time = 8
+341	processing time = 1
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 261	292	322
+
+  MT= 342;z= 5; mz= 1219.223;  ------------------------- PeaksWithinTol = 0
+342	processing time = 2
+343	processing time = 1
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 261	292	322
+
+  MT= 344;z= 7; mz= 871.162;  ------------------------- PeaksWithinTol = 0
+344	processing time = 2
+345	processing time = 1
+346	processing time = 1
+347	processing time = 1
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 757	788	818
+
+  MT= 348;z= 27; mz= 926.261;  ------------------------- PeaksWithinTol = 1
+348	processing time = 47
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 757	788	818
+
+  MT= 349;z= 28; mz= 893.216;  ------------------------- PeaksWithinTol = 2
+349	processing time = 46
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 757	788	818
+
+  MT= 350;z= 29; mz= 862.450;  ------------------------- PeaksWithinTol = 0
+350	processing time = 26
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 757	788	818
+
+  MT= 351;z= 30; mz= 833.736;  ------------------------- PeaksWithinTol = 0
+351	processing time = 25
+352	processing time = 25
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 757	788	818
+
+  MT= 353;z= 32; mz= 781.690;  ------------------------- PeaksWithinTol = 1
+353	processing time = 47
+354	processing time = 46
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 480	511	541
+
+  MT= 355;z= 16; mz= 1114.965;  ------------------------- PeaksWithinTol = 5
+355	processing time = 32
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 480	511	541
+
+  MT= 356;z= 17; mz= 1049.438;  ------------------------- PeaksWithinTol = 6
+356	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 480	511	541
+
+  MT= 357;z= 18; mz= 991.192;  ------------------------- PeaksWithinTol = 9
+357	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 480	511	541
+
+  MT= 358;z= 19; mz= 939.077;  ------------------------- PeaksWithinTol = 6
+358	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 480	511	541
+
+  MT= 359;z= 20; mz= 892.174;  ------------------------- PeaksWithinTol = 7
+359	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 480	511	541
+
+  MT= 360;z= 21; mz= 849.737;  ------------------------- PeaksWithinTol = 8
+360	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 480	511	541
+
+  MT= 361;z= 22; mz= 811.159;  ------------------------- PeaksWithinTol = 5
+361	processing time = 15
+362	processing time = 16
+363	processing time = 17
+364	processing time = 16
+365	processing time = 17
+366	processing time = 17
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 381	412	442
+
+  MT= 367;z= 24; mz= 748.303;  ------------------------- PeaksWithinTol = 1
+367	processing time = 23
+368	processing time = 17
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 612	643	673
+
+  MT= 369;z= 27; mz= 1349.323;  ------------------------- PeaksWithinTol = 9
+369	processing time = 42
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 612	643	673
+
+  MT= 370;z= 28; mz= 1301.169;  ------------------------- PeaksWithinTol = 2
+370	processing time = 42
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 612	643	673
+
+  MT= 371;z= 29; mz= 1256.336;  ------------------------- PeaksWithinTol = 9
+371	processing time = 41
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 612	643	673
+
+  MT= 372;z= 30; mz= 1214.492;  ------------------------- PeaksWithinTol = 7
+372	processing time = 65
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 612	643	673
+
+  MT= 373;z= 31; mz= 1175.347;  ------------------------- PeaksWithinTol = 7
+373	processing time = 65
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 612	643	673
+
+  MT= 374;z= 32; mz= 1138.649;  ------------------------- PeaksWithinTol = 14
+374	processing time = 39
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 612	643	673
+
+  MT= 375;z= 33; mz= 1104.175;  ------------------------- PeaksWithinTol = 14
+375	processing time = 39
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 457	488	518
+
+  MT= 376;z= 17; mz= 1023.302;  ------------------------- PeaksWithinTol = 11
+376	processing time = 16
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 457	488	518
+
+  MT= 377;z= 18; mz= 966.507;  ------------------------- PeaksWithinTol = 11
+377	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 457	488	518
+
+  MT= 378;z= 19; mz= 915.692;  ------------------------- PeaksWithinTol = 11
+378	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 457	488	518
+
+  MT= 379;z= 20; mz= 869.957;  ------------------------- PeaksWithinTol = 9
+379	processing time = 17
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 457	488	518
+
+  MT= 380;z= 21; mz= 828.579;  ------------------------- PeaksWithinTol = 7
+380	processing time = 16
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 457	488	518
+
+  MT= 381;z= 22; mz= 790.962;  ------------------------- PeaksWithinTol = 6
+381	processing time = 18
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 457	488	518
+
+  MT= 382;z= 23; mz= 756.616;  ------------------------- PeaksWithinTol = 9
+382	processing time = 17
+383	processing time = 0
+384	processing time = 0
+385	processing time = 0
+386	processing time = 0
+387	processing time = 0
+388	processing time = 1
+389	processing time = 0
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 430	461	491
+
+  MT= 390;z= 19; mz= 941.854;  ------------------------- PeaksWithinTol = 0
+390	processing time = 14
+391	processing time = 13
+392	processing time = 13
+393	processing time = 13
+394	processing time = 13
+395	processing time = 13
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 430	461	491
+
+  MT= 396;z= 25; mz= 716.051;  ------------------------- PeaksWithinTol = 1
+396	processing time = 34
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 440	471	501
+
+  MT= 397;z= 15; mz= 1116.649;  ------------------------- PeaksWithinTol = 1
+397	processing time = 36
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 440	471	501
+
+  MT= 398;z= 16; mz= 1046.921;  ------------------------- PeaksWithinTol = 0
+398	processing time = 32
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 440	471	501
+
+  MT= 399;z= 17; mz= 985.397;  ------------------------- PeaksWithinTol = 1
+399	processing time = 15
+400	processing time = 12
+7/12/2018 4:18:26 PM	Percent complete = 49.1	Target 400 of 815
+401	processing time = 12
+402	processing time = 12
+403	processing time = 11
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 502	533	563
+
+  MT= 404;z= 24; mz= 927.479;  ------------------------- PeaksWithinTol = 1
+404	processing time = 29
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 502	533	563
+
+  MT= 405;z= 25; mz= 890.421;  ------------------------- PeaksWithinTol = 5
+405	processing time = 13
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 502	533	563
+
+  MT= 406;z= 26; mz= 856.212;  ------------------------- PeaksWithinTol = 2
+406	processing time = 13
+407	processing time = 9
+408	processing time = 9
+409	processing time = 9
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 502	533	563
+
+  MT= 410;z= 30; mz= 742.185;  ------------------------- PeaksWithinTol = 3
+410	processing time = 12
+411	processing time = 11
+412	processing time = 11
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 411	442	472
+
+  MT= 413;z= 22; mz= 798.549;  ------------------------- PeaksWithinTol = 0
+413	processing time = 13
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 411	442	472
+
+  MT= 414;z= 23; mz= 763.873;  ------------------------- PeaksWithinTol = 1
+414	processing time = 31
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 411	442	472
+
+  MT= 415;z= 24; mz= 732.087;  ------------------------- PeaksWithinTol = 1
+415	processing time = 30
+416	processing time = 11
+417	processing time = 11
+418	processing time = 8
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 222	252	283
+
+  MT= 419;z= 15; mz= 934.099;  ------------------------- PeaksWithinTol = 1
+419	processing time = 16
+420	processing time = 8
+421	processing time = 8
+422	processing time = 8
+423	processing time = 8
+424	processing time = 8
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 567	598	628
+
+  MT= 425;z= 25; mz= 995.565;  ------------------------- PeaksWithinTol = 8
+425	processing time = 25
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 567	598	628
+
+  MT= 426;z= 26; mz= 957.313;  ------------------------- PeaksWithinTol = 0
+426	processing time = 22
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 567	598	628
+
+  MT= 427;z= 27; mz= 921.894;  ------------------------- PeaksWithinTol = 0
+427	processing time = 21
+428	processing time = 20
+429	processing time = 20
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 567	598	628
+
+  MT= 430;z= 30; mz= 829.805;  ------------------------- PeaksWithinTol = 2
+430	processing time = 25
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 567	598	628
+
+  MT= 431;z= 31; mz= 803.070;  ------------------------- PeaksWithinTol = 1
+431	processing time = 40
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 536	566	597
+
+  MT= 432;z= 19; mz= 907.435;  ------------------------- PeaksWithinTol = 1
+432	processing time = 17
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 536	566	597
+
+  MT= 433;z= 20; mz= 862.114;  ------------------------- PeaksWithinTol = 1
+433	processing time = 15
+434	processing time = 11
+435	processing time = 12
+436	processing time = 12
+437	processing time = 11
+438	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 892	922	953
+
+  MT= 439;z= 17; mz= 1236.614;  ------------------------- PeaksWithinTol = 4
+439	processing time = 17
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 892	922	953
+
+  MT= 440;z= 18; mz= 1167.969;  ------------------------- PeaksWithinTol = 3
+440	processing time = 18
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 892	922	953
+
+  MT= 441;z= 19; mz= 1106.550;  ------------------------- PeaksWithinTol = 3
+441	processing time = 38
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 892	922	953
+
+  MT= 442;z= 20; mz= 1051.273;  ------------------------- PeaksWithinTol = 4
+442	processing time = 39
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 892	922	953
+
+  MT= 443;z= 21; mz= 1001.260;  ------------------------- PeaksWithinTol = 5
+443	processing time = 17
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 892	922	953
+
+  MT= 444;z= 22; mz= 955.794;  ------------------------- PeaksWithinTol = 0
+444	processing time = 16
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 892	922	953
+
+  MT= 445;z= 23; mz= 914.282;  ------------------------- PeaksWithinTol = 1
+445	processing time = 37
+446	processing time = 17
+447	processing time = 17
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 400	430	461
+
+  MT= 448;z= 23; mz= 780.793;  ------------------------- PeaksWithinTol = 1
+448	processing time = 38
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 400	430	461
+
+  MT= 449;z= 24; mz= 748.302;  ------------------------- PeaksWithinTol = 1
+449	processing time = 38
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 400	430	461
+
+  MT= 450;z= 25; mz= 718.410;  ------------------------- PeaksWithinTol = 1
+450	processing time = 38
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 400	430	461
+
+  MT= 451;z= 26; mz= 690.818;  ------------------------- PeaksWithinTol = 4
+451	processing time = 36
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 400	430	461
+
+  MT= 452;z= 27; mz= 665.270;  ------------------------- PeaksWithinTol = 2
+452	processing time = 38
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 884	915	945
+
+  MT= 453;z= 22; mz= 1096.755;  ------------------------- PeaksWithinTol = 0
+453	processing time = 40
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 884	915	945
+
+  MT= 454;z= 23; mz= 1049.114;  ------------------------- PeaksWithinTol = 2
+454	processing time = 36
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 884	915	945
+
+  MT= 455;z= 24; mz= 1005.443;  ------------------------- PeaksWithinTol = 3
+455	processing time = 36
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 884	915	945
+
+  MT= 456;z= 25; mz= 965.266;  ------------------------- PeaksWithinTol = 5
+456	processing time = 38
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 884	915	945
+
+  MT= 457;z= 26; mz= 928.179;  ------------------------- PeaksWithinTol = 1
+457	processing time = 37
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 884	915	945
+
+  MT= 458;z= 27; mz= 893.839;  ------------------------- PeaksWithinTol = 4
+458	processing time = 20
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 884	915	945
+
+  MT= 459;z= 28; mz= 861.952;  ------------------------- PeaksWithinTol = 1
+459	processing time = 37
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 890	921	951
+
+  MT= 460;z= 16; mz= 1313.775;  ------------------------- PeaksWithinTol = 3
+460	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 890	921	951
+
+  MT= 461;z= 17; mz= 1236.553;  ------------------------- PeaksWithinTol = 3
+461	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 890	921	951
+
+  MT= 462;z= 18; mz= 1167.912;  ------------------------- PeaksWithinTol = 3
+462	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 890	921	951
+
+  MT= 463;z= 19; mz= 1106.496;  ------------------------- PeaksWithinTol = 3
+463	processing time = 13
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 890	921	951
+
+  MT= 464;z= 20; mz= 1051.221;  ------------------------- PeaksWithinTol = 4
+464	processing time = 36
+465	processing time = 24
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 890	921	951
+
+  MT= 466;z= 22; mz= 955.747;  ------------------------- PeaksWithinTol = 0
+466	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 499	530	560
+
+  MT= 467;z= 16; mz= 1051.980;  ------------------------- PeaksWithinTol = 3
+467	processing time = 13
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 499	530	560
+
+  MT= 468;z= 17; mz= 990.158;  ------------------------- PeaksWithinTol = 9
+468	processing time = 13
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 499	530	560
+
+  MT= 469;z= 18; mz= 935.205;  ------------------------- PeaksWithinTol = 2
+469	processing time = 30
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 499	530	560
+
+  MT= 470;z= 19; mz= 886.037;  ------------------------- PeaksWithinTol = 1
+470	processing time = 15
+471	processing time = 9
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 499	530	560
+
+  MT= 472;z= 21; mz= 801.748;  ------------------------- PeaksWithinTol = 0
+472	processing time = 11
+473	processing time = 9
+474	processing time = 10
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 407	438	468
+
+  MT= 475;z= 20; mz= 890.557;  ------------------------- PeaksWithinTol = 1
+475	processing time = 30
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 407	438	468
+
+  MT= 476;z= 21; mz= 848.197;  ------------------------- PeaksWithinTol = 0
+476	processing time = 11
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 407	438	468
+
+  MT= 477;z= 22; mz= 809.689;  ------------------------- PeaksWithinTol = 1
+477	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 407	438	468
+
+  MT= 478;z= 23; mz= 774.529;  ------------------------- PeaksWithinTol = 1
+478	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 407	438	468
+
+  MT= 479;z= 24; mz= 742.299;  ------------------------- PeaksWithinTol = 0
+479	processing time = 11
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 407	438	468
+
+  MT= 480;z= 25; mz= 712.647;  ------------------------- PeaksWithinTol = 0
+480	processing time = 11
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 711	742	772
+
+  MT= 481;z= 31; mz= 1005.548;  ------------------------- PeaksWithinTol = 0
+481	processing time = 32
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 711	742	772
+
+  MT= 482;z= 32; mz= 974.156;  ------------------------- PeaksWithinTol = 1
+482	processing time = 52
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 711	742	772
+
+  MT= 483;z= 33; mz= 944.667;  ------------------------- PeaksWithinTol = 3
+483	processing time = 52
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 711	742	772
+
+  MT= 484;z= 34; mz= 916.912;  ------------------------- PeaksWithinTol = 5
+484	processing time = 33
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 711	742	772
+
+  MT= 485;z= 35; mz= 890.743;  ------------------------- PeaksWithinTol = 1
+485	processing time = 51
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 711	742	772
+
+  MT= 486;z= 36; mz= 866.028;  ------------------------- PeaksWithinTol = 3
+486	processing time = 62
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 711	742	772
+
+  MT= 487;z= 37; mz= 842.649;  ------------------------- PeaksWithinTol = 1
+487	processing time = 49
+488	processing time = 4
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 292	322	353
+
+  MT= 489;z= 8; mz= 925.993;  ------------------------- PeaksWithinTol = 1
+489	processing time = 12
+490	processing time = 4
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 292	322	353
+
+  MT= 491;z= 10; mz= 740.996;  ------------------------- PeaksWithinTol = 1
+491	processing time = 10
+492	processing time = 3
+493	processing time = 3
+494	processing time = 4
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 415	446	476
+
+  MT= 495;z= 19; mz= 924.424;  ------------------------- PeaksWithinTol = 2
+495	processing time = 29
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 415	446	476
+
+  MT= 496;z= 20; mz= 878.253;  ------------------------- PeaksWithinTol = 0
+496	processing time = 13
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 415	446	476
+
+  MT= 497;z= 21; mz= 836.480;  ------------------------- PeaksWithinTol = 2
+497	processing time = 31
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 415	446	476
+
+  MT= 498;z= 22; mz= 798.504;  ------------------------- PeaksWithinTol = 1
+498	processing time = 32
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 415	446	476
+
+  MT= 499;z= 23; mz= 763.830;  ------------------------- PeaksWithinTol = 0
+499	processing time = 13
+500	processing time = 11
+7/12/2018 4:18:28 PM	Percent complete = 61.3	Target 500 of 815
+501	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 537	568	598
+
+  MT= 502;z= 19; mz= 907.428;  ------------------------- PeaksWithinTol = 8
+502	processing time = 16
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 537	568	598
+
+  MT= 503;z= 20; mz= 862.107;  ------------------------- PeaksWithinTol = 7
+503	processing time = 61
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 537	568	598
+
+  MT= 504;z= 21; mz= 821.103;  ------------------------- PeaksWithinTol = 5
+504	processing time = 18
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 537	568	598
+
+  MT= 505;z= 22; mz= 783.825;  ------------------------- PeaksWithinTol = 6
+505	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 537	568	598
+
+  MT= 506;z= 23; mz= 749.790;  ------------------------- PeaksWithinTol = 6
+506	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 537	568	598
+
+  MT= 507;z= 24; mz= 718.591;  ------------------------- PeaksWithinTol = 2
+507	processing time = 15
+508	processing time = 11
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 419	450	480
+
+  MT= 509;z= 18; mz= 975.781;  ------------------------- PeaksWithinTol = 0
+509	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 419	450	480
+
+  MT= 510;z= 19; mz= 924.477;  ------------------------- PeaksWithinTol = 0
+510	processing time = 16
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 419	450	480
+
+  MT= 511;z= 20; mz= 878.303;  ------------------------- PeaksWithinTol = 0
+511	processing time = 14
+512	processing time = 13
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 419	450	480
+
+  MT= 513;z= 22; mz= 798.549;  ------------------------- PeaksWithinTol = 0
+513	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 419	450	480
+
+  MT= 514;z= 23; mz= 763.873;  ------------------------- PeaksWithinTol = 2
+514	processing time = 32
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 419	450	480
+
+  MT= 515;z= 24; mz= 732.087;  ------------------------- PeaksWithinTol = 1
+515	processing time = 33
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 309	340	370
+
+  MT= 516;z= 10; mz= 1032.289;  ------------------------- PeaksWithinTol = 1
+516	processing time = 9
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 309	340	370
+
+  MT= 517;z= 11; mz= 938.536;  ------------------------- PeaksWithinTol = 4
+517	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 309	340	370
+
+  MT= 518;z= 12; mz= 860.409;  ------------------------- PeaksWithinTol = 3
+518	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 309	340	370
+
+  MT= 519;z= 13; mz= 794.301;  ------------------------- PeaksWithinTol = 3
+519	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 309	340	370
+
+  MT= 520;z= 14; mz= 737.637;  ------------------------- PeaksWithinTol = 3
+520	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 309	340	370
+
+  MT= 521;z= 15; mz= 688.528;  ------------------------- PeaksWithinTol = 3
+521	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 309	340	370
+
+  MT= 522;z= 16; mz= 645.558;  ------------------------- PeaksWithinTol = 3
+522	processing time = 16
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 474	505	535
+
+  MT= 523;z= 16; mz= 1080.753;  ------------------------- PeaksWithinTol = 7
+523	processing time = 32
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 474	505	535
+
+  MT= 524;z= 17; mz= 1017.239;  ------------------------- PeaksWithinTol = 7
+524	processing time = 16
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 474	505	535
+
+  MT= 525;z= 18; mz= 960.782;  ------------------------- PeaksWithinTol = 7
+525	processing time = 16
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 474	505	535
+
+  MT= 526;z= 19; mz= 910.267;  ------------------------- PeaksWithinTol = 13
+526	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 474	505	535
+
+  MT= 527;z= 20; mz= 864.804;  ------------------------- PeaksWithinTol = 11
+527	processing time = 13
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 474	505	535
+
+  MT= 528;z= 21; mz= 823.671;  ------------------------- PeaksWithinTol = 7
+528	processing time = 16
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 474	505	535
+
+  MT= 529;z= 22; mz= 786.277;  ------------------------- PeaksWithinTol = 9
+529	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 809	840	870
+
+  MT= 530;z= 15; mz= 1122.453;  ------------------------- PeaksWithinTol = 1
+530	processing time = 30
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 809	840	870
+
+  MT= 531;z= 16; mz= 1052.363;  ------------------------- PeaksWithinTol = 1
+531	processing time = 33
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 809	840	870
+
+  MT= 532;z= 17; mz= 990.519;  ------------------------- PeaksWithinTol = 5
+532	processing time = 16
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 809	840	870
+
+  MT= 533;z= 18; mz= 935.546;  ------------------------- PeaksWithinTol = 2
+533	processing time = 33
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 809	840	870
+
+  MT= 534;z= 19; mz= 886.359;  ------------------------- PeaksWithinTol = 1
+534	processing time = 33
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 809	840	870
+
+  MT= 535;z= 20; mz= 842.092;  ------------------------- PeaksWithinTol = 1
+535	processing time = 37
+536	processing time = 16
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 495	526	556
+
+  MT= 537;z= 16; mz= 1073.678;  ------------------------- PeaksWithinTol = 5
+537	processing time = 24
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 495	526	556
+
+  MT= 538;z= 17; mz= 1010.580;  ------------------------- PeaksWithinTol = 6
+538	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 495	526	556
+
+  MT= 539;z= 18; mz= 954.492;  ------------------------- PeaksWithinTol = 7
+539	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 495	526	556
+
+  MT= 540;z= 19; mz= 904.309;  ------------------------- PeaksWithinTol = 11
+540	processing time = 10
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 495	526	556
+
+  MT= 541;z= 20; mz= 859.144;  ------------------------- PeaksWithinTol = 7
+541	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 495	526	556
+
+  MT= 542;z= 21; mz= 818.280;  ------------------------- PeaksWithinTol = 10
+542	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 495	526	556
+
+  MT= 543;z= 22; mz= 781.132;  ------------------------- PeaksWithinTol = 7
+543	processing time = 12
+544	processing time = 11
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 526	557	587
+
+  MT= 545;z= 19; mz= 906.519;  ------------------------- PeaksWithinTol = 1
+545	processing time = 30
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 526	557	587
+
+  MT= 546;z= 20; mz= 861.244;  ------------------------- PeaksWithinTol = 1
+546	processing time = 29
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 526	557	587
+
+  MT= 547;z= 21; mz= 820.280;  ------------------------- PeaksWithinTol = 0
+547	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 526	557	587
+
+  MT= 548;z= 22; mz= 783.040;  ------------------------- PeaksWithinTol = 1
+548	processing time = 31
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 526	557	587
+
+  MT= 549;z= 23; mz= 749.039;  ------------------------- PeaksWithinTol = 0
+549	processing time = 12
+550	processing time = 10
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 371	402	432
+
+  MT= 551;z= 18; mz= 998.172;  ------------------------- PeaksWithinTol = 13
+551	processing time = 17
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 371	402	432
+
+  MT= 552;z= 19; mz= 945.690;  ------------------------- PeaksWithinTol = 12
+552	processing time = 17
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 371	402	432
+
+  MT= 553;z= 20; mz= 898.456;  ------------------------- PeaksWithinTol = 9
+553	processing time = 21
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 371	402	432
+
+  MT= 554;z= 21; mz= 855.720;  ------------------------- PeaksWithinTol = 14
+554	processing time = 17
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 371	402	432
+
+  MT= 555;z= 22; mz= 816.870;  ------------------------- PeaksWithinTol = 14
+555	processing time = 17
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 371	402	432
+
+  MT= 556;z= 23; mz= 781.397;  ------------------------- PeaksWithinTol = 10
+556	processing time = 18
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 371	402	432
+
+  MT= 557;z= 24; mz= 748.881;  ------------------------- PeaksWithinTol = 7
+557	processing time = 21
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 714	745	775
+
+  MT= 558;z= 20; mz= 1320.687;  ------------------------- PeaksWithinTol = 3
+558	processing time = 31
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 714	745	775
+
+  MT= 559;z= 21; mz= 1257.845;  ------------------------- PeaksWithinTol = 3
+559	processing time = 28
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 714	745	775
+
+  MT= 560;z= 22; mz= 1200.716;  ------------------------- PeaksWithinTol = 6
+560	processing time = 46
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 714	745	775
+
+  MT= 561;z= 23; mz= 1148.554;  ------------------------- PeaksWithinTol = 6
+561	processing time = 28
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 714	745	775
+
+  MT= 562;z= 24; mz= 1100.740;  ------------------------- PeaksWithinTol = 3
+562	processing time = 26
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 714	745	775
+
+  MT= 563;z= 25; mz= 1056.751;  ------------------------- PeaksWithinTol = 2
+563	processing time = 33
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 714	745	775
+
+  MT= 564;z= 26; mz= 1016.145;  ------------------------- PeaksWithinTol = 4
+564	processing time = 51
+565	processing time = 17
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 569	600	630
+
+  MT= 566;z= 14; mz= 1301.830;  ------------------------- PeaksWithinTol = 2
+566	processing time = 40
+567	processing time = 17
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 569	600	630
+
+  MT= 568;z= 16; mz= 1139.227;  ------------------------- PeaksWithinTol = 1
+568	processing time = 40
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 569	600	630
+
+  MT= 569;z= 17; mz= 1072.273;  ------------------------- PeaksWithinTol = 2
+569	processing time = 36
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 569	600	630
+
+  MT= 570;z= 18; mz= 1012.759;  ------------------------- PeaksWithinTol = 1
+570	processing time = 40
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 569	600	630
+
+  MT= 571;z= 19; mz= 959.508;  ------------------------- PeaksWithinTol = 2
+571	processing time = 37
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 482	513	543
+
+  MT= 572;z= 15; mz= 1189.213;  ------------------------- PeaksWithinTol = 3
+572	processing time = 23
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 482	513	543
+
+  MT= 573;z= 16; mz= 1114.950;  ------------------------- PeaksWithinTol = 4
+573	processing time = 22
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 482	513	543
+
+  MT= 574;z= 17; mz= 1049.424;  ------------------------- PeaksWithinTol = 6
+574	processing time = 23
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 482	513	543
+
+  MT= 575;z= 18; mz= 991.179;  ------------------------- PeaksWithinTol = 9
+575	processing time = 48
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 482	513	543
+
+  MT= 576;z= 19; mz= 939.065;  ------------------------- PeaksWithinTol = 7
+576	processing time = 23
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 482	513	543
+
+  MT= 577;z= 20; mz= 892.162;  ------------------------- PeaksWithinTol = 8
+577	processing time = 39
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 482	513	543
+
+  MT= 578;z= 21; mz= 849.726;  ------------------------- PeaksWithinTol = 8
+578	processing time = 23
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 604	634	665
+
+  MT= 579;z= 25; mz= 1457.133;  ------------------------- PeaksWithinTol = 2
+579	processing time = 72
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 604	634	665
+
+  MT= 580;z= 26; mz= 1401.128;  ------------------------- PeaksWithinTol = 1
+580	processing time = 72
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 604	634	665
+
+  MT= 581;z= 27; mz= 1349.272;  ------------------------- PeaksWithinTol = 1
+581	processing time = 73
+582	processing time = 45
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 604	634	665
+
+  MT= 583;z= 29; mz= 1256.288;  ------------------------- PeaksWithinTol = 1
+583	processing time = 58
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 604	634	665
+
+  MT= 584;z= 30; mz= 1214.445;  ------------------------- PeaksWithinTol = 2
+584	processing time = 102
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 604	634	665
+
+  MT= 585;z= 31; mz= 1175.302;  ------------------------- PeaksWithinTol = 2
+585	processing time = 71
+586	processing time = 40
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 584	614	645
+
+  MT= 587;z= 24; mz= 1517.921;  ------------------------- PeaksWithinTol = 1
+587	processing time = 46
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 584	614	645
+
+  MT= 588;z= 25; mz= 1457.244;  ------------------------- PeaksWithinTol = 1
+588	processing time = 66
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 584	614	645
+
+  MT= 589;z= 26; mz= 1401.235;  ------------------------- PeaksWithinTol = 4
+589	processing time = 68
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 584	614	645
+
+  MT= 590;z= 27; mz= 1349.375;  ------------------------- PeaksWithinTol = 2
+590	processing time = 68
+591	processing time = 40
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 584	614	645
+
+  MT= 592;z= 29; mz= 1256.384;  ------------------------- PeaksWithinTol = 2
+592	processing time = 68
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 369	400	430
+
+  MT= 593;z= 20; mz= 898.563;  ------------------------- PeaksWithinTol = 0
+593	processing time = 34
+594	processing time = 12
+595	processing time = 12
+596	processing time = 12
+597	processing time = 11
+598	processing time = 11
+599	processing time = 11
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 587	618	648
+
+  MT= 600;z= 22; mz= 1655.839;  ------------------------- PeaksWithinTol = 1
+600	processing time = 68
+7/12/2018 4:18:31 PM	Percent complete = 73.6	Target 600 of 815
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 587	618	648
+
+  MT= 601;z= 23; mz= 1583.890;  ------------------------- PeaksWithinTol = 1
+601	processing time = 68
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 587	618	648
+
+  MT= 602;z= 24; mz= 1517.937;  ------------------------- PeaksWithinTol = 5
+602	processing time = 44
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 587	618	648
+
+  MT= 603;z= 25; mz= 1457.259;  ------------------------- PeaksWithinTol = 5
+603	processing time = 52
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 587	618	648
+
+  MT= 604;z= 26; mz= 1401.250;  ------------------------- PeaksWithinTol = 9
+604	processing time = 69
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 587	618	648
+
+  MT= 605;z= 27; mz= 1349.389;  ------------------------- PeaksWithinTol = 14
+605	processing time = 41
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 587	618	648
+
+  MT= 606;z= 28; mz= 1301.232;  ------------------------- PeaksWithinTol = 17
+606	processing time = 42
+607	processing time = 21
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 566	597	627
+
+  MT= 608;z= 26; mz= 957.332;  ------------------------- PeaksWithinTol = 1
+608	processing time = 47
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 566	597	627
+
+  MT= 609;z= 27; mz= 921.913;  ------------------------- PeaksWithinTol = 0
+609	processing time = 22
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 566	597	627
+
+  MT= 610;z= 28; mz= 889.024;  ------------------------- PeaksWithinTol = 10
+610	processing time = 44
+611	processing time = 45
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 566	597	627
+
+  MT= 612;z= 30; mz= 829.822;  ------------------------- PeaksWithinTol = 0
+612	processing time = 23
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 566	597	627
+
+  MT= 613;z= 31; mz= 803.086;  ------------------------- PeaksWithinTol = 1
+613	processing time = 42
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 721	752	782
+
+  MT= 614;z= 28; mz= 964.421;  ------------------------- PeaksWithinTol = 1
+614	processing time = 50
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 721	752	782
+
+  MT= 615;z= 29; mz= 931.199;  ------------------------- PeaksWithinTol = 1
+615	processing time = 49
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 721	752	782
+
+  MT= 616;z= 30; mz= 900.193;  ------------------------- PeaksWithinTol = 0
+616	processing time = 29
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 721	752	782
+
+  MT= 617;z= 31; mz= 871.187;  ------------------------- PeaksWithinTol = 1
+617	processing time = 49
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 721	752	782
+
+  MT= 618;z= 32; mz= 843.994;  ------------------------- PeaksWithinTol = 0
+618	processing time = 29
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 721	752	782
+
+  MT= 619;z= 33; mz= 818.449;  ------------------------- PeaksWithinTol = 3
+619	processing time = 32
+620	processing time = 27
+621	processing time = 11
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 455	486	516
+
+  MT= 622;z= 16; mz= 1087.181;  ------------------------- PeaksWithinTol = 1
+622	processing time = 33
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 455	486	516
+
+  MT= 623;z= 17; mz= 1023.289;  ------------------------- PeaksWithinTol = 2
+623	processing time = 18
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 455	486	516
+
+  MT= 624;z= 18; mz= 966.495;  ------------------------- PeaksWithinTol = 3
+624	processing time = 14
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 455	486	516
+
+  MT= 625;z= 19; mz= 915.680;  ------------------------- PeaksWithinTol = 2
+625	processing time = 15
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 455	486	516
+
+  MT= 626;z= 20; mz= 869.946;  ------------------------- PeaksWithinTol = 0
+626	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 455	486	516
+
+  MT= 627;z= 21; mz= 828.568;  ------------------------- PeaksWithinTol = 5
+627	processing time = 18
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 554	585	615
+
+  MT= 628;z= 26; mz= 1002.936;  ------------------------- PeaksWithinTol = 1
+628	processing time = 66
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 554	585	615
+
+  MT= 629;z= 27; mz= 965.828;  ------------------------- PeaksWithinTol = 12
+629	processing time = 29
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 554	585	615
+
+  MT= 630;z= 28; mz= 931.370;  ------------------------- PeaksWithinTol = 1
+630	processing time = 49
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 554	585	615
+
+  MT= 631;z= 29; mz= 899.288;  ------------------------- PeaksWithinTol = 3
+631	processing time = 31
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 554	585	615
+
+  MT= 632;z= 30; mz= 869.346;  ------------------------- PeaksWithinTol = 9
+632	processing time = 32
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 554	585	615
+
+  MT= 633;z= 31; mz= 841.335;  ------------------------- PeaksWithinTol = 1
+633	processing time = 48
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 554	585	615
+
+  MT= 634;z= 32; mz= 815.075;  ------------------------- PeaksWithinTol = 4
+634	processing time = 49
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 627	658	688
+
+  MT= 635;z= 42; mz= 888.461;  ------------------------- PeaksWithinTol = 0
+635	processing time = 48
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 627	658	688
+
+  MT= 636;z= 43; mz= 867.823;  ------------------------- PeaksWithinTol = 0
+636	processing time = 48
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 627	658	688
+
+  MT= 637;z= 44; mz= 848.123;  ------------------------- PeaksWithinTol = 3
+637	processing time = 74
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 627	658	688
+
+  MT= 638;z= 45; mz= 829.298;  ------------------------- PeaksWithinTol = 1
+638	processing time = 76
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 627	658	688
+
+  MT= 639;z= 46; mz= 811.291;  ------------------------- PeaksWithinTol = 3
+639	processing time = 98
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 627	658	688
+
+  MT= 640;z= 47; mz= 794.051;  ------------------------- PeaksWithinTol = 1
+640	processing time = 70
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 627	658	688
+
+  MT= 641;z= 48; mz= 777.530;  ------------------------- PeaksWithinTol = 1
+641	processing time = 69
+642	processing time = 2
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 99	130	160
+
+  MT= 643;z= 5; mz= 1064.501;  ------------------------- PeaksWithinTol = 0
+643	processing time = 3
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 99	130	160
+
+  MT= 644;z= 6; mz= 887.252;  ------------------------- PeaksWithinTol = 15
+644	processing time = 3
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 99	130	160
+
+  MT= 645;z= 7; mz= 760.645;  ------------------------- PeaksWithinTol = 2
+645	processing time = 5
+646	processing time = 2
+647	processing time = 2
+648	processing time = 2
+649	processing time = 1
+650	processing time = 1
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 152	183	213
+
+  MT= 651;z= 4; mz= 976.435;  ------------------------- PeaksWithinTol = 0
+651	processing time = 2
+652	processing time = 1
+653	processing time = 1
+654	processing time = 1
+655	processing time = 1
+656	processing time = 1
+657	processing time = 1
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 944	974	1005
+
+  MT= 658;z= 4; mz= 1164.642;  ------------------------- PeaksWithinTol = 1
+658	processing time = 18
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 944	974	1005
+
+  MT= 659;z= 5; mz= 931.915;  ------------------------- PeaksWithinTol = 1
+659	processing time = 4
+660	processing time = 1
+661	processing time = 1
+662	processing time = 1
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 349	380	410
+
+  MT= 663;z= 17; mz= 1426.427;  ------------------------- PeaksWithinTol = 12
+663	processing time = 21
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 349	380	410
+
+  MT= 664;z= 18; mz= 1347.237;  ------------------------- PeaksWithinTol = 12
+664	processing time = 21
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 349	380	410
+
+  MT= 665;z= 19; mz= 1276.383;  ------------------------- PeaksWithinTol = 13
+665	processing time = 21
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 349	380	410
+
+  MT= 666;z= 20; mz= 1212.614;  ------------------------- PeaksWithinTol = 13
+666	processing time = 21
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 349	380	410
+
+  MT= 667;z= 21; mz= 1154.918;  ------------------------- PeaksWithinTol = 14
+667	processing time = 21
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 349	380	410
+
+  MT= 668;z= 22; mz= 1102.468;  ------------------------- PeaksWithinTol = 12
+668	processing time = 21
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 349	380	410
+
+  MT= 669;z= 23; mz= 1054.578;  ------------------------- PeaksWithinTol = 13
+669	processing time = 22
+670	processing time = 2
+671	processing time = 2
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 919	950	980
+
+  MT= 672;z= 3; mz= 1478.460;  ------------------------- PeaksWithinTol = 1
+672	processing time = 18
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 919	950	980
+
+  MT= 673;z= 4; mz= 1109.097;  ------------------------- PeaksWithinTol = 2
+673	processing time = 21
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 919	950	980
+
+  MT= 674;z= 5; mz= 887.479;  ------------------------- PeaksWithinTol = 3
+674	processing time = 6
+675	processing time = 2
+676	processing time = 5
+677	processing time = 0
+678	processing time = 5
+679	processing time = 0
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 976	1006	1037
+
+  MT= 680;z= 4; mz= 883.300;  ------------------------- PeaksWithinTol = 3
+680	processing time = 2
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 976	1006	1037
+
+  MT= 681;z= 5; mz= 706.842;  ------------------------- PeaksWithinTol = 3
+681	processing time = 2
+682	processing time = 0
+683	processing time = 0
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 619	650	680
+
+  MT= 684;z= 37; mz= 985.778;  ------------------------- PeaksWithinTol = 4
+684	processing time = 42
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 619	650	680
+
+  MT= 685;z= 38; mz= 959.863;  ------------------------- PeaksWithinTol = 11
+685	processing time = 42
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 619	650	680
+
+  MT= 686;z= 39; mz= 935.277;  ------------------------- PeaksWithinTol = 11
+686	processing time = 41
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 619	650	680
+
+  MT= 687;z= 40; mz= 911.921;  ------------------------- PeaksWithinTol = 8
+687	processing time = 65
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 619	650	680
+
+  MT= 688;z= 41; mz= 889.703;  ------------------------- PeaksWithinTol = 5
+688	processing time = 65
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 619	650	680
+
+  MT= 689;z= 42; mz= 868.544;  ------------------------- PeaksWithinTol = 2
+689	processing time = 66
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 619	650	680
+
+  MT= 690;z= 43; mz= 848.368;  ------------------------- PeaksWithinTol = 1
+690	processing time = 65
+691	processing time = 1
+692	processing time = 1
+693	processing time = 1
+694	processing time = 1
+695	processing time = 1
+696	processing time = 1
+697	processing time = 1
+698	processing time = 1
+699	processing time = 1
+700	processing time = 1
+7/12/2018 4:18:33 PM	Percent complete = 85.9	Target 700 of 815
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 802	833	863
+
+  MT= 701;z= 4; mz= 1016.533;  ------------------------- PeaksWithinTol = 2
+701	processing time = 26
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 802	833	863
+
+  MT= 702;z= 5; mz= 813.428;  ------------------------- PeaksWithinTol = 1
+702	processing time = 40
+703	processing time = 1
+704	processing time = 1
+705	processing time = 19
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 901	932	962
+
+  MT= 706;z= 21; mz= 1081.832;  ------------------------- PeaksWithinTol = 1
+706	processing time = 36
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 901	932	962
+
+  MT= 707;z= 22; mz= 1032.703;  ------------------------- PeaksWithinTol = 1
+707	processing time = 42
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 901	932	962
+
+  MT= 708;z= 23; mz= 987.847;  ------------------------- PeaksWithinTol = 4
+708	processing time = 22
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 901	932	962
+
+  MT= 709;z= 24; mz= 946.729;  ------------------------- PeaksWithinTol = 3
+709	processing time = 21
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 901	932	962
+
+  MT= 710;z= 25; mz= 908.900;  ------------------------- PeaksWithinTol = 0
+710	processing time = 20
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 901	932	962
+
+  MT= 711;z= 26; mz= 873.981;  ------------------------- PeaksWithinTol = 1
+711	processing time = 22
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 544	575	605
+
+  MT= 712;z= 10; mz= 1097.354;  ------------------------- PeaksWithinTol = 3
+712	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 544	575	605
+
+  MT= 713;z= 11; mz= 997.686;  ------------------------- PeaksWithinTol = 4
+713	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 544	575	605
+
+  MT= 714;z= 12; mz= 914.629;  ------------------------- PeaksWithinTol = 4
+714	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 544	575	605
+
+  MT= 715;z= 13; mz= 844.351;  ------------------------- PeaksWithinTol = 4
+715	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 544	575	605
+
+  MT= 716;z= 14; mz= 784.112;  ------------------------- PeaksWithinTol = 3
+716	processing time = 12
+717	processing time = 7
+718	processing time = 6
+719	processing time = 1
+720	processing time = 1
+721	processing time = 1
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 54	84	115
+
+  MT= 722;z= 5; mz= 824.654;  ------------------------- PeaksWithinTol = 1
+722	processing time = 4
+723	processing time = 1
+724	processing time = 1
+725	processing time = 1
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 836	867	897
+
+  MT= 726;z= 12; mz= 1188.099;  ------------------------- PeaksWithinTol = 0
+726	processing time = 10
+727	processing time = 8
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 836	867	897
+
+  MT= 728;z= 14; mz= 1018.514;  ------------------------- PeaksWithinTol = 2
+728	processing time = 31
+729	processing time = 8
+730	processing time = 8
+731	processing time = 9
+732	processing time = 8
+733	processing time = 1
+734	processing time = 1
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 961	992	1022
+
+  MT= 735;z= 3; mz= 1212.583;  ------------------------- PeaksWithinTol = 1
+735	processing time = 4
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 961	992	1022
+
+  MT= 736;z= 4; mz= 909.689;  ------------------------- PeaksWithinTol = 22
+736	processing time = 2
+737	processing time = 0
+738	processing time = 0
+739	processing time = 0
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 354	385	415
+
+  MT= 740;z= 19; mz= 1276.413;  ------------------------- PeaksWithinTol = 1
+740	processing time = 39
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 354	385	415
+
+  MT= 741;z= 20; mz= 1212.643;  ------------------------- PeaksWithinTol = 1
+741	processing time = 58
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 354	385	415
+
+  MT= 742;z= 21; mz= 1154.946;  ------------------------- PeaksWithinTol = 1
+742	processing time = 34
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 354	385	415
+
+  MT= 743;z= 22; mz= 1102.494;  ------------------------- PeaksWithinTol = 0
+743	processing time = 21
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 354	385	415
+
+  MT= 744;z= 23; mz= 1054.604;  ------------------------- PeaksWithinTol = 1
+744	processing time = 39
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 354	385	415
+
+  MT= 745;z= 24; mz= 1010.704;  ------------------------- PeaksWithinTol = 5
+745	processing time = 30
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 354	385	415
+
+  MT= 746;z= 25; mz= 970.316;  ------------------------- PeaksWithinTol = 1
+746	processing time = 45
+747	processing time = 3
+748	processing time = 2
+749	processing time = 2
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 789	820	850
+
+  MT= 750;z= 4; mz= 1133.354;  ------------------------- PeaksWithinTol = 0
+750	processing time = 4
+751	processing time = 2
+752	processing time = 2
+753	processing time = 2
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 621	652	682
+
+  MT= 754;z= 24; mz= 1521.852;  ------------------------- PeaksWithinTol = 3
+754	processing time = 59
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 621	652	682
+
+  MT= 755;z= 25; mz= 1461.018;  ------------------------- PeaksWithinTol = 0
+755	processing time = 53
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 621	652	682
+
+  MT= 756;z= 26; mz= 1404.863;  ------------------------- PeaksWithinTol = 0
+756	processing time = 53
+757	processing time = 52
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 621	652	682
+
+  MT= 758;z= 28; mz= 1304.588;  ------------------------- PeaksWithinTol = 1
+758	processing time = 77
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 621	652	682
+
+  MT= 759;z= 29; mz= 1259.637;  ------------------------- PeaksWithinTol = 1
+759	processing time = 81
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 621	652	682
+
+  MT= 760;z= 30; mz= 1217.683;  ------------------------- PeaksWithinTol = 0
+760	processing time = 66
+761	processing time = 3
+762	processing time = 4
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 77	108	138
+
+  MT= 763;z= 6; mz= 1088.194;  ------------------------- PeaksWithinTol = 2
+763	processing time = 7
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 77	108	138
+
+  MT= 764;z= 7; mz= 932.881;  ------------------------- PeaksWithinTol = 2
+764	processing time = 5
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 77	108	138
+
+  MT= 765;z= 8; mz= 816.397;  ------------------------- PeaksWithinTol = 0
+765	processing time = 4
+766	processing time = 3
+767	processing time = 4
+768	processing time = 16
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 484	515	545
+
+  MT= 769;z= 15; mz= 1189.154;  ------------------------- PeaksWithinTol = 3
+769	processing time = 20
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 484	515	545
+
+  MT= 770;z= 16; mz= 1114.895;  ------------------------- PeaksWithinTol = 9
+770	processing time = 20
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 484	515	545
+
+  MT= 771;z= 17; mz= 1049.372;  ------------------------- PeaksWithinTol = 8
+771	processing time = 20
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 484	515	545
+
+  MT= 772;z= 18; mz= 991.130;  ------------------------- PeaksWithinTol = 6
+772	processing time = 20
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 484	515	545
+
+  MT= 773;z= 19; mz= 939.018;  ------------------------- PeaksWithinTol = 5
+773	processing time = 20
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 484	515	545
+
+  MT= 774;z= 20; mz= 892.117;  ------------------------- PeaksWithinTol = 9
+774	processing time = 20
+775	processing time = 1
+776	processing time = 1
+777	processing time = 1
+778	processing time = 0
+779	processing time = 0
+780	processing time = 1
+781	processing time = 0
+782	processing time = 12
+783	processing time = 12
+784	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 409	440	470
+
+  MT= 785;z= 14; mz= 1282.052;  ------------------------- PeaksWithinTol = 0
+785	processing time = 14
+786	processing time = 12
+787	processing time = 12
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 409	440	470
+
+  MT= 788;z= 17; mz= 1055.985;  ------------------------- PeaksWithinTol = 0
+788	processing time = 14
+789	processing time = 1
+790	processing time = 1
+791	processing time = 1
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 51	82	112
+
+  MT= 792;z= 5; mz= 759.196;  ------------------------- PeaksWithinTol = 1
+792	processing time = 4
+793	processing time = 1
+794	processing time = 1
+795	processing time = 1
+796	processing time = 6
+797	processing time = 6
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 954	985	1015
+
+  MT= 798;z= 13; mz= 988.495;  ------------------------- PeaksWithinTol = 0
+798	processing time = 7
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 954	985	1015
+
+  MT= 799;z= 14; mz= 917.960;  ------------------------- PeaksWithinTol = 1
+799	processing time = 15
+800	processing time = 6
+7/12/2018 4:18:35 PM	Percent complete = 98.2	Target 800 of 815
+801	processing time = 6
+802	processing time = 6
+803	processing time = 7
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 699	730	760
+
+  MT= 804;z= 12; mz= 1227.795;  ------------------------- PeaksWithinTol = 0
+804	processing time = 9
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 699	730	760
+
+  MT= 805;z= 13; mz= 1133.426;  ------------------------- PeaksWithinTol = 1
+805	processing time = 28
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 699	730	760
+
+  MT= 806;z= 14; mz= 1052.539;  ------------------------- PeaksWithinTol = 0
+806	processing time = 9
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 699	730	760
+
+  MT= 807;z= 15; mz= 982.437;  ------------------------- PeaksWithinTol = 1
+807	processing time = 28
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 699	730	760
+
+  MT= 808;z= 16; mz= 921.098;  ------------------------- PeaksWithinTol = 1
+808	processing time = 30
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 699	730	760
+
+  MT= 809;z= 17; mz= 866.975;  ------------------------- PeaksWithinTol = 0
+809	processing time = 9
+810	processing time = 1
+811	processing time = 1
+
+  SmartPeakSelector --> NETTolerance= 0.025;  chromMinCenterMax= 864	895	925
+
+  MT= 812;z= 3; mz= 1170.597;  ------------------------- PeaksWithinTol = 1
+812	processing time = 21
+813	processing time = 1
+814	processing time = 1
+815	processing time = 1
+---- PROCESSING COMPLETE ---------------
+

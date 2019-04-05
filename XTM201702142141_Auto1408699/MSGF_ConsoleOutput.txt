@@ -1,0 +1,4 @@
+java.exe -Xmx4000M -cp C:\DMS_Programs\MSGFDB\MSGFDB.jar ui.MSGF -i C:\DMS_WorkDir2\HCC-38_DDDT_4xdil_20uL_3hr_3_08Jan16_Pippin_15-08-53_xt_MSGF_input_1.txt -d C:\DMS_WorkDir2 -o C:\DMS_WorkDir2\HCC-38_DDDT_4xdil_20uL_3hr_3_08Jan16_Pippin_15-08-53_xt_MSGF_1.txt -m 0 -e 1 -fixMod 0 -x 0 -p 1
+--------------------------------------------------------------------------------
+MSGF v7097 (12/29/2011)
+MS-GF complete (total elapsed time: 28.11 sec)

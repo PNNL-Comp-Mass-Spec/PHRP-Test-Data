@@ -1,0 +1,27 @@
+java.exe -Xmx16000M -classpath jar\*; edu.ucsd.msalign.align.console.MsAlignPipeline .\
+--------------------------------------------------------------------------------
+MS-Align+ 0.7.0.7143 2012-01-06
+Initializing indexes...
+
+Processing spectrum scan 65...          5% finished (10 minutes used).
+Processing spectrum scan 100...         8% finished (11 minutes used).
+
+Processing spectrum scan 200...         16% finished (31 minutes used).
+
+Processing spectrum scan 301...         24% finished (73 minutes used).
+
+Processing spectrum scan 400...         32% finished (117 minutes used).
+Processing spectrum scan 500...         40% finished (134 minutes used).
+
+Processing spectrum scan 600...         49% finished (173 minutes used).
+
+Processing spectrum scan 700...         57% finished (195 minutes used).
+
+Processing spectrum scan 800...         65% finished (214 minutes used).
+
+Processing spectrum scan 900...         73% finished (232 minutes used).
+
+Processing spectrum scan 1005...        82% finished (245 minutes used).
+
+Generating xml files.
+Generating html files.

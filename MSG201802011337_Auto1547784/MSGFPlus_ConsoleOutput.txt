@@ -1,0 +1,105 @@
+java.exe -Xmx4000M -jar C:\DMS_Programs\MSGFDB\MSGFPlus.jar -s MCF-7_pSTY_2_OldGr_15Mar17_Merry__IntEmtr_dta.txt -o MCF-7_pSTY_2_OldGr_15Mar17_Merry__IntEmtr_msgfplus.mzid -d G:\DMS_Temp_Org\ID_004208_295531A4.fasta  -t 20ppm -m 0 -inst 1 -e 1 -ti -1,2 -ntt 2 -tda 1 -minLength 6 -maxLength 50 -minCharge 2 -maxCharge 5 -n 2 -thread 8 -mod MSGFPlus_Mods.txt -minNumPeaks 5 -addFeatures 1
+--------------------------------------------------------------------------------
+MS-GF+ Release (v2018.01.30) (30 January 2018)
+Loading database files...
+Warning: Sequence database contains 134 counts of letter 'B', which does not correspond to an amino acid.
+Warning: Sequence database contains 74 counts of letter 'U', which does not correspond to an amino acid.
+Warning: Sequence database contains 1340 counts of letter 'X', which does not correspond to an amino acid.
+Warning: Sequence database contains 128 counts of letter 'Z', which does not correspond to an amino acid.
+Loading database finished (elapsed time: 4.51 sec)
+Reading spectra...
+Ignoring 0 profile spectra.
+Ignoring 0 spectra having less than 5 peaks.
+Reading spectra finished (elapsed time: 7.68 sec)
+Using 8 threads.
+Search Parameters:
+	PrecursorMassTolerance: 20.0ppm
+	IsotopeError: -1,2
+	TargetDecoyAnalysis: true
+	FragmentationMethod: As written in the spectrum or CID if no info
+	Instrument: HighRes
+	Enzyme: Tryp
+	Protocol: Phosphorylation
+	NumTolerableTermini: 2
+	MinPeptideLength: 6
+	MaxPeptideLength: 50
+	NumMatchesPerSpec: 2
+	ChargeCarrierMass: 1.00727649 (proton)
+Spectrum 0-21871 (total: 21872)
+Splitting work into 24 tasks.
+Search progress: 0 / 24 tasks, 0.00%		0.00 seconds elapsed
+Loading built-in param file: HCD_HighRes_Tryp_Phosphorylation.param
+Loading built-in param file: HCD_HighRes_Tryp_Phosphorylation.param
+Loading built-in param file: HCD_HighRes_Tryp_Phosphorylation.param
+Loading built-in param file: HCD_HighRes_Tryp_Phosphorylation.param
+Loading built-in param file: HCD_HighRes_Tryp_Phosphorylation.param
+Loading built-in param file: HCD_HighRes_Tryp_Phosphorylation.param
+Loading built-in param file: HCD_HighRes_Tryp_Phosphorylation.param
+Loading built-in param file: HCD_HighRes_Tryp_Phosphorylation.param
+Search progress: 0 / 24 tasks, 11.45%		1.00 minutes elapsed
+Search progress: 0 / 24 tasks, 11.99%		2.00 minutes elapsed
+Search progress: 0 / 24 tasks, 12.49%		3.00 minutes elapsed
+Search progress: 0 / 24 tasks, 18.99%		4.00 minutes elapsed
+Search progress: 0 / 24 tasks, 20.20%		5.00 minutes elapsed
+Search progress: 0 / 24 tasks, 22.38%		6.00 minutes elapsed
+Search progress: 1 / 24 tasks, 26.94%		6.97 minutes elapsed
+Search progress: 1 / 24 tasks, 27.11%		7.00 minutes elapsed
+Search progress: 2 / 24 tasks, 30.31%		7.61 minutes elapsed
+Search progress: 2 / 24 tasks, 32.86%		8.00 minutes elapsed
+Search progress: 3 / 24 tasks, 33.94%		8.61 minutes elapsed
+Search progress: 4 / 24 tasks, 35.97%		8.93 minutes elapsed
+Search progress: 4 / 24 tasks, 36.26%		9.00 minutes elapsed
+Search progress: 5 / 24 tasks, 38.21%		9.48 minutes elapsed
+Search progress: 6 / 24 tasks, 38.61%		9.52 minutes elapsed
+Search progress: 7 / 24 tasks, 41.79%		9.84 minutes elapsed
+Search progress: 7 / 24 tasks, 42.12%		10.00 minutes elapsed
+Search progress: 8 / 24 tasks, 42.37%		10.06 minutes elapsed
+Search progress: 8 / 24 tasks, 45.33%		11.00 minutes elapsed
+Search progress: 8 / 24 tasks, 47.43%		12.00 minutes elapsed
+Search progress: 8 / 24 tasks, 49.47%		13.00 minutes elapsed
+Search progress: 8 / 24 tasks, 52.37%		14.00 minutes elapsed
+Search progress: 8 / 24 tasks, 55.20%		15.00 minutes elapsed
+Search progress: 8 / 24 tasks, 56.06%		16.00 minutes elapsed
+Search progress: 9 / 24 tasks, 57.87%		16.87 minutes elapsed
+Search progress: 9 / 24 tasks, 58.71%		17.00 minutes elapsed
+Search progress: 10 / 24 tasks, 60.80%		17.13 minutes elapsed
+Search progress: 10 / 24 tasks, 64.87%		18.00 minutes elapsed
+Search progress: 10 / 24 tasks, 66.88%		19.00 minutes elapsed
+Search progress: 11 / 24 tasks, 68.04%		19.73 minutes elapsed
+Search progress: 12 / 24 tasks, 68.52%		19.77 minutes elapsed
+Search progress: 13 / 24 tasks, 69.36%		19.95 minutes elapsed
+Search progress: 13 / 24 tasks, 71.11%		20.00 minutes elapsed
+Search progress: 14 / 24 tasks, 71.57%		20.01 minutes elapsed
+Search progress: 15 / 24 tasks, 72.52%		20.10 minutes elapsed
+Search progress: 15 / 24 tasks, 76.72%		21.00 minutes elapsed
+Search progress: 16 / 24 tasks, 77.92%		21.39 minutes elapsed
+Search progress: 16 / 24 tasks, 80.35%		22.00 minutes elapsed
+Search progress: 16 / 24 tasks, 80.66%		23.00 minutes elapsed
+Search progress: 16 / 24 tasks, 82.63%		24.00 minutes elapsed
+Search progress: 16 / 24 tasks, 82.94%		25.00 minutes elapsed
+Search progress: 16 / 24 tasks, 84.94%		26.00 minutes elapsed
+Search progress: 16 / 24 tasks, 86.88%		27.00 minutes elapsed
+Search progress: 16 / 24 tasks, 88.42%		28.00 minutes elapsed
+Search progress: 17 / 24 tasks, 88.91%		28.36 minutes elapsed
+Search progress: 17 / 24 tasks, 91.02%		29.00 minutes elapsed
+Search progress: 18 / 24 tasks, 92.10%		29.64 minutes elapsed
+Search progress: 19 / 24 tasks, 93.73%		30.00 minutes elapsed
+Search progress: 19 / 24 tasks, 93.73%		30.00 minutes elapsed
+Search progress: 20 / 24 tasks, 94.22%		30.44 minutes elapsed
+Search progress: 20 / 24 tasks, 94.43%		31.00 minutes elapsed
+Search progress: 21 / 24 tasks, 95.05%		31.71 minutes elapsed
+Search progress: 21 / 24 tasks, 95.09%		32.00 minutes elapsed
+Search progress: 21 / 24 tasks, 95.22%		33.00 minutes elapsed
+Search progress: 21 / 24 tasks, 97.29%		34.00 minutes elapsed
+Search progress: 22 / 24 tasks, 99.16%		34.93 minutes elapsed
+Search progress: 23 / 24 tasks, 99.44%		34.99 minutes elapsed
+Search progress: 23 / 24 tasks, 99.44%		35.00 minutes elapsed
+Search progress: 24 / 24 tasks, 100.00%		35.60 minutes elapsed
+Search progress: 24 / 24 tasks, 100.00%		35.60 minutes elapsed
+Computing q-values...
+Computing q-values finished (elapsed time: 0.22 sec)
+Writing results...
+Writing results finished (elapsed time: 15.16 sec)
+MS-GF+ complete (total elapsed time: 2159.01 sec)
+--------------------------------------------------------------------------------
+MzidToTsvConverter.exe -mzid:F:\DMS_WorkDir3\MCF-7_pSTY_2_OldGr_15Mar17_Merry__IntEmtr_msgfplus.mzid -tsv:F:\DMS_WorkDir3\MCF-7_pSTY_2_OldGr_15Mar17_Merry__IntEmtr_msgfplus.tsv -unroll -showDecoy

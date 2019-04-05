@@ -1,0 +1,30 @@
+java.exe -Xmx2000M -jar C:\DMS_Programs\MSDeconv\MsDeconvConsole.jar 20180709PDX_13.mzXML -o msalign -t centroided
+--------------------------------------------------------------------------------
+MS-Deconv 0.8.0.7370 2012-02-13
+********* parameters begin **********
+output file format:    msalign
+data type:             centroided
+orignal precursor:     false
+maximum charge:        30
+maximum mass:          50000.0
+m/z error tolerance:   0.02
+sn ratio:              1.0
+keep unused peak:      false
+output multiple mass:  false
+********* parameters end   **********
+Processing spectrum Scan_2...           0% finished.
+Processing spectrum Scan_100...         8% finished.
+Processing spectrum Scan_200...         16% finished.
+Processing spectrum Scan_300...         24% finished.
+Processing spectrum Scan_400...         32% finished.
+Processing spectrum Scan_500...         41% finished.
+Processing spectrum Scan_600...         49% finished.
+Processing spectrum Scan_700...         57% finished.
+Processing spectrum Scan_800...         65% finished.
+Processing spectrum Scan_900...         73% finished.
+Processing spectrum Scan_1000...        82% finished.
+Processing spectrum Scan_1100...        90% finished.
+Processing spectrum Scan_1200...        98% finished.
+Processing spectrum Scan_1218...        100% finished.
+Deconvolution finished.
+Result is in 20180709PDX_13_msdeconv.msalign

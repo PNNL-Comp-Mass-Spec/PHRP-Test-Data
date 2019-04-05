@@ -1,0 +1,7 @@
+*	79.966331	S	D	Phosph  
+*	79.966331	T	D	Phosph  
+*	79.966331	Y	D	Phosph  
+#	42.010567	<	D	Acetyl  
+@	57.021465	C	D	IodoAcet
+$	-18.010565	E	D	MinusH2O
+&	-17.026548	Q	D	NH3_Loss

@@ -1,0 +1,9 @@
+Date: 2017-03-08 06:50:21 PM
+Dataset: HCC-38_DDDT_4xdil_20uL_3hr_3_08Jan16_Pippin_15-08-53
+Job: 1408699
+Step: 5
+Tool: MSGF
+ToolVersionInfo:
+MSGF v7097 (12/29/2011)
+MSGFDB.jar: 2012-05-07 04:33:12 PM
+MSConvert.exe: 2016-03-24 09:55:23 PM

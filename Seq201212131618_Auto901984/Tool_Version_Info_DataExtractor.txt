@@ -1,0 +1,10 @@
+Date: 2012-12-13 06:55:17 PM
+Dataset: 121130_Polle_6_agi_150
+Job: 901984
+Step: 4
+Tool: DataExtractor
+ToolVersionInfo:
+PeptideHitResultsProcessor, Version=1.5.4730.33307
+PeptideFileExtractor, Version=1.7.4682.25653
+PeptideProphetRunner, Version=1.0.4688.20697
+PeptideProphetLibrary, Version=1.0.4688.21176

@@ -1,0 +1,11 @@
+#activation can be CID, HCD, ETD or FILE (FILE means that the activation type is given in the spectral data file).
+activation=CID
+#Cysteine protection group can be C0, C57 or C58. 
+#C0: no modification, C57: Carbamidoemetylation, C58: Carboxymethylation
+cysteineProtection=C0
+# Maximum number of modifications
+shiftNumber=2
+# Error tolerance in PPM
+errorTolerance=15
+# E-value threshold
+eValueThreshold=0.01

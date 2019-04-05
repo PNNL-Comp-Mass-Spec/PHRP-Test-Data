@@ -1,0 +1,95 @@
+toppic.exe --error-tolerance 15 --max-shift 500 --num-shift 1 --spectrum-cutoff-type EVALUE --spectrum-cutoff-value 0.01 --proteoform-cutoff-type EVALUE --proteoform-cutoff-value 0.01 --activation=FILE --decoy --n-terminal-form NONE,NME,NME_ACETYLATION,M_ACETYLATION --use-topfd-feature MZ20170525_Mnx_PFA.feature G:\DMS_Temp_Org\ID_005649_5ECA3D02.fasta MZ20170525_Mnx_PFA_ms2.msalign
+--------------------------------------------------------------------------------
+TopPIC 1.1.2
+********************** Parameters **********************
+Protein database file:                      	G:\DMS_Temp_Org\ID_005649_5ECA3D02.fasta
+Spectrum file:                              	MZ20170525_Mnx_PFA_ms2.msalign
+Number of combined spectra:                 	1
+Fragmentation method:                       	FILE
+Search type:                                	TARGET+DECOY
+Fixed modifications:                        	None
+TopFD feature file:                         	MZ20170525_Mnx_PFA.feature
+Maximum number of unexpected modifications: 	1
+Error tolerance:                            	15 ppm
+Spectrum-level cutoff type:                 	EVALUE
+Spectrum-level cutoff value:                	0.01
+Proteoform-level cutoff type:               	EVALUE
+Proteoform-level cutoff value:              	0.01
+Allowed N-terminal forms:                   	NONE,NME,NME_ACETYLATION,M_ACETYLATION
+Maximum mass shift of modifications:        	500 Da
+Thread number:                              	1
+E-value computation:                        	Lookup table
+Executable file directory:                  	C:\DMS_Programs\TopPIC
+Start time:                                 	Tue Mar 19 12:31:01 2019
+********************** Parameters **********************
+Zero PTM filtering - started.
+Zero PTM filtering - block 1 out of 1 started.
+Zero PTM filtering - processing 1 of 49 spectra.
+Zero PTM filtering - processing 49 of 49 spectra.
+Zero PTM filtering - block 1 finished. 
+Zero PTM filtering - combining blocks started.
+Zero PTM filtering - combining blocks finished.
+Zero PTM filtering - finished.
+Zero PTM search - started.
+Zero PTM search - processing 1 of 49 spectra.
+Zero PTM search - processing 49 of 49 spectra.
+Zero PTM search - finished.
+One PTM filtering - started.
+One PTM filtering - block 1 out of 1 started.
+One PTM filtering - processing 1 of 49 spectra.
+One PTM filtering - processing 49 of 49 spectra.
+One PTM filtering - block 1 finished. 
+One PTM filtering - combining blocks started.
+One PTM filtering - combining blocks finished.
+One PTM filtering - finished.
+One PTM search - started.
+One PTM search - processing 1 of 49 spectra.
+One PTM search - processing 49 of 49 spectra.
+One PTM search - finished.
+Combining PRSMs - started.
+Combining PRSMs - finished.
+E-value computation - started.
+E-value computation - processing 1 of 49 spectra.
+E-value computation - processing 49 of 49 spectra.
+E-value computation - finished.
+Finding protein species - started.
+Finding protein species - finished.
+Top PRSM selecting - started 
+Top PRSM selecting - finished.
+FDR computation - started. 
+FDR computation - finished.
+PRSM selecting by cutoff - started.
+PRSM selecting by cutoff - finished.
+Outputting the PRSM result table - started.
+Outputting the PRSM result table - finished.
+Generating the PRSM xml files - started.
+Generating xml files - processing 1 PrSMs.
+Generating xml files - processing 1 Proteoforms.
+Generating xml files - preprocessing 4 Proteins.
+Generating xml files - processing 1 Proteins.
+Generating xml files - processing 4 Proteins.
+Generating the PRSM xml files - finished.
+Converting the PRSM xml files to html files - started.
+Converting xml files to html files - processing 1 of 33 files.
+Converting xml files to html files - processing 33 of 33 files.
+Converting the PRSM xml files to html files - finished.
+Proteoform selecting by cutoff - started.
+Proteoform selecting by cutoff - finished.
+Proteoform filtering - started.
+Proteoform filtering - finished.
+Outputting the proteoform result table - started.
+Outputting the proteoform result table - finished.
+Generating the proteoform xml files - started.
+Generating xml files - processing 1 PrSMs.
+Generating xml files - processing 1 Proteoforms.
+Generating xml files - preprocessing 4 Proteins.
+Generating xml files - processing 1 Proteins.
+Generating xml files - processing 4 Proteins.
+Generating the proteoform xml files - finished.
+Converting the proteoform xml files to html files - started.
+Converting xml files to html files - processing 1 of 33 files.
+Converting xml files to html files - processing 33 of 33 files.
+Converting the proteoform xml files to html files - finished.
+Deleting temporary files - started.
+Deleting temporary files - finished.
+TopPIC finished.

@@ -1,0 +1,2 @@
+*	42.0218	K	D	Guanid  
+-	57.0215	C	S	IodoAcet

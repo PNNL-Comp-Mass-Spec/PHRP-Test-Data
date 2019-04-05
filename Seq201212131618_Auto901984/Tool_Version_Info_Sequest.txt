@@ -1,0 +1,8 @@
+Date: 2012-12-13 04:20:15 PM
+Dataset: 121130_Polle_6_agi_150
+Job: 901984
+Step: 3
+Tool: Sequest
+ToolVersionInfo:
+TurboSEQUEST - PVM Slave v.27 (rev. 12), (c) 1998-2005
+sequest27_master.exe: 2006-05-22 06:21:38 AM

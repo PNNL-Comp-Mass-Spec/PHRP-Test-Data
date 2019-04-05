@@ -1,0 +1,27 @@
+Parsing 121130_Polle_6_agi_150_syn.txt
+Detected SEQUEST Synopsis file
+Processing: 0% 
+Processing: 25% 
+Processing: 50% 
+Processing: 75% 
+Creating Peptide to Protein Map file (90.0% complete)
+Pre-processing PHRP data file: 121130_Polle_6_agi_150_syn.txt
+Initializing
+Reading protein input file: NA2B2_Ds_EST.fasta
+. PeptideToProteinMapper is 25% complete
+Complete reading protein input file: NA2B2_Ds_EST.fasta
+Parsing 121130_Polle_6_agi_150_syn_peptides.txt
+Reading peptides from 121130_Polle_6_agi_150_syn_peptides.txt and finding leader sequences
+. PeptideToProteinMapper is 50% complete
+Comparing proteins to peptide leader sequences
+Comparing proteins to short peptide sequences
+. PeptideToProteinMapper is 86% complete
+Post-processing the results files
+53.73% of the entries (901 / 1677) in the peptide to protein map file (121130_Polle_6_agi_150_syn_PepToProtMap.txt) did not match to a protein in the FASTA file (NA2B2_Ds_EST.fasta)
+------------------------------------------------------------------------------
+53.73% of the entries (901 / 1677) in the peptide to protein map file (121130_Polle_6_agi_150_syn_PepToProtMap.txt) did not match to a protein in the FASTA file (NA2B2_Ds_EST.fasta)
+------------------------------------------------------------------------------
+Processing: 100% 
+
+ ----- Error details ---- 
+53.73% of the entries (901 / 1677) in the peptide to protein map file (121130_Polle_6_agi_150_syn_PepToProtMap.txt) did not match to a protein in the FASTA file (NA2B2_Ds_EST.fasta)

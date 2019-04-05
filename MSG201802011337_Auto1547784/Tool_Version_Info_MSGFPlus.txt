@@ -1,0 +1,8 @@
+Date: 2018-02-01 01:37:43 PM
+Dataset: MCF-7_pSTY_2_OldGr_15Mar17_Merry__IntEmtr
+Job: 1547784
+Step: 3
+Tool: MSGFPlus
+ToolVersionInfo:
+MS-GF+ Release (v2018.01.30) (30 January 2018)
+MSGFPlus.jar: 2018-01-30 09:51:39 PM

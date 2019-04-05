@@ -1,0 +1,8 @@
+Date: 2017-02-14 09:43:24 PM
+Dataset: HCC-38_DDDT_4xdil_20uL_3hr_3_08Jan16_Pippin_15-08-53
+Job: 1408699
+Step: 3
+Tool: XTandem
+ToolVersionInfo:
+X! TANDEM Alanine (2017.2.1.2)
+Tandem.exe: 2017-01-25 09:17:32 PM

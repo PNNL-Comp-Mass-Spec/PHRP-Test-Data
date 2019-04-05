@@ -1,0 +1,7 @@
+Date: 2012-05-08 03:59:03 PM
+Dataset: QC_Shew_11_06_Run-03_7May12_Roc_12-04-08
+Job: 838496
+Step: 4
+Tool: DataExtractor
+ToolVersionInfo:
+PeptideHitResultsProcessor, Version=1.5.4504.18868

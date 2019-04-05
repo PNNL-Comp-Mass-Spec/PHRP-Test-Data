@@ -1,0 +1,28 @@
+topfd.exe --precursor-window 3 --mz-error 0.02 --sn-ratio 1 --max-charge 30 --max-mass 100000 MZ20170525_Mnx_PFA.mzML
+--------------------------------------------------------------------------------
+TopFD 1.1.2
+Timestamp: Mon Mar 18 22:27:01 2019
+********************** Parameters **********************
+Input file:                             MZ20170525_Mnx_PFA.mzML
+Data type:                              centroided
+Maximum charge:                         30
+Maximum monoisotopic mass:              100000 Dalton
+Error tolerance:                        0.02 m/z
+Signal/noise ratio:                     1
+Precursor window size:                  3 m/z
+********************** Parameters **********************
+
+Processing spectrum Scan_1...           0% finished.
+Processing spectrum Scan_100...         10% finished.
+Processing spectrum Scan_200...         21% finished.
+Processing spectrum Scan_300...         32% finished.
+Processing spectrum Scan_400...         43% finished.
+Processing spectrum Scan_500...         54% finished.
+Processing spectrum Scan_600...         65% finished.
+Processing spectrum Scan_700...         76% finished.
+Processing spectrum Scan_800...         87% finished.
+Processing spectrum Scan_900...         98% finished.
+Processing spectrum Scan_911...         100% finished.
+Deconvolution finished.
+Runing time: 711 seconds.
+TopFD finished.

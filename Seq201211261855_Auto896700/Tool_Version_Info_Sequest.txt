@@ -1,0 +1,8 @@
+Date: 2012-11-26 10:14:29 PM
+Dataset: Sor_Lysate_HR_30Mar11_Draco_11-03-10
+Job: 896700
+Step: 3
+Tool: Sequest
+ToolVersionInfo:
+TurboSEQUEST - PVM Slave v.27 (rev. 12), (c) 1998-2005
+sequest27_master.exe: 2006-05-22 06:21:38 AM

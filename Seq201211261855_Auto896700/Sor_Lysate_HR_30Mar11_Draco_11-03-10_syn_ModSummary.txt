@@ -1,0 +1,3 @@
+Modification_Symbol	Modification_Mass	Target_Residues	Modification_Type	Mass_Correction_Tag	Occurrence_Count
+*	42.0218	K	D	Guanid	171030
+-	57.0215	C	S	IodoAcet	43337

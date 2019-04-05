@@ -1,0 +1,38 @@
+2018-07-12 16:18:08, Total targets loaded= 815, INFO
+2018-07-12 16:18:08, Started Processing...., INFO
+2018-07-12 16:18:08, Dataset = F:\DMS_WorkDir5\20180709PDX_13.raw, INFO
+2018-07-12 16:18:08, Parameters:
+AreaOfPeakToSumInDynamicSumming	2
+ChromatogramCorrelationIsPerformed	False
+ChromGeneratorMode	MOST_ABUNDANT_PEAK
+ChromGenSourceDataPeakBR	2
+ChromGenSourceDataSigNoise	3
+ChromGenTolerance	10
+ChromGenToleranceUnit	PPM
+ChromNETTolerance	0.025
+ChromPeakDetectorPeakBR	0.1
+ChromPeakDetectorSigNoise	0.1
+ChromPeakSelectorMode	Smart
+ChromSmootherNumPointsInSmooth	9
+MaxScansSummedInDynamicSumming	100
+MSPeakDetectorPeakBR	1.3
+MSPeakDetectorSigNoise	2
+MSToleranceInPPM	25
+MultipleHighQualityMatchesAreAllowed	True
+NumChromPeaksAllowedDuringSelection	10
+NumMSScansToSum	5
+ProcessMsMs	False
+ResultType	TOPDOWN_TARGETED_RESULT
+SaveChromatogramData	False
+SmartChromPeakSelectorNumMSSummed	1
+SummingMode	SUMMINGMODE_STATIC
+WorkflowType	TopDownTargeted1
+, INFO
+2018-07-12 16:18:09, Run initialized successfully., INFO
+2018-07-12 16:18:09, Creating _Peaks.txt file for extracted ion chromatogram (XIC) source data ... takes 1-5 minutes, INFO
+2018-07-12 16:18:18, Done creating _Peaks.txt file, INFO
+2018-07-12 16:18:18, Peak loading started..., INFO
+2018-07-12 16:18:19, Peak Loading complete., INFO
+2018-07-12 16:18:19, FYI - Run has NOT been mass aligned., INFO
+2018-07-12 16:18:19, Run has been NET aligned using info in either the _NETAlignment.txt file or the _UMCs.txt file, INFO
+2018-07-12 16:18:19, Processing..., INFO

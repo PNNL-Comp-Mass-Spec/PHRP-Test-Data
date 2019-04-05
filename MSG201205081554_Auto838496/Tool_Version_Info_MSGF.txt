@@ -1,0 +1,8 @@
+Date: 2012-05-08 04:00:01 PM
+Dataset: QC_Shew_11_06_Run-03_7May12_Roc_12-04-08
+Job: 838496
+Step: 5
+Tool: MSGF
+ToolVersionInfo:
+AnalysisManagerMSGFPlugin, Version=1.3.4500.25348
+MSGFDB.jar: 2012-05-07 04:33:12 PM

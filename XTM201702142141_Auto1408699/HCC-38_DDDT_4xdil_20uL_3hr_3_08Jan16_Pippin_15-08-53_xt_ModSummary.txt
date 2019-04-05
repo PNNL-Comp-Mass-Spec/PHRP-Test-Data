@@ -1,0 +1,6 @@
+Modification_Symbol	Modification_Mass	Target_Residues	Modification_Type	Mass_Correction_Tag	Occurrence_Count
+*	79.966331	STY	D	Phosph	2785
+#	42.010567	<	D	Acetyl	26
+@	57.021465	C	D	IodoAcet	462
+$	-18.010565	E	D	MinusH2O	104
+&	-17.026548	QC	D	NH3_Loss	84

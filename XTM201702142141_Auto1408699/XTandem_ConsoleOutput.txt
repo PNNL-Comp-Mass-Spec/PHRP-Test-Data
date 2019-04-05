@@ -1,0 +1,38 @@
+
+X! TANDEM Alanine (2017.2.1.2)
+
+Loading spectra| (dta)....... loaded.
+Spectra matching criteria = 13412
+Starting threads .|.|.|.|.|.|. started.
+Computing models:
+	Spectrum-to-sequence matching process in progress | 5 ks 
+	Spectrum-to-sequence matching process in progress | 10 ks 
+	Spectrum-to-sequence matching process in progress | 15 ks 
+	Spectrum-to-sequence matching process in progress | 20 ks 
+	Spe
+	waiting for 2|34|5|6|7| done.
+
+	sequences modelled = 20 ks
+Model refinement:
+	partial cleavage ....................................................................................................... done.
+	unanticipated cleavage ........................................................................................:............... done.
+	finishing refinement ... done.
+
+	waiting for 2|3|4|5|6|7| done.
+
+Merging results:
+	from 2.3.4.5.6.7.
+
+Creating report:
+	initial calculations  ..... done.
+	sorting  ..... done.
+	finding repeats ..... done.
+	evaluating results ..... done.
+	calculating expectations ..... done.
+	writing results ..... done.
+
+Valid models = 2191
+Unique models = 2089
+Estimated false positives = 292 &#177; 17
+
+

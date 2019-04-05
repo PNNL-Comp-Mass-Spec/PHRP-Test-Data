@@ -1,0 +1,9 @@
+Date: 2017-02-14 09:41:42 PM
+Dataset: HCC-38_DDDT_4xdil_20uL_3hr_3_08Jan16_Pippin_15-08-53
+Job: 1408699
+Step: 2
+Tool: MSMSSpectraPreprocessor
+ToolVersionInfo:
+MSMSSpectrumFilterAM, Version=1.2.6254.36034
+MsMsDataFileReader, Version=1.1.6138.31158
+MsMsDataFileReader.dll: 2016-10-24 04:43:51 PM

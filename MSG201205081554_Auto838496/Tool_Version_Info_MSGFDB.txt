@@ -1,0 +1,8 @@
+Date: 2012-05-08 03:54:22 PM
+Dataset: QC_Shew_11_06_Run-03_7May12_Roc_12-04-08
+Job: 838496
+Step: 3
+Tool: MSGFDB
+ToolVersionInfo:
+MSGFDB v7711 (05/07/2012)
+MSGFDB.jar: 2012-05-07 04:33:12 PM
