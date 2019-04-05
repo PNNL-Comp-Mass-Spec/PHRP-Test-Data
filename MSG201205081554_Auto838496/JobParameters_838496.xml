@@ -1,0 +1,64 @@
+﻿<sections>
+  <section name="Charges">
+    <item key="CreateDefaultCharges" value="True" />
+    <item key="ExplicitChargeEnd" value="0" />
+    <item key="ExplicitChargeStart" value="0" />
+  </section>
+  <section name="DtaGenerator">
+    <item key="DtaGenerator" value="DeconMSN.exe" />
+  </section>
+  <section name="IonCounts">
+    <item key="IonCount" value="35" />
+  </section>
+  <section name="JobParameters">
+    <item key="DataPackageID" value="0" />
+    <item key="DatasetArchivePath" value="\\a2.emsl.pnl.gov\dmsarch\LTQ_Orb_3\2012_2" />
+    <item key="DatasetFolderName" value="QC_Shew_11_06_Run-03_7May12_Roc_12-04-08" />
+    <item key="DatasetID" value="269466" />
+    <item key="DatasetNum" value="QC_Shew_11_06_Run-03_7May12_Roc_12-04-08" />
+    <item key="DatasetStoragePath" value="\\proto-3\LTQ_Orb_3\2012_2\" />
+    <item key="DatasetType" value="HMS-MSn" />
+    <item key="InstClass" value="LTQ_FT" />
+    <item key="OrgDbReqd" value="1" />
+    <item key="RawDataType" value="dot_raw_files" />
+    <item key="ResultType" value="MSG_Peptide_Hit" />
+    <item key="SearchEngineInputFileFormats" value="Concat_DTA" />
+    <item key="SettingsFileName" value="IonTrapDefSettings_DeconMSN.xml" />
+    <item key="ToolName" value="MSGFDB" />
+    <item key="transferFolderPath" value="\\proto-3\DMS3_Xfer\" />
+  </section>
+  <section name="MassTol">
+    <item key="MassTol" value="3" />
+  </section>
+  <section name="MSGFDB">
+    <item key="MSGFDBJavaMemorySize" value="4000" />
+    <item key="MSGFDBThreads" value="4" />
+  </section>
+  <section name="MWControl">
+    <item key="MWStart" value="200" />
+    <item key="MWStop" value="5000" />
+  </section>
+  <section name="PeptideSearch">
+    <item key="legacyFastaFileName" value="ID_003456_9B916A8B.fasta" />
+    <item key="OrganismName" value="Shewanella_oneidensis_MR-1" />
+    <item key="ParmFileName" value="MSGFDB_PartTryp_MetOx_50ppmParTol_NoDecoy_EstimateFDR.txt" />
+    <item key="ParmFileStoragePath" value="\\gigasax\DMS_Parameter_Files\MSGFDB\" />
+    <item key="ProteinCollectionList" value="Shewanella_oneidensis_MR1_2010-04-22,Tryp_Pig_Bov" />
+    <item key="ProteinOptions" value="seq_direction=forward,filetype=fasta" />
+  </section>
+  <section name="ScanControl">
+    <item key="MaxIntermediateScansWhenGrouping" value="1" />
+    <item key="ScanStart" value="1" />
+    <item key="ScanStop" value="999999" />
+  </section>
+  <section name="StepParameters">
+    <item key="Job" value="838496" />
+    <item key="Step" value="5" />
+    <item key="StepTool" value="MSGF" />
+    <item key="InputFolderName" value="MSG201205081554_Auto838496" />
+    <item key="OutputFolderName" value="MSG201205081554_Auto838496" />
+    <item key="SharedResultsFolders" value="DTA_Gen_1_26_269466" />
+    <item key="StepOutputFolderName" value="Step_5_MSGF" />
+    <item key="StepInputFolderName" value="Step_4_DataExtractor" />
+  </section>
+</sections>

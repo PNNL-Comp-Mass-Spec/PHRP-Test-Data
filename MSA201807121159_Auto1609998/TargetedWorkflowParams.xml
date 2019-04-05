@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WorkflowParameters>
+    <CopyRawFileLocal>false</CopyRawFileLocal>
+    <DeleteLocalDatasetAfterProcessing>false</DeleteLocalDatasetAfterProcessing>
+    <FileContainingDatasetPaths />
+    <FolderPathForCopiedRawDataset />
+    <LoggingFolder>F:\DMS_WorkDir5</LoggingFolder>
+    <TargetsFilePath>F:\DMS_WorkDir5\20180709PDX_13_MSAlign_ResultTable.txt</TargetsFilePath>
+    <TargetType>LcmsFeature</TargetType>
+    <ResultsFolder>F:\DMS_WorkDir5</ResultsFolder>
+    <WorkflowParameterFile>F:\DMS_WorkDir5\MSAlign_Quant_Workflow_2012-07-25.xml</WorkflowParameterFile>
+    <WorkflowType>TopDownTargetedWorkflowExecutor1</WorkflowType>
+</WorkflowParameters>

@@ -1,0 +1,98 @@
+<sections>
+  <section name="Charges">
+    <item key="CreateDefaultCharges" value="True" />
+    <item key="ExplicitChargeEnd" value="0" />
+    <item key="ExplicitChargeStart" value="0" />
+  </section>
+  <section name="DtaGenerator">
+    <item key="CentroidDTAs" value="True" />
+    <item key="DtaGenerator" value="DeconMSN.exe" />
+  </section>
+  <section name="FilterOptions">
+    <item key="DiscardValidSpectra" value="False" />
+    <item key="EvaluateSpectrumQualityOnly" value="False" />
+    <item key="FilterMode" value="0" />
+    <item key="GenerateFilterReport" value="True" />
+    <item key="IncludeNLStatsOnFilterReport" value="True" />
+    <item key="MinimumQualityScore" value="0.25" />
+    <item key="MSCollisionModeFilter" value="etd" />
+    <item key="MSCollisionModeMatchType" value="contains" />
+    <item key="MSLevelFilter" value="0" />
+    <item key="OverwriteExistingFiles" value="True" />
+  </section>
+  <section name="IonCounts">
+    <item key="IonCount" value="35" />
+  </section>
+  <section name="JobParameters">
+    <item key="DataPackageID" value="0" />
+    <item key="DatasetArchivePath" value="\\adms.emsl.pnl.gov\dmsarch\Lumos01\2016_1" />
+    <item key="DatasetFolderName" value="HCC-38_DDDT_4xdil_20uL_3hr_3_08Jan16_Pippin_15-08-53" />
+    <item key="DatasetID" value="469896" />
+    <item key="DatasetNum" value="HCC-38_DDDT_4xdil_20uL_3hr_3_08Jan16_Pippin_15-08-53" />
+    <item key="DatasetStoragePath" value="\\proto-11\Lumos01\2016_1\" />
+    <item key="DatasetType" value="HMS-ETciD-MSn" />
+    <item key="Experiment" value="HCC-38_pSTY" />
+    <item key="InstClass" value="LTQ_FT" />
+    <item key="Instrument" value="Lumos01" />
+    <item key="InstrumentDataPurged" value="0" />
+    <item key="InstrumentGroup" value="Lumos" />
+    <item key="OrgDbReqd" value="1" />
+    <item key="RawDataType" value="dot_raw_files" />
+    <item key="ResultType" value="XT_Peptide_Hit" />
+    <item key="SearchEngineInputFileFormats" value="Concat_DTA, MGF, PKL, mzXML" />
+    <item key="SettingsFileName" value="IonTrapDefSettings_DeconMSN_Centroid_Top500_ETDOnly.xml" />
+    <item key="ToolName" value="XTandem" />
+    <item key="transferFolderPath" value="\\proto-11\DMS3_Xfer\" />
+  </section>
+  <section name="MassTol">
+    <item key="MassTol" value="3" />
+  </section>
+  <section name="MSGF">
+    <item key="KeepMSGFInputFile" value="False" />
+    <item key="MSGFJavaMemorySize" value="4000" />
+  </section>
+  <section name="MSXMLGenerator">
+    <item key="CentroidMSXML" value="True" />
+    <item key="CentroidPeakCountToRetain" value="500" />
+    <item key="MSXMLGenerator" value="MSConvert.exe" />
+    <item key="MSXMLOutputType" value="mzXML" />
+  </section>
+  <section name="PeptideSearch">
+    <item key="legacyFastaFileName" value="ID_004208_295531A4.fasta" />
+    <item key="OrganismName" value="Homo_sapiens" />
+    <item key="ParmFileName" value="xtandem_ETD_Rnd1Tryp_StatCysAlk_STYPhos_NoRefinement_20ppmParent_0pt5DaFrag.xml" />
+    <item key="ParmFileStoragePath" value="\\gigasax\DMS_Parameter_Files\XTandem\" />
+    <item key="ProteinCollectionList" value="H_sapiens_Uniprot_SPROT_2013-09-18,Tryp_Pig_Bov" />
+    <item key="ProteinOptions" value="seq_direction=forward,filetype=fasta" />
+  </section>
+  <section name="SpectraFilter">
+    <item key="FilterType" value="msms_spectrum_filter" />
+  </section>
+  <section name="StepParameters" step="2">
+    <item key="StepTool" value="MSMSSpectraPreprocessor" />
+    <item key="InputFolderName" value="DTA_Gen_1_153_469896" />
+    <item key="OutputFolderName" value="XTM201702142141_Auto1408699" />
+  </section>
+  <section name="StepParameters" step="3">
+    <item key="StepTool" value="XTandem" />
+    <item key="InputFolderName" value="XTM201702142141_Auto1408699" />
+    <item key="OutputFolderName" value="XTM201702142141_Auto1408699" />
+    <item key="ParamFileStoragePath" value="\\gigasax\DMS_Parameter_Files\XTandem" />
+  </section>
+  <section name="StepParameters" step="4">
+    <item key="StepTool" value="DataExtractor" />
+    <item key="InputFolderName" value="XTM201702142141_Auto1408699" />
+    <item key="OutputFolderName" value="XTM201702142141_Auto1408699" />
+  </section>
+  <section name="StepParameters" step="5">
+    <item key="StepTool" value="MSGF" />
+    <item key="InputFolderName" value="XTM201702142141_Auto1408699" />
+    <item key="OutputFolderName" value="XTM201702142141_Auto1408699" />
+  </section>
+  <section name="StepParameters" step="6">
+    <item key="StepTool" value="IDPicker" />
+    <item key="InputFolderName" value="XTM201702142141_Auto1408699" />
+    <item key="OutputFolderName" value="XTM201702142141_Auto1408699" />
+    <item key="ParamFileStoragePath" value="\\gigasax\DMS_Parameter_Files\IDPicker" />
+  </section>
+</sections>

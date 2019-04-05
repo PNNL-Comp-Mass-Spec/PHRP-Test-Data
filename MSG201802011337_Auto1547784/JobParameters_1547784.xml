@@ -1,0 +1,67 @@
+<sections>
+  <section name="Charges">
+    <item key="CreateDefaultCharges" value="True" />
+    <item key="ExplicitChargeEnd" value="0" />
+    <item key="ExplicitChargeStart" value="0" />
+  </section>
+  <section name="DtaGenerator">
+    <item key="CentroidMGF" value="True" />
+    <item key="CentroidPeakCountToRetain" value="500" />
+    <item key="DtaGenerator" value="MSConvert.exe" />
+  </section>
+  <section name="JobParameters">
+    <item key="DataPackageID" value="0" />
+    <item key="DatasetArchivePath" value="\\agate.emsl.pnl.gov\dmsarch\Lumos01\2017_1" />
+    <item key="DatasetFolderName" value="MCF-7_pSTY_2_OldGr_15Mar17_Merry__IntEmtr" />
+    <item key="DatasetID" value="570265" />
+    <item key="DatasetNum" value="MCF-7_pSTY_2_OldGr_15Mar17_Merry__IntEmtr" />
+    <item key="DatasetStoragePath" value="\\proto-11\Lumos01\2017_1\" />
+    <item key="DatasetType" value="HMS-HCD-HMSn" />
+    <item key="Experiment" value="MCF-7_pSTY" />
+    <item key="InstClass" value="LTQ_FT" />
+    <item key="Instrument" value="Lumos01" />
+    <item key="InstrumentDataPurged" value="0" />
+    <item key="InstrumentGroup" value="Lumos" />
+    <item key="OrgDbReqd" value="1" />
+    <item key="RawDataType" value="dot_raw_files" />
+    <item key="ResultType" value="MSG_Peptide_Hit" />
+    <item key="SearchEngineInputFileFormats" value="Concat_DTA" />
+    <item key="SettingsFileName" value="IonTrapDefSettings_MSConvert.xml" />
+    <item key="ToolName" value="MSGFPlus" />
+    <item key="transferFolderPath" value="\\proto-11\DMS3_Xfer\" />
+  </section>
+  <section name="MSGFDB">
+    <item key="MSGFDBJavaMemorySize" value="4000" />
+    <item key="MSGFDBThreads" value="all" />
+  </section>
+  <section name="PeptideSearch">
+    <item key="legacyFastaFileName" value="" />
+    <item key="OrganismName" value="Homo_sapiens" />
+    <item key="ParmFileName" value="MSGFDB_Tryp_DynSTYPhos_Stat_CysAlk_20ppmParTol.txt" />
+    <item key="ParmFileStoragePath" value="\\gigasax\DMS_Parameter_Files\MSGFDB\" />
+    <item key="ProteinCollectionList" value="H_sapiens_Uniprot_SPROT_2013-09-18,Tryp_Pig_Bov" />
+    <item key="ProteinOptions" value="seq_direction=forward,filetype=fasta" />
+  </section>
+  <section name="StepParameters" step="3">
+    <item key="StepTool" value="MSGFPlus" />
+    <item key="InputFolderName" value="DTA_Gen_1_151_570265" />
+    <item key="OutputFolderName" value="MSG201802011337_Auto1547784" />
+    <item key="ParamFileStoragePath" value="\\gigasax\DMS_Parameter_Files\MSGFDB" />
+  </section>
+  <section name="StepParameters" step="4">
+    <item key="StepTool" value="DataExtractor" />
+    <item key="InputFolderName" value="MSG201802011337_Auto1547784" />
+    <item key="OutputFolderName" value="MSG201802011337_Auto1547784" />
+  </section>
+  <section name="StepParameters" step="5">
+    <item key="StepTool" value="MSGF" />
+    <item key="InputFolderName" value="MSG201802011337_Auto1547784" />
+    <item key="OutputFolderName" value="MSG201802011337_Auto1547784" />
+  </section>
+  <section name="StepParameters" step="6">
+    <item key="StepTool" value="IDPicker" />
+    <item key="InputFolderName" value="MSG201802011337_Auto1547784" />
+    <item key="OutputFolderName" value="MSG201802011337_Auto1547784" />
+    <item key="ParamFileStoragePath" value="\\gigasax\DMS_Parameter_Files\IDPicker" />
+  </section>
+</sections>

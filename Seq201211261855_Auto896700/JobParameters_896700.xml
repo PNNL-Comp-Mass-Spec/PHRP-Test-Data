@@ -1,0 +1,65 @@
+﻿<sections>
+  <section name="Charges">
+    <item key="CreateDefaultCharges" value="True" />
+    <item key="ExplicitChargeEnd" value="0" />
+    <item key="ExplicitChargeStart" value="0" />
+  </section>
+  <section name="DtaGenerator">
+    <item key="DtaGenerator" value="extract_msn.exe" />
+  </section>
+  <section name="IonCounts">
+    <item key="IonCount" value="35" />
+  </section>
+  <section name="JobParameters">
+    <item key="DataPackageID" value="0" />
+    <item key="DatasetArchivePath" value="\\a2.emsl.pnl.gov\dmsarch\LTQ_4\2011_1" />
+    <item key="DatasetFolderName" value="Sor_Lysate_HR_30Mar11_Draco_11-03-10" />
+    <item key="DatasetID" value="217765" />
+    <item key="DatasetNum" value="Sor_Lysate_HR_30Mar11_Draco_11-03-10" />
+    <item key="DatasetStoragePath" value="\\Proto-7\LTQ_4\2011_1\" />
+    <item key="DatasetType" value="MS-MSn" />
+    <item key="Experiment" value="Sor_Lysate_HR" />
+    <item key="InstClass" value="Finnigan_Ion_Trap" />
+    <item key="OrgDbReqd" value="1" />
+    <item key="RawDataType" value="dot_raw_files" />
+    <item key="ResultType" value="Peptide_Hit" />
+    <item key="SearchEngineInputFileFormats" value="Individual_DTA" />
+    <item key="SettingsFileName" value="FinniganDefSettings.xml" />
+    <item key="ToolName" value="Sequest" />
+    <item key="transferFolderPath" value="\\Proto-7\DMS3_Xfer\" />
+  </section>
+  <section name="MassTol">
+    <item key="MassTol" value="3" />
+  </section>
+  <section name="MSGF">
+    <item key="KeepMSGFInputFile" value="False" />
+    <item key="MSGFJavaMemorySize" value="4000" />
+  </section>
+  <section name="MWControl">
+    <item key="MWStart" value="200" />
+    <item key="MWStop" value="5000" />
+  </section>
+  <section name="PeptideSearch">
+    <item key="legacyFastaFileName" value="na" />
+    <item key="OrganismName" value="Aspergillus_niger" />
+    <item key="ParmFileName" value="sequest_N14_NE_StatC_Iodo_DynK_Guanid.params" />
+    <item key="ParmFileStoragePath" value="\\gigasax\DMS_Parameter_Files\Sequest\" />
+    <item key="ProteinCollectionList" value="Aspergillus_niger_JGI_2006-04-04,Tryp_Pig_Bov" />
+    <item key="ProteinOptions" value="seq_direction=decoy,filetype=fasta" />
+  </section>
+  <section name="ScanControl">
+    <item key="MaxIntermediateScansWhenGrouping" value="1" />
+    <item key="ScanStart" value="1" />
+    <item key="ScanStop" value="999999" />
+  </section>
+  <section name="StepParameters">
+    <item key="Job" value="896700" />
+    <item key="Step" value="3" />
+    <item key="StepTool" value="Sequest" />
+    <item key="InputFolderName" value="DTA_Gen_1_12_217765" />
+    <item key="OutputFolderName" value="Seq201211261855_Auto896700" />
+    <item key="SharedResultsFolders" value="DTA_Gen_1_12_217765" />
+    <item key="StepOutputFolderName" value="Step_3_Sequest" />
+    <item key="StepInputFolderName" value="Step_2_MSMSSpectraPreprocessor" />
+  </section>
+</sections>

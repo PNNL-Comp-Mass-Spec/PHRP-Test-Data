@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<bioml>
+	<note>This parameter file contains parameter definitions that override the defaults</note>
+
+	<note>Use fully tryptic search in round 1 searching</note>
+	<note type="input" label="protein, cleavage site">[RK]|{P}</note>
+
+	<note>Complete (static) modifications during round 1 searching</note>
+	<note type="input" label="residue, modification mass">57.0215@C</note>
+		<note>Alkylated Cysteine (Iodoacetamide)</note>
+
+	<note>Potential (dynamic) modifications during round 1 searching</note>
+	<note type="input" label="residue, potential modification mass">79.9663@S,79.9663@T,79.9663@Y</note>
+		<note>STY phophorylation</note>
+
+	<note>Complete (static) modifications during round 2 searching</note>
+	<note type="input" label="refine, modification mass">57.0215@C</note>
+		<note>Alkylated Cysteine (Iodoacetamide)</note>
+
+	<note>Potential (dynamic) modifications during round 2 searching</note>
+	<note type="input" label="refine, potential modification mass">79.9663@S,79.9663@T,79.9663@Y</note>
+		<note>STY phophorylation</note>
+
+	<note>Mass tolerances for parent ion</note>
+	<note type="input" label="spectrum, parent monoisotopic mass error plus">20</note>
+	<note type="input" label="spectrum, parent monoisotopic mass error minus">20</note>
+	<note type="input" label="spectrum, parent monoisotopic mass isotope error">yes</note>
+		<note>values = yes|no, set to yes to anticipate carbon isotope parent ion assignment error;
+		useful when using narrow mass tolerances (like +/- 25 ppm) to instruct XTandem to consider
+		parent ion masses -.5 and -1 m/z away from the reported parent ion</note>
+	<note type="input" label="spectrum, parent monoisotopic mass error units">ppm</note>
+		<note>The value for this parameter may be 'Daltons' or 'ppm': all other values are ignored</note>
+
+	<note type="input" label="spectrum, fragment monoisotopic mass error">0.5</note>
+	<note type="input" label="spectrum, fragment monoisotopic mass error units">Daltons</note>
+
+	<note>ETD data: enable c and z while disabling b and y</note>
+		<note type="input" label="scoring, a ions">no</note>
+		<note type="input" label="scoring, b ions">no</note>
+		<note type="input" label="scoring, c ions">yes</note>
+		<note type="input" label="scoring, x ions">no</note>
+		<note type="input" label="scoring, y ions">no</note>
+		<note type="input" label="scoring, z ions">yes</note>
+
+</bioml>

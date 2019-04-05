@@ -1,0 +1,66 @@
+<sections>
+  <section name="JobParameters">
+    <item key="DataPackageID" value="0" />
+    <item key="DatasetArchivePath" value="\\agate.emsl.pnl.gov\dmsarch\QExactHF03\2018_2" />
+    <item key="DatasetFolderName" value="QC_Shew_17_01_4_27Apr18_Merry_18-02-04" />
+    <item key="DatasetID" value="667568" />
+    <item key="DatasetNum" value="QC_Shew_17_01_4_27Apr18_Merry_18-02-04" />
+    <item key="DatasetStoragePath" value="\\proto-3\QExactHF03\2018_2\" />
+    <item key="DatasetType" value="HMS-HCD-HMSn" />
+    <item key="Experiment" value="QC_ShewIntact_17_01" />
+    <item key="InstClass" value="LTQ_FT" />
+    <item key="Instrument" value="QExactHF03" />
+    <item key="InstrumentDataPurged" value="0" />
+    <item key="InstrumentGroup" value="QExactive" />
+    <item key="OrgDbReqd" value="1" />
+    <item key="RawDataType" value="dot_raw_files" />
+    <item key="ResultType" value="MSP_Peptide_Hit" />
+    <item key="SearchEngineInputFileFormats" value="(na)" />
+    <item key="SettingsFileName" value="MSPF_TopDown_Standard.xml" />
+    <item key="Special_Processing" value="" />
+    <item key="ToolName" value="MSPathFinder" />
+    <item key="transferFolderPath" value="\\proto-3\DMS3_Xfer\" />
+  </section>
+  <section name="PbfGenerator">
+    <item key="PbfFormatVersion" value="150608" />
+  </section>
+  <section name="PeptideSearch">
+    <item key="legacyFastaFileName" value="ID_006407_8F27399B.fasta" />
+    <item key="OrganismName" value="Shewanella_oneidensis_MR-1" />
+    <item key="ParmFileName" value="MSPF_MetOx_CysDehydro_NTermAcet_SingleInternalCleavage.txt" />
+    <item key="ParmFileStoragePath" value="\\gigasax\DMS_Parameter_Files\MSPathFinder" />
+    <item key="ProteinCollectionList" value="Shewanella_oneidensis_MR1_2010-04-22,HumanContam" />
+    <item key="ProteinOptions" value="seq_direction=forward,filetype=fasta" />
+  </section>
+  <section name="ProMex">
+    <item key="ProMexParamFile" value="ProMex_Charge2to60_Mass2000to50000.txt" />
+  </section>
+  <section name="StepParameters" step="1">
+    <item key="StepTool" value="PBF_Gen" />
+    <item key="InputFolderName" value="" />
+    <item key="OutputFolderName" value="PBF_Gen_1_243_667568" />
+    <item key="ParamFileStoragePath" value="(na)" />
+  </section>
+  <section name="StepParameters" step="2">
+    <item key="StepTool" value="ProMex" />
+    <item key="InputFolderName" value="PBF_Gen_1_243_667568" />
+    <item key="OutputFolderName" value="ProMex_1_244_667568" />
+    <item key="ParamFileStoragePath" value="\\gigasax\dms_parameter_Files\ProMex" />
+  </section>
+  <section name="StepParameters" step="3">
+    <item key="StepTool" value="MSPathFinder" />
+    <item key="InputFolderName" value="ProMex_1_244_667568" />
+    <item key="OutputFolderName" value="MSP201804280928_Auto1578533" />
+    <item key="ParamFileStoragePath" value="\\gigasax\DMS_Parameter_Files\MSPathFinder" />
+  </section>
+  <section name="StepParameters" step="4">
+    <item key="StepTool" value="DataExtractor" />
+    <item key="InputFolderName" value="MSP201804280928_Auto1578533" />
+    <item key="OutputFolderName" value="MSP201804280928_Auto1578533" />
+  </section>
+  <section name="StepParameters" step="5">
+    <item key="StepTool" value="MSGF" />
+    <item key="InputFolderName" value="MSP201804280928_Auto1578533" />
+    <item key="OutputFolderName" value="MSP201804280928_Auto1578533" />
+  </section>
+</sections>

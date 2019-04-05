@@ -1,0 +1,75 @@
+<sections>
+  <section name="JobParameters">
+    <item key="DataPackageID" value="0" />
+    <item key="DatasetArchivePath" value="\\agate.emsl.pnl.gov\dmsarch\VOrbiETD02\2018_3" />
+    <item key="DatasetFolderName" value="20180709PDX_13" />
+    <item key="DatasetID" value="687150" />
+    <item key="DatasetNum" value="20180709PDX_13" />
+    <item key="DatasetStoragePath" value="\\proto-4\VOrbiETD02\2018_3\" />
+    <item key="DatasetType" value="HMS-HCD-ETD-HMSn" />
+    <item key="Experiment" value="SSA2018_PDX_denature" />
+    <item key="InstClass" value="LTQ_FT" />
+    <item key="Instrument" value="VOrbiETD02" />
+    <item key="InstrumentDataPurged" value="0" />
+    <item key="InstrumentGroup" value="VelosOrbi" />
+    <item key="OrgDbReqd" value="1" />
+    <item key="RawDataType" value="dot_raw_files" />
+    <item key="ResultType" value="MSA_Peptide_Hit" />
+    <item key="SearchEngineInputFileFormats" value="mzXML" />
+    <item key="SettingsFileName" value="MSAlign_Standard.xml" />
+    <item key="Special_Processing" value="" />
+    <item key="ToolName" value="MSAlign" />
+    <item key="transferFolderPath" value="\\proto-4\DMS3_Xfer\" />
+  </section>
+  <section name="MSAlign">
+    <item key="MSAlignJavaMemorySize" value="16000" />
+  </section>
+  <section name="MSAlign_Quant">
+    <item key="MSAlignQuantParamFile" value="MSAlign_Quant_Workflow_2012-07-25.xml" />
+  </section>
+  <section name="MSDeconv">
+    <item key="MSDeconvJavaMemorySize" value="2000" />
+  </section>
+  <section name="MSXMLGenerator">
+    <item key="CentroidMSXML" value="True" />
+    <item key="CentroidPeakCountToRetain" value="-1" />
+    <item key="MSXMLGenerator" value="MSConvert.exe" />
+    <item key="MSXMLOutputType" value="mzXML" />
+  </section>
+  <section name="PeptideSearch">
+    <item key="legacyFastaFileName" value="na" />
+    <item key="OrganismName" value="Arabidopsis_thaliana" />
+    <item key="ParmFileName" value="MSAlign_15ppm_0pt01_FDR_2012-01-03.txt" />
+    <item key="ParmFileStoragePath" value="\\gigasax\DMS_Parameter_Files\MSAlign\" />
+    <item key="ProteinCollectionList" value="A_thaliana_TAIR10_20101214_2012-04-02,HumanContam" />
+    <item key="ProteinOptions" value="seq_direction=forward,filetype=fasta" />
+  </section>
+  <section name="StepParameters" step="1">
+    <item key="StepTool" value="MSXML_Gen" />
+    <item key="InputFolderName" value="" />
+    <item key="OutputFolderName" value="MSXML_Gen_1_215_687150" />
+    <item key="ParamFileStoragePath" value="\\gigasax\DMS_Parameter_Files\MSXML_Gen" />
+  </section>
+  <section name="StepParameters" step="2">
+    <item key="StepTool" value="MSDeconv" />
+    <item key="InputFolderName" value="MSXML_Gen_1_215_687150" />
+    <item key="OutputFolderName" value="MSA201807121159_Auto1609998" />
+  </section>
+  <section name="StepParameters" step="3">
+    <item key="StepTool" value="MSAlign" />
+    <item key="InputFolderName" value="MSA201807121159_Auto1609998" />
+    <item key="OutputFolderName" value="MSA201807121159_Auto1609998" />
+    <item key="ParamFileStoragePath" value="\\gigasax\DMS_Parameter_Files\MSAlign" />
+  </section>
+  <section name="StepParameters" step="4">
+    <item key="StepTool" value="DataExtractor" />
+    <item key="InputFolderName" value="MSA201807121159_Auto1609998" />
+    <item key="OutputFolderName" value="MSA201807121159_Auto1609998" />
+  </section>
+  <section name="StepParameters" step="5">
+    <item key="StepTool" value="MSAlign_Quant" />
+    <item key="InputFolderName" value="MSA201807121159_Auto1609998" />
+    <item key="OutputFolderName" value="MSA201807121159_Auto1609998" />
+    <item key="ParamFileStoragePath" value="\\gigasax\DMS_Parameter_Files\DeconToolsWorkflows" />
+  </section>
+</sections>
