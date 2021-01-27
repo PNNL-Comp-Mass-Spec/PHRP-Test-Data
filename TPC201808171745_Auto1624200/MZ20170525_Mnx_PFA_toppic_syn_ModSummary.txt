@@ -1,0 +1,11 @@
+Modification_Symbol	Modification_Mass	Target_Residues	Modification_Type	Mass_Correction_Tag	Occurrence_Count
+*	-1.98828	C	D	-1.98828	1
+#	-2.00464	T	D	-2.00464	1
+@	30.01443	W	D	+30.0144	1
+$	-1.89083	M	D	-1.89083	1
+&	47.00383	<	D	+47.0038	1
+!	46.00528	L	D	+46.0053	1
+%	14.06103	M	D	+14.0610	1
+~	14.33151	M	D	+14.3315	1
+†	-44.8491	R	D	-44.8491	1
+‡	38.93342	G	D	+38.9334	1
