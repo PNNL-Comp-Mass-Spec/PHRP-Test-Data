@@ -1,0 +1,94 @@
+java.exe -Xmx4000M -jar C:\DMS_Programs\MSGFDB\MSGFPlus.jar -s QC_Mam_19_01_R3_12Nov20_Oak_Jup-20-10-01.mzML -o QC_Mam_19_01_R3_12Nov20_Oak_Jup-20-10-01_msgfplus.mzid -d E:\DMS_Temp_Org\ID_004225_C1CEE570.fasta -conf MSGFPlus_Tryp_MetOx_StatCysAlk_20ppmParTol.txt
+--------------------------------------------------------------------------------
+MS-GF+ Release (v2020.07.02) (5 August 2020)
+Java 1.8.0_232 (AdoptOpenJDK)
+Windows 10 (amd64, version 10.0)
+Loading database files...
+Warning: Sequence database contains 34 counts of letter 'B', which does not correspond to an amino acid.
+Warning: Sequence database contains 66 counts of letter 'U', which does not correspond to an amino acid.
+Warning: Sequence database contains 158 counts of letter 'X', which does not correspond to an amino acid.
+Warning: Sequence database contains 46 counts of letter 'Z', which does not correspond to an amino acid.
+Counting number of distinct peptides in ID_004225_C1CEE570.revCat.csarr using ID_004225_C1CEE570.revCat.cnlcp
+Counting distinct peptides: 35.36% complete.
+Counting distinct peptides: 62.69% complete.
+Loading database finished (elapsed time: 7.47 sec)
+Reading spectra...
+Ignoring 0 profile spectra.
+Ignoring 4 spectra having less than 5 peaks.
+Reading spectra finished (elapsed time: 67.22 sec)
+Using 7 threads.
+Search Parameters:
+	PrecursorMassTolerance: 20.0 ppm
+	IsotopeError: -1,1
+	TargetDecoyAnalysis: true
+	FragmentationMethod: As written in the spectrum or CID if no info
+	Instrument: QExactive (Q-Exactive)
+	Enzyme: Tryp
+	Protocol: Standard
+	NumTolerableTermini: 2
+	MinPepLength: 6
+	MaxPepLength: 50
+	MinCharge: 2
+	MaxCharge: 5
+	NumMatchesPerSpec: 1
+	MaxMissedCleavages: -1
+	MaxNumModsPerPeptide: 3
+	ChargeCarrierMass: 1.00727649 (proton)
+	MinNumPeaksPerSpectrum: 5
+	NumIsoforms: 128
+Post translational modifications in use:
+	Fixed (static):     Carbamidomethyl on C (+57.0215)
+	Variable (dynamic): Oxidation on M (+15.9949)
+
+Spectrum 0-40954 (total: 40955)
+Splitting work into 21 tasks.
+Search progress: 0 / 21 tasks, 0.00%		0.00 seconds elapsed
+Loading built-in param file: HCD_QExactive_Tryp.param
+Loading built-in param file: HCD_QExactive_Tryp.param
+Search progress: 0 / 21 tasks, 12.45%		1.00 minutes elapsed
+Search progress: 0 / 21 tasks, 27.38%		2.00 minutes elapsed
+Search progress: 0 / 21 tasks, 29.40%		3.00 minutes elapsed
+Search progress: 1 / 21 tasks, 30.95%		3.66 minutes elapsed
+Search progress: 2 / 21 tasks, 31.26%		3.70 minutes elapsed
+Search progress: 3 / 20 tasks, 33.72%		3.89 minutes elapsed
+Search progress: 3 / 21 tasks, 35.35%		4.00 minutes elapsed
+Search progress: 4 / 21 tasks, 35.76%		4.06 minutes elapsed
+Search progress: 5 / 21 tasks, 37.88%		4.24 minutes elapsed
+Search progress: 6 / 21 tasks, 41.58%		4.54 minutes elapsed
+Search progress: 7 / 21 tasks, 42.33%		4.67 minutes elapsed
+Search progress: 7 / 21 tasks, 48.55%		5.00 minutes elapsed
+Search progress: 7 / 21 tasks, 55.44%		6.00 minutes elapsed
+Search progress: 7 / 21 tasks, 59.46%		7.00 minutes elapsed
+Search progress: 7 / 21 tasks, 62.47%		8.00 minutes elapsed
+Search progress: 8 / 21 tasks, 63.30%		8.45 minutes elapsed
+Search progress: 9 / 21 tasks, 65.67%		8.90 minutes elapsed
+Search progress: 9 / 21 tasks, 65.96%		9.00 minutes elapsed
+Search progress: 10 / 21 tasks, 68.04%		9.36 minutes elapsed
+Search progress: 11 / 21 tasks, 70.34%		9.78 minutes elapsed
+Search progress: 11 / 21 tasks, 72.00%		10.00 minutes elapsed
+Search progress: 12 / 21 tasks, 74.83%		10.48 minutes elapsed
+Search progress: 12 / 21 tasks, 77.93%		11.00 minutes elapsed
+Search progress: 13 / 21 tasks, 80.45%		11.46 minutes elapsed
+Search progress: 14 / 21 tasks, 83.55%		11.86 minutes elapsed
+Search progress: 14 / 21 tasks, 83.93%		12.00 minutes elapsed
+Search progress: 14 / 21 tasks, 89.95%		13.00 minutes elapsed
+Search progress: 14 / 21 tasks, 92.82%		14.00 minutes elapsed
+Search progress: 14 / 21 tasks, 95.55%		15.00 minutes elapsed
+Search progress: 15 / 21 tasks, 96.75%		15.94 minutes elapsed
+Search progress: 15 / 21 tasks, 96.81%		16.00 minutes elapsed
+Search progress: 16 / 21 tasks, 97.53%		16.44 minutes elapsed
+Search progress: 17 / 21 tasks, 98.28%		16.87 minutes elapsed
+Search progress: 17 / 21 tasks, 98.45%		17.00 minutes elapsed
+Search progress: 18 / 21 tasks, 98.75%		17.05 minutes elapsed
+Search progress: 19 / 21 tasks, 99.36%		17.37 minutes elapsed
+Search progress: 20 / 21 tasks, 99.83%		17.52 minutes elapsed
+Search progress: 21 / 21 tasks, 100.00%		17.53 minutes elapsed
+Search progress: 21 / 21 tasks, 100.00%		17.53 minutes elapsed
+Computing q-values...
+Computing q-values finished (elapsed time: 0.23 sec)
+Writing results...
+Writing results finished (elapsed time: 34.84 sec)
+File: QC_Mam_19_01_R3_12Nov20_Oak_Jup-20-10-01_msgfplus.mzid
+MS-GF+ complete (total elapsed time: 1154.10 sec)
+--------------------------------------------------------------------------------
+MzidToTsvConverter.exe -mzid:E:\DMS_WorkDir5\QC_Mam_19_01_R3_12Nov20_Oak_Jup-20-10-01_msgfplus.mzid -tsv:E:\DMS_WorkDir5\QC_Mam_19_01_R3_12Nov20_Oak_Jup-20-10-01_msgfplus.tsv -unroll -showDecoy

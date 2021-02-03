@@ -1,0 +1,80 @@
+<sections>
+  <section name="JobParameters">
+    <item key="DataPackageID" value="0" />
+    <item key="DatasetArchivePath" value="\\agate.emsl.pnl.gov\dmsarch\QExactP06\2020_4" />
+    <item key="DatasetFolderName" value="QC_Mam_19_01_R3_12Nov20_Oak_Jup-20-10-01" />
+    <item key="DatasetID" value="865867" />
+    <item key="DatasetNum" value="QC_Mam_19_01_R3_12Nov20_Oak_Jup-20-10-01" />
+    <item key="DatasetStoragePath" value="\\proto-3\QExactP06\2020_4\" />
+    <item key="DatasetType" value="HMS-HCD-HMSn" />
+    <item key="Experiment" value="QC_Mam_19_01" />
+    <item key="InstClass" value="LTQ_FT" />
+    <item key="Instrument" value="QExactP06" />
+    <item key="InstrumentDataPurged" value="0" />
+    <item key="InstrumentGroup" value="QExactive" />
+    <item key="OrgDbReqd" value="1" />
+    <item key="RawDataType" value="dot_raw_files" />
+    <item key="ResultType" value="MSG_Peptide_Hit" />
+    <item key="SearchEngineInputFileFormats" value="mzML" />
+    <item key="SettingsFileName" value="IonTrapDefSettings_MzML.xml" />
+    <item key="Special_Processing" value="" />
+    <item key="ToolName" value="MSGFPlus_MzML_NoRefine" />
+    <item key="transferFolderPath" value="\\proto-3\DMS3_Xfer\" />
+  </section>
+  <section name="MSGFDB">
+    <item key="MSGFDBJavaMemorySize" value="4000" />
+    <item key="MSGFDBThreads" value="all" />
+  </section>
+  <section name="MSXMLGenerator">
+    <item key="CentroidMSXML" value="True" />
+    <item key="CentroidPeakCountToRetain" value="-1" />
+    <item key="MSXMLGenerator" value="MSConvert.exe" />
+    <item key="MSXMLOutputType" value="mzML" />
+  </section>
+  <section name="MSXMLOptions">
+    <item key="StoreMSXmlInCache" value="True" />
+    <item key="StoreMSXmlInDataset" value="False" />
+  </section>
+  <section name="MzRefinery">
+    <item key="MzRefParamFile" value="MzRef_NoMods.txt" />
+  </section>
+  <section name="MzRefineryRuntimeOptions">
+    <item key="MzRefMSGFPlusJavaMemorySize" value="4000" />
+  </section>
+  <section name="PeptideSearch">
+    <item key="legacyFastaFileName" value="na" />
+    <item key="OrganismName" value="Mus_musculus" />
+    <item key="ParmFileName" value="MSGFPlus_Tryp_MetOx_StatCysAlk_20ppmParTol.txt" />
+    <item key="ParmFileStoragePath" value="\\gigasax\DMS_Parameter_Files\MSGFPlus" />
+    <item key="ProteinCollectionList" value="M_musculus_Uniprot_SPROT_2013_09_2013-09-18,Tryp_Pig_Bov" />
+    <item key="ProteinOptions" value="seq_direction=forward,filetype=fasta" />
+  </section>
+  <section name="StepParameters" step="1">
+    <item key="StepTool" value="MSXML_Gen" />
+    <item key="InputFolderName" value="" />
+    <item key="OutputFolderName" value="MSXML_Gen_1_194_865867" />
+    <item key="ParamFileStoragePath" value="\\gigasax\DMS_Parameter_Files\MSXML_Gen" />
+  </section>
+  <section name="StepParameters" step="2">
+    <item key="StepTool" value="MSGFPlus" />
+    <item key="InputFolderName" value="MSXML_Gen_1_194_865867" />
+    <item key="OutputFolderName" value="MSG202011150906_Auto1850387" />
+    <item key="ParamFileStoragePath" value="\\gigasax\DMS_Parameter_Files\MSGFPlus" />
+  </section>
+  <section name="StepParameters" step="3">
+    <item key="StepTool" value="DataExtractor" />
+    <item key="InputFolderName" value="MSG202011150906_Auto1850387" />
+    <item key="OutputFolderName" value="MSG202011150906_Auto1850387" />
+  </section>
+  <section name="StepParameters" step="4">
+    <item key="StepTool" value="MSGF" />
+    <item key="InputFolderName" value="MSG202011150906_Auto1850387" />
+    <item key="OutputFolderName" value="MSG202011150906_Auto1850387" />
+  </section>
+  <section name="StepParameters" step="5">
+    <item key="StepTool" value="IDPicker" />
+    <item key="InputFolderName" value="MSG202011150906_Auto1850387" />
+    <item key="OutputFolderName" value="MSG202011150906_Auto1850387" />
+    <item key="ParamFileStoragePath" value="\\gigasax\DMS_Parameter_Files\IDPicker" />
+  </section>
+</sections>

@@ -1,0 +1,22 @@
+Protein database file:                      	E:\DMS_Temp_Org\ID_006407_8F27399B.fasta
+Spectrum file:                              	Hubmap_nanoPOTs_top_down_QC_intact_20ng_FAIMS_LowNCE_r3_ms2.msalign
+Number of combined spectra:                 	1
+Fragmentation method:                       	FILE
+Search type:                                	TARGET+DECOY
+Fixed modifications:                        	None
+Use TopFD feature file:                     	True
+Maximum number of unexpected modifications: 	1
+Error tolerance for matching masses:        	15 ppm
+Error tolerance for identifying PrSM clusters: 	3.2 Da
+Spectrum-level cutoff type:                 	FDR
+Spectrum-level cutoff value:                	0.01
+Proteoform-level cutoff type:               	FDR
+Proteoform-level cutoff value:              	0.01
+Allowed N-terminal forms:                   	NONE,NME,NME_ACETYLATION,M_ACETYLATION
+Maximum mass shift of modifications:        	500 Da
+Minimum mass shift of modifications:        	-500 Da
+Thread number:                              	1
+E-value computation:                        	Generating function
+Executable file directory:                  	C:\DMS_Programs\TopPIC
+Start time:                                 	Mon Feb 01 16:53:40 2021
+End time:                                   	Mon Feb 01 17:10:45 2021
