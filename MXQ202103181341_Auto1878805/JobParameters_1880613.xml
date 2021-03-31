@@ -1,0 +1,63 @@
+<sections>
+  <section />
+  <section name="JobParameters">
+    <item key="DataPackageID" value="0" />
+    <item key="ToolName" value="MaxQuant" />
+    <item key="DatasetArchivePath" value="\\agate.emsl.pnl.gov\dmsarch\VOrbiETD02\2016_4" />
+    <item key="DatasetFolderName" value="QC_Shew_16_01-15f_08_4Nov16_Tiger_16-02-14" />
+    <item key="DatasetID" value="534700" />
+    <item key="DatasetNum" value="QC_Shew_16_01-15f_08_4Nov16_Tiger_16-02-14" />
+    <item key="DatasetStoragePath" value="\\proto-4\VOrbiETD02\2016_4\" />
+    <item key="DatasetType" value="HMS-MSn" />
+    <item key="Experiment" value="QC_Shew_16_01" />
+    <item key="InstClass" value="LTQ_FT" />
+    <item key="Instrument" value="VOrbiETD02" />
+    <item key="InstrumentDataPurged" value="0" />
+    <item key="InstrumentGroup" value="VelosOrbi" />
+    <item key="OrgDbReqd" value="1" />
+    <item key="RawDataType" value="dot_raw_files" />
+    <item key="ResultType" value="MXQ_Peptide_Hit" />
+    <item key="SettingsFileName" value="MaxQuant_Thermo_Raw.xml" />
+    <item key="Special_Processing" value="" />
+    <item key="ToolName" value="MaxQuant" />
+    <item key="transferFolderPath" value="\\proto-4\DMS3_Xfer\" />
+  </section>
+  <section name="MSXMLGenerator">
+    <item key="CentroidMSXML" value="False" />
+    <item key="CentroidPeakCountToRetain" value="-1" />
+    <item key="MSXMLGenerator" value="skip" />
+    <item key="MSXMLOutputType" value="skip" />
+  </section>
+  <section name="PeptideSearch">
+    <item key="legacyFastaFileName" value="na" />
+    <item key="OrganismName" value="Shewanella_oneidensis_MR-1" />
+    <item key="ParmFileName" value="MaxQuant_Tryp_Dyn_MetOx_NTermAcet_20ppmParTol.xml" />
+    <item key="ParmFileStoragePath" value="\\gigasax\DMS_Parameter_Files\MaxQuant" />
+    <item key="ProteinCollectionList" value="Shewanella_oneidensis_MR1_2010-04-22,Tryp_Pig_Bov" />
+    <item key="ProteinOptions" value="seq_direction=forward,filetype=fasta" />
+  </section>
+  <section name="StepParameters" step="2">
+    <item key="StepTool" value="MaxqPeak" />
+    <item key="InputFolderName" value="MSXML_Gen_1_283_534700" />
+    <item key="OutputFolderName" value="MXQ202103151122_Auto1880613" />
+    <item key="ParamFileStoragePath" value="\\gigasax\DMS_Parameter_Files\MaxQuant" />
+  </section>
+  <section name="StepParameters" step="3">
+    <item key="StepTool" value="MaxqS1" />
+    <item key="InputFolderName" value="MXQ202103151122_Auto1880613" />
+    <item key="OutputFolderName" value="MXQ202103151122_Auto1880613" />
+    <item key="ParamFileStoragePath" value="\\gigasax\DMS_Parameter_Files\MaxQuant" />
+  </section>
+  <section name="StepParameters" step="4">
+    <item key="StepTool" value="MaxqS2" />
+    <item key="InputFolderName" value="MXQ202103151122_Auto1880613" />
+    <item key="OutputFolderName" value="MXQ202103151122_Auto1880613" />
+    <item key="ParamFileStoragePath" value="\\gigasax\DMS_Parameter_Files\MaxQuant" />
+  </section>
+  <section name="StepParameters" step="5">
+    <item key="StepTool" value="MaxqS3" />
+    <item key="InputFolderName" value="MXQ202103151122_Auto1880613" />
+    <item key="OutputFolderName" value="MXQ202103151122_Auto1880613" />
+    <item key="ParamFileStoragePath" value="\\gigasax\DMS_Parameter_Files\MaxQuant" />
+  </section>
+</sections>
