@@ -1,0 +1,119 @@
+Instrument model: Q Exactive Plus Orbitrap
+Instrument name: Q Exactive Plus Orbitrap
+Instrument description: 
+Instrument serial number: Exactive Series slot #397
+
+                           Method of Q Exactive Plus
+
+OVERALL METHOD SETTINGS
+
+Global Settings
+Use lock masses                                                         best 
+Lock mass injection                                                        ― 
+Chrom. peak width (FWHM)                                                  15 s
+Time
+Method duration                                                       120.00 min
+Customized Tolerances (+/-)
+Lock Masses                                                                ― 
+Inclusion                                                                  ― 
+Exclusion                                                                  ― 
+Neutral Loss                                                               ― 
+Mass Tags                                                                  ― 
+Dynamic Exclusion                                                          ― 
+
+
+                                   Experiment
+
+FULL MS / DD-MS² (TOPN)
+General
+Runtime                                                             0 to 120 min
+Polarity                                                            Positive 
+In-source CID                                                            0.0 eV
+Default charge state                                                       4 
+Inclusion                                                                  ― 
+Exclusion                                                                  ― 
+Tags                                                                       ― 
+Full MS
+Microscans                                                                 1 
+Resolution                                                            70,000 
+AGC target                                                               3e6 
+Maximum IT                                                                20 ms
+Number of scan ranges                                                      1 
+Scan range                                                       400 to 2000 m/z
+Spectrum data type                                                   Profile 
+dd-MS² / dd-SIM
+Microscans                                                                 1 
+Resolution                                                            35,000 
+AGC target                                                               1e5 
+Maximum IT                                                               100 ms
+Loop count                                                                12 
+MSX count                                                                  1 
+TopN                                                                      12 
+Isolation window                                                         0.7 m/z
+Isolation offset                                                         0.0 m/z
+Scan range                                                       200 to 2000 m/z
+Fixed first mass                                                       110.0 m/z
+(N)CE / stepped (N)CE                                                nce: 30 
+Spectrum data type                                                  Centroid 
+dd Settings
+Minimum AGC target                                                    5.00e3 
+Intensity threshold                                                    5.0e4 
+Apex trigger                                                               ― 
+Charge exclusion                                               unassigned, 1 
+Peptide match                                                      Preferred 
+Exclude isotopes                                                          on 
+Dynamic exclusion                                                       30.0 s
+If idle ..                                                do not pick others 
+
+                                     Setup
+
+TUNEFILES
+General
+Switch Count  0
+Base Tunefile C:\Xcalibur\methods\current.mstune
+
+CONTACT CLOSURE
+General
+Used            False 
+Start in Closed  True 
+Switch Count        0 
+
+SYRINGE
+General
+Used                  False 
+Start in OFF           True 
+Stop at end of run    False 
+Switch Count              0 
+Pump setup
+Syringe type       Hamilton 
+Flow rate             3.000 µL/min
+Inner diameter        2.303 mm
+Volume                  250 µL
+
+DIVERT VALVE A
+General
+Used         False 
+Start in 1-2  True 
+Switch Count     0 
+
+DIVERT VALVE B
+General
+Used         False 
+Start in 1-2  True 
+Switch Count     0 
+
+LOCK MASSES
+   (no entries)
+
+INCLUSION LIST
+   (no entries)
+
+EXCLUSION LIST
+   (no entries)
+
+NEUTRAL LOSSES
+   (no entries)
+
+MASS TAGS
+   (no entries)
+

@@ -1,0 +1,31 @@
+Setting	Value
+AGC	On
+Micro Scan Count	1
+Scan Segment	1
+MS2 Isolation Offset	0.00
+=== Mass Calibration: ===	
+Number of Lock Masses	0
+Lock Mass #1 (m/z)	0.0000
+Lock Mass #2 (m/z)	0.0000
+Lock Mass #3 (m/z)	0.0000
+LM Search Window (ppm)	0.0
+LM Search Window (mmu)	0.0
+Number of LM Found	0
+Last Locking (sec)	0.0
+LM m/z-Correction (ppm)	0.00
+=== Ion Optics Settings: ===	
+S-Lens RF Level	60.00
+S-Lens Voltage (V)	21.00
+Skimmer Voltage (V)	15.00
+Inject Flatapole Offset (V)	5.00
+Bent Flatapole DC (V)	2.00
+Gate Lens Voltage (V)	1.75
+====  Diagnostic Data:  ====	
+LC FWHM parameter	15.0
+Rod	0
+Access Id	0
+Analog Input 1 (V)	0.000
+Analog Input 2 (V)	0.000
+======  Ion Source:  ======	
+Source TMP Speed	1000.0
+Source TMP Motor Temperature (°C)	61.0

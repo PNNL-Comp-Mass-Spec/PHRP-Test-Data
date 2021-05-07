@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<DatasetInfo>
+  <Dataset>Muscle_Mock_TMT16_PremixQC_Bane_16Dec20_20-09-10</Dataset>
+  <ScanTypes>
+    <ScanType ScanCount="9170" ScanFilterText="FTMS + p NSI Full ms">HMS</ScanType>
+    <ScanType ScanCount="29620" ScanFilterText="FTMS + c NSI d Full ms2 0@hcd30.00">HCD-HMSn</ScanType>
+  </ScanTypes>
+  <AcquisitionInfo>
+    <ScanCount>38790</ScanCount>
+    <ScanCountMS>9170</ScanCountMS>
+    <ScanCountMSn>29620</ScanCountMSn>
+    <Elution_Time_Max>119.9981</Elution_Time_Max>
+    <AcqTimeMinutes>120.00</AcqTimeMinutes>
+    <StartTime>2020-12-19 02:25:25 AM</StartTime>
+    <EndTime>2020-12-19 04:25:24 AM</EndTime>
+    <FileSizeBytes>808612480</FileSizeBytes>
+  </AcquisitionInfo>
+  <TICInfo>
+    <TIC_Max_MS>2.3181E+10</TIC_Max_MS>
+    <TIC_Max_MSn>1.1875E+10</TIC_Max_MSn>
+    <BPI_Max_MS>1.3641E+10</BPI_Max_MS>
+    <BPI_Max_MSn>1.9666E+09</BPI_Max_MSn>
+    <TIC_Median_MS>8.7411E+07</TIC_Median_MS>
+    <TIC_Median_MSn>1.1885E+07</TIC_Median_MSn>
+    <BPI_Median_MS>4.7916E+06</BPI_Median_MS>
+    <BPI_Median_MSn>989850</BPI_Median_MSn>
+  </TICInfo>
+</DatasetInfo>
