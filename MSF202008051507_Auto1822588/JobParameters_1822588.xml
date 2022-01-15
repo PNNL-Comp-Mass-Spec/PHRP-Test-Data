@@ -1,0 +1,53 @@
+<sections>
+  <section name="JobParameters">
+    <item key="DataPackageID" value="0" />
+    <item key="ToolName" value="MSFragger" />
+    <item key="DatasetArchivePath" value="\\adms.emsl.pnl.gov\dmsarch\Lumos03\2020_2" />
+    <item key="DatasetFolderName" value="MCF7Cell_O-GlcNAc_Petyuk_R1_15May20_Rage_Rep-20-05-01" />
+    <item key="DatasetID" value="825245" />
+    <item key="DatasetNum" value="MCF7Cell_O-GlcNAc_Petyuk_R1_15May20_Rage_Rep-20-05-01" />
+    <item key="DatasetStoragePath" value="\\proto-8\Lumos03\2020_2\" />
+    <item key="DatasetType" value="HMS-HCD-ETD-HMSn" />
+    <item key="Experiment" value="MCF7Cell_O-GLcNAc_Petyuk" />
+    <item key="InstClass" value="LTQ_FT" />
+    <item key="Instrument" value="Lumos03" />
+    <item key="InstrumentDataPurged" value="0" />
+    <item key="InstrumentGroup" value="Lumos" />
+    <item key="OrgDbReqd" value="1" />
+    <item key="RawDataType" value="dot_raw_files" />
+    <item key="ResultType" value="MSF_Peptide_Hit" />
+    <item key="SearchEngineInputFileFormats" value="mzML" />
+    <item key="SettingsFileName" value="MSFragger_Standard.xml" />
+    <item key="Special_Processing" value="" />
+    <item key="ToolName" value="MSFragger" />
+    <item key="transferFolderPath" value="\\proto-8\DMS3_Xfer\" />
+  </section>
+  <section name="MSFragger">
+    <item key="MSFraggerJavaMemorySize" value="10000" />
+  </section>
+  <section name="MSXMLGenerator">
+    <item key="CentroidMSXML" value="True" />
+    <item key="CentroidPeakCountToRetain" value="-1" />
+    <item key="MSXMLGenerator" value="MSConvert.exe" />
+    <item key="MSXMLOutputType" value="mzML" />
+  </section>
+  <section name="PeptideSearch">
+    <item key="legacyFastaFileName" value="na" />
+    <item key="OrganismName" value="Homo_sapiens" />
+    <item key="ParmFileName" value="MSFragger_Tryp_Dyn_MetOx_ProtNTermAcet_StatCysAlk_20ppmParTol.params" />
+    <item key="ParmFileStoragePath" value="\\gigasax\DMS_Parameter_Files\MSFragger" />
+    <item key="ProteinCollectionList" value="H_sapiens_UniProt_SPROT_2019-11-05,Tryp_Pig_Bov" />
+    <item key="ProteinOptions" value="seq_direction=decoy,filetype=fasta" />
+  </section>
+  <section name="StepParameters" step="2">
+    <item key="StepTool" value="MSFragger" />
+    <item key="InputFolderName" value="MSXML_Gen_1_194_825245" />
+    <item key="OutputFolderName" value="MSF202008051507_Auto1822588" />
+    <item key="ParamFileStoragePath" value="\\gigasax\DMS_Parameter_Files\MSFragger" />
+  </section>
+  <section name="StepParameters" step="3">
+    <item key="StepTool" value="PepProtProphet" />
+    <item key="InputFolderName" value="MSF202008051507_Auto1822588" />
+    <item key="OutputFolderName" value="MSF202008051507_Auto1822588" />
+  </section>
+</sections>

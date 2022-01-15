@@ -1,0 +1,175 @@
+philosopher.exe version
+--------------------------------------------------------------------------------
+INFO[18:35:09] Current Philosopher build and version         build=1626989421 version=v4.0.0
+
+
+### Workspace Manager ###
+
+philosopher.exe workspace --init --nocheck
+--------------------------------------------------------------------------------
+INFO[18:35:10] Executing Workspace  v4.0.0                  
+INFO[18:35:10] Creating workspace                           
+INFO[18:35:10] Done                                         
+
+
+### Workspace Manager ###
+
+philosopher.exe workspace --init --nocheck
+--------------------------------------------------------------------------------
+INFO[18:35:11] Executing Workspace  v4.0.0                  
+INFO[18:35:11] Creating workspace                           
+INFO[18:35:11] Done                                         
+
+
+### PeptideProphet ###
+
+philosopher.exe peptideprophet --decoyprobs --ppm --accmass --nonparam --expectscore --decoy XXX_ --database C:\DMS_Temp_Org\ID_008026_7A1842EC.fasta ..\MCF7Cell_O-GlcNAc_Petyuk_R1_15May20_Rage_Rep-20-05-01.pepXML
+--------------------------------------------------------------------------------
+INFO[18:35:11] Executing PeptideProphet  v4.0.0             
+ file 1: C:\DMS_WorkDir\MCF7Cell_O-GlcNAc_Petyuk_R1_15May20_Rage_Rep-20-05-01.pepXML
+ processed altogether 1493 results
+INFO: Results written to file: C:\DMS_WorkDir\interact-MCF7Cell_O-GlcNAc_Petyuk_R1_15May20_Rage_Rep-20-05-01.pep.xml
+
+  - C:\DMS_WorkDir\interact-MCF7Cell_O-GlcNAc_Petyuk_R1_15May20_Rage_Rep-20-05-01.pep.xml
+
+  - Searching the tree...
+  - Linking duplicate entries...
+  - Printing results...
+
+using Accurate Mass Bins
+using PPM mass difference
+Using Decoy Label "XXX_".
+Decoy Probabilities will be reported.
+Using non-parametric distributions
+ (X! Tandem) (using Tandem's expectation score for modeling)
+adding ACCMASS mixture distribution
+using search_offsets in ACCMASS mixture distr: 0
+init with X! Tandem stricttrypsin 
+MS Instrument info: Manufacturer: UNKNOWN, Model: UNKNOWN, Ionization: UNKNOWN, Analyzer: UNKNOWN, Detector: UNKNOWN
+
+INFO: Processing standard MixtureModel ... 
+Initialising statistical models ...
+  - Building Commentz-Walter keyword tree... PeptideProphet  (TPP v5.2.1-dev Flammagenitus, Build 201906281613-exported (Windows_NT-x86_64)) AKeller@ISB
+ read in 0 1+, 767 2+, 483 3+, 175 4+, 40 5+, 28 6+, and 0 7+ spectra.
+Found 615 Decoys, and 878 Non-Decoys
+Iterations: .........10.........20........
+WARNING: Mixture model quality test failed for charge (1+).
+WARNING: Mixture model quality test failed for charge (4+).
+WARNING: Mixture model quality test failed for charge (6+).
+WARNING: Mixture model quality test failed for charge (7+).
+model complete after 29 iterations
+ERRO[18:35:17] remove C:\Users\D3L243\AppData\Local\Temp\cb581d14-f42e-4b64-aa3d-1f137385554e\PeptideProphetParser.exe: The process cannot access the file because it is being used by another process. 
+INFO[18:35:17] Done                                         
+
+
+### ProteinProphet ###
+
+philosopher.exe proteinprophet --maxppmdiff 2000000 --output combined C:\DMS_WorkDir\interact-MCF7Cell_O-GlcNAc_Petyuk_R1_15May20_Rage_Rep-20-05-01.pep.xml
+--------------------------------------------------------------------------------
+INFO[18:35:18] Executing ProteinProphet  v4.0.0             
+ProteinProphet (C++) by Insilicos LLC and LabKey Software, after the original Perl by A. Keller (TPP v6.0.0-rc15 Noctilucent, Build 202105101442-exported (Windows_NT-x86_64))
+ (no FPKM) (using degen pep info)
+Reading in C:/DMS_WorkDir/interact-MCF7Cell_O-GlcNAc_Petyuk_R1_15May20_Rage_Rep-20-05-01.pep.xml...
+...read in 0 1+, 272 2+, 56 3+, 0 4+, 1 5+, 0 6+, 0 7+ spectra with min prob 0.05
+
+Initializing 300 peptide weights: 0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+Calculating protein lengths and molecular weights from database c:/DMS_Temp_Org/ID_008026_7A1842EC.fasta
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........1000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........2000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........3000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........4000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........5000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........6000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........7000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........8000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........9000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........10000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........11000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........12000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........13000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........14000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........15000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........16000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........17000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........18000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........19000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........20000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........21000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........22000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........23000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........24000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........25000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........26000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........27000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........28000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........29000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........30000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........31000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........32000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........33000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........34000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........35000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........36000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........37000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........38000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........39000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........40000
+.........:.........:.........:.........:.........:.........:.........:...  Total: 40736
+Computing degenerate peptides for 340 proteins: 0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+Computing probabilities for 377 proteins.  Loop 1: 0%...20%...40%...60%...80%...100%  Loop 2: 0%...20%...40%...60%...80%...100%
+Computing probabilities for 377 proteins.  Loop 1: 0%...20%...40%...60%...80%...100%  Loop 2: 0%...20%...40%...60%...80%...100%
+Computing probabilities for 377 proteins.  Loop 1: 0%...20%...40%...60%...80%...100%  Loop 2: 0%...20%...40%...60%...80%...100%
+Computing 241 protein groups: 0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+Calculating sensitivity...and error tables...
+Computing MU for 377 proteins: 0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+INFO: mu=1.33067e-06, db_size=45433711
+ERRO[18:35:20] remove C:\Users\D3L243\AppData\Local\Temp\2f5a22e3-0e13-4e21-a710-0e308ebd39fe\DatabaseParser.exe: The process cannot access the file because it is being used by another process. 
+INFO[18:35:20] Done                                         
+
+
+### Annotate Database ###
+
+philosopher.exe database --annotate C:\DMS_Temp_Org\ID_008026_7A1842EC.fasta --prefix XXX_
+--------------------------------------------------------------------------------
+INFO[18:35:20] Executing Database  v4.0.0                   
+INFO[18:35:20] Annotating the database                      
+INFO[18:35:24] Done                                         
+
+
+### Results Filter ###
+
+philosopher.exe filter --sequential --razor --picked --prot 0.01 --tag XXX_ --pepxml C:\DMS_WorkDir --protxml C:\DMS_WorkDir\combined.prot.xml --razorbin C:\DMS_WorkDir\.meta\razor.bin
+--------------------------------------------------------------------------------
+INFO[18:35:24] Executing Filter  v4.0.0                     
+INFO[18:35:24] Processing peptide identification files      
+INFO[18:35:25] 1+ Charge profile                             decoy=0 target=0
+INFO[18:35:25] 2+ Charge profile                             decoy=35 target=237
+INFO[18:35:25] 3+ Charge profile                             decoy=3 target=53
+INFO[18:35:25] 4+ Charge profile                             decoy=0 target=0
+INFO[18:35:25] 5+ Charge profile                             decoy=0 target=1
+INFO[18:35:25] 6+ Charge profile                             decoy=0 target=0
+INFO[18:35:25] Database search results                       ions=300 peptides=280 psms=329
+INFO[18:35:25] Converged to 0.99 % FDR with 202 PSMs         decoy=2 threshold=0.9501 total=204
+INFO[18:35:25] Converged to 0.58 % FDR with 171 Peptides     decoy=1 threshold=0.9557 total=172
+INFO[18:35:25] Converged to 0.55 % FDR with 181 Ions         decoy=1 threshold=0.9557 total=182
+INFO[18:35:25] Protein inference results                     decoy=40 target=201
+INFO[18:35:25] Converged to 1.60 % FDR with 125 Proteins     decoy=2 threshold=0.9538 total=127
+INFO[18:35:25] Applying sequential FDR estimation            ions=184 peptides=174 psms=202
+INFO[18:35:25] Converged to 1.00 % FDR with 200 PSMs         decoy=2 threshold=0.9516 total=202
+INFO[18:35:25] Converged to 0.58 % FDR with 171 Peptides     decoy=1 threshold=0.9557 total=172
+INFO[18:35:25] Converged to 0.55 % FDR with 181 Ions         decoy=1 threshold=0.9557 total=182
+INFO[18:35:25] Post processing identifications              
+INFO[18:35:25] Assigning protein identifications to layers  
+INFO[18:35:25] Processing protein inference                 
+INFO[18:35:26] Synchronizing PSMs and proteins              
+INFO[18:35:26] Saving                                       
+INFO[18:35:26] Done                                         
+
+
+### Generate Report ###
+
+philosopher.exe report
+--------------------------------------------------------------------------------
+INFO[18:35:27] Executing Report  v4.0.0                     
+INFO[18:35:27] Creating reports                             
+INFO[18:35:27] Done                                         

@@ -1,0 +1,9 @@
+Date: 2021-09-07 06:35:10 PM
+Dataset: MCF7Cell_O-GlcNAc_Petyuk_R1_15May20_Rage_Rep-20-05-01
+Job: 1822588
+Step: 3
+Tool: PepProtProphet
+ToolVersionInfo:
+v4.0.0
+philosopher.exe: 2021-07-22 05:57:18 PM
+tmt-integrator-3.0.0.jar: 2021-07-22 07:44:28 PM

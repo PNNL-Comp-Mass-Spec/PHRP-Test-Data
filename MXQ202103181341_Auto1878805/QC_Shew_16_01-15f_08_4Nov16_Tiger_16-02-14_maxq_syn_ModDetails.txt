@@ -1,0 +1,17 @@
+Unique_Seq_ID	Mass_Correction_Tag	Position
+74	Plus1Oxy	11
+109	Plus1Oxy	20
+124	Plus1Oxy	4
+180	Plus1Oxy	2
+212	Plus1Oxy	1
+218	Plus1Oxy	3
+218	Plus1Oxy	11
+234	Plus1Oxy	20
+239	Plus1Oxy	12
+262	Plus1Oxy	2
+295	Plus1Oxy	1
+328	Plus1Oxy	17
+370	Plus1Oxy	2
+380	Plus1Oxy	11
+381	Plus1Oxy	37
+390	Plus1Oxy	9

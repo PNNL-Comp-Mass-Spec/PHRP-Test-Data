@@ -1,0 +1,362 @@
+java.exe -Xmx10000M -jar C:\DMS_Programs\MSFragger\fragpipe\tools\MSFragger-3.3\MSFragger-3.3.jar C:\DMS_WorkDir\MSFragger_Tryp_Dyn_MetOx_ProtNTermAcet_StatCysAlk_20ppmParTol.params C:\DMS_WorkDir\MCF7Cell_O-GlcNAc_Petyuk_R1_15May20_Rage_Rep-20-05-01.mzML
+--------------------------------------------------------------------------------
+MSFragger version MSFragger-3.3
+Batmass-IO version 1.23.4
+timsdata library version timsdata-2-8-7-1
+(c) University of Michigan
+RawFileReader reading tool. Copyright (c) 2016 by Thermo Fisher Scientific, Inc. All rights reserved.
+System OS: Windows 10, Architecture: AMD64
+Java Info: 1.8.0_232, OpenJDK 64-Bit Server VM, 
+JVM started with 8 GB memory
+Checking database...
+Checking spectral files...
+C:\DMS_WorkDir\MCF7Cell_O-GlcNAc_Petyuk_R1_15May20_Rage_Rep-20-05-01.mzML: Scans = 18414
+***********************************FIRST SEARCH************************************
+Parameters:
+num_threads = 7
+database_name = C:\DMS_WorkDir\ID_008026_7A1842EC.fasta
+decoy_prefix = XXX_
+precursor_mass_lower = -20.0
+precursor_mass_upper = 20.0
+precursor_mass_units = 1
+data_type = 0
+precursor_true_tolerance = 20.0
+precursor_true_units = 1
+fragment_mass_tolerance = 20.0
+fragment_mass_units = 1
+calibrate_mass = 2
+use_all_mods_in_first_search = false
+write_calibrated_mgf = 0
+isotope_error = 0/1
+mass_offsets = 0
+labile_search_mode = OFF
+restrict_deltamass_to = all
+precursor_mass_mode = SELECTED
+localize_delta_mass = false
+delta_mass_exclude_ranges = (-1.5,3.5)
+fragment_ion_series = b,y
+ion_series_definitions = 
+search_enzyme_name = stricttrypsin
+search_enzyme_cutafter = KR
+search_enzyme_butnotafter = 
+num_enzyme_termini = 2
+allowed_missed_cleavage = 2
+clip_nTerm_M = true
+allow_multiple_variable_mods_on_residue = false
+max_variable_mods_per_peptide = 3
+max_variable_mods_combinations = 5000
+output_format = tsv_pepxml_pin
+output_report_topN = 1
+output_max_expect = 50.0
+report_alternative_proteins = false
+override_charge = false
+precursor_charge_low = 1
+precursor_charge_high = 4
+digest_min_length = 7
+digest_max_length = 50
+digest_mass_range_low = 500.0
+digest_mass_range_high = 7000.0
+max_fragment_charge = 2
+deisotope = 1
+deneutralloss = true
+track_zero_topN = 0
+zero_bin_accept_expect = 0.0
+zero_bin_mult_expect = 1.0
+add_topN_complementary = 0
+minimum_peaks = 15
+use_topN_peaks = 150
+minIonsScoring = 2
+min_matched_fragments = 4
+minimum_ratio = 0.01
+intensity_transform = 0
+remove_precursor_peak = 0
+remove_precursor_range = -1.5,1.5
+clear_mz_range_low = 0.0
+clear_mz_range_high = 0.0
+excluded_scan_list_file = 
+mass_diff_to_variable_mod = 0
+min_sequence_matches = 2
+check_spectral_files = true
+variable_mod_01 = 15.994900 M 3
+variable_mod_02 = 42.010600 [^ 1
+add_A_alanine = 0.0
+add_B_user_amino_acid = 0.0
+add_C_cysteine = 57.021464
+add_Cterm_peptide = 0.0
+add_Cterm_protein = 0.0
+add_D_aspartic_acid = 0.0
+add_E_glutamic_acid = 0.0
+add_F_phenylalanine = 0.0
+add_G_glycine = 0.0
+add_H_histidine = 0.0
+add_I_isoleucine = 0.0
+add_J_user_amino_acid = 0.0
+add_K_lysine = 0.0
+add_L_leucine = 0.0
+add_M_methionine = 0.0
+add_N_asparagine = 0.0
+add_Nterm_peptide = 0.0
+add_Nterm_protein = 0.0
+add_O_user_amino_acid = 0.0  # O = pyrrolysine (237.14773 Da)
+add_P_proline = 0.0
+add_Q_glutamine = 0.0
+add_R_arginine = 0.0
+add_S_serine = 0.0
+add_T_threonine = 0.0
+add_U_user_amino_acid = 0.0  # U = selenocysteine (150.95363 Da)
+add_V_valine = 0.0
+add_W_tryptophan = 0.0
+add_X_user_amino_acid = 0.0
+add_Y_tyrosine = 0.0
+add_Z_user_amino_acid = 0.0
+Number of unique peptides
+	of length 7: 289452
+	of length 8: 279220
+	of length 9: 278238
+	of length 10: 262531
+	of length 11: 249113
+	of length 12: 238362
+	of length 13: 232089
+	of length 14: 217533
+	of length 15: 206373
+	of length 16: 192736
+	of length 17: 180304
+	of length 18: 173177
+	of length 19: 170178
+	of length 20: 152184
+	of length 21: 145676
+	of length 22: 136635
+	of length 23: 127400
+	of length 24: 120816
+	of length 25: 113741
+	of length 26: 105689
+	of length 27: 100819
+	of length 28: 96240
+	of length 29: 87518
+	of length 30: 83088
+	of length 31: 77873
+	of length 32: 73839
+	of length 33: 68951
+	of length 34: 64562
+	of length 35: 58563
+	of length 36: 56882
+	of length 37: 51866
+	of length 38: 48781
+	of length 39: 43965
+	of length 40: 41901
+	of length 41: 39168
+	of length 42: 36937
+	of length 43: 33175
+	of length 44: 30812
+	of length 45: 29601
+	of length 46: 27037
+	of length 47: 25460
+	of length 48: 23472
+	of length 49: 21690
+	of length 50: 20328
+In total 5113975 peptides.
+Generated 8149941 modified peptides.
+Number of peptides with more than 5000 modification patterns: 0
+Selected fragment index width 0.10 Da.
+350464318 fragments to be searched in 1 slices (5.22 GB total)
+Operating on slice 1 of 1: 
+	Fragment index slice generated in 4.18 s
+	001. MCF7Cell_O-GlcNAc_Petyuk_R1_15May20_Rage_Rep-20-05-01.mzML 1.0 s | deisotoping 0.8 s
+		[progress: 15656/15656 (100%) - 7947 spectra/s] 2.0s | postprocessing 0.1 s
+***************************FIRST SEARCH DONE IN 0.287 MIN**************************
+
+*********************MASS CALIBRATION AND PARAMETER OPTIMIZATION*******************
+-----|---------------|---------------|---------------|---------------
+     |  MS1   (Old)  |  MS1   (New)  |  MS2   (Old)  |  MS2   (New)  
+-----|---------------|---------------|---------------|---------------
+ Run |  Median  MAD  |  Median  MAD  |  Median  MAD  |  Median  MAD  
+ 001 |  -1.16   0.92 |   0.09   0.62 |  -3.76   3.37 |  -0.25   2.50  
+-----|---------------|---------------|---------------|---------------
+Finding the optimal parameters:
+-------|-------|-------|-------|-------|-------|-------|-------|-------
+  MS2  |    5  |    7  |   10  |   15  |   20  |   25  |   30  |   50  
+-------|-------|-------|-------|-------|-------|-------|-------|-------
+ Count | skip  |    230|    197| skip rest
+-------|-------|-------|-------|-------|-------|-------|-------|-------
+-------|-------|-------|-------|-------|-------|-------
+ Peaks | 300_0 | 200_0 | 175_0 | 150_1 | 125_1 | 100_1 
+-------|-------|-------|-------|-------|-------|-------
+ Count |    224|    224|    224|    230|    229| skip rest
+-------|-------|-------|-------|-------|-------|-------
+-------|-------
+ Int.  |    1  
+-------|-------
+ Count |    128
+-------|-------
+-------|-------
+ Rm P. |    1  
+-------|-------
+ Count |    222
+-------|-------
+New fragment_mass_tolerance = 7 PPM
+New use_topN_peaks = 150
+New minimum_ratio = 0.010000
+New intensity_transform = 0
+New remove_precursor_peak = 0
+************MASS CALIBRATION AND PARAMETER OPTIMIZATION DONE IN 0.811 MIN*********
+
+************************************MAIN SEARCH************************************
+Checking database...
+Parameters:
+num_threads = 7
+database_name = C:\DMS_WorkDir\ID_008026_7A1842EC.fasta
+decoy_prefix = XXX_
+precursor_mass_lower = -20.0
+precursor_mass_upper = 20.0
+precursor_mass_units = 1
+data_type = 0
+precursor_true_tolerance = 20.0
+precursor_true_units = 1
+fragment_mass_tolerance = 7.0
+fragment_mass_units = 1
+calibrate_mass = 2
+use_all_mods_in_first_search = false
+write_calibrated_mgf = 0
+isotope_error = 0/1/2
+mass_offsets = 0
+labile_search_mode = OFF
+restrict_deltamass_to = all
+precursor_mass_mode = SELECTED
+localize_delta_mass = false
+delta_mass_exclude_ranges = (-1.5,3.5)
+fragment_ion_series = b,y
+ion_series_definitions = 
+search_enzyme_name = stricttrypsin
+search_enzyme_cutafter = KR
+search_enzyme_butnotafter = 
+num_enzyme_termini = 2
+allowed_missed_cleavage = 3
+clip_nTerm_M = true
+allow_multiple_variable_mods_on_residue = false
+max_variable_mods_per_peptide = 3
+max_variable_mods_combinations = 5000
+output_format = tsv_pepxml_pin
+output_report_topN = 1
+output_max_expect = 50.0
+report_alternative_proteins = true
+override_charge = false
+precursor_charge_low = 1
+precursor_charge_high = 4
+digest_min_length = 7
+digest_max_length = 50
+digest_mass_range_low = 500.0
+digest_mass_range_high = 7000.0
+max_fragment_charge = 2
+deisotope = 1
+deneutralloss = true
+track_zero_topN = 0
+zero_bin_accept_expect = 0.0
+zero_bin_mult_expect = 1.0
+add_topN_complementary = 0
+minimum_peaks = 15
+use_topN_peaks = 150
+minIonsScoring = 2
+min_matched_fragments = 4
+minimum_ratio = 0.01
+intensity_transform = 0
+remove_precursor_peak = 0
+remove_precursor_range = -1.5,1.5
+clear_mz_range_low = 0.0
+clear_mz_range_high = 0.0
+excluded_scan_list_file = 
+mass_diff_to_variable_mod = 0
+min_sequence_matches = 2
+check_spectral_files = true
+variable_mod_01 = 15.994900 M 3
+variable_mod_02 = 42.010600 [^ 1
+add_A_alanine = 0.0
+add_B_user_amino_acid = 0.0
+add_C_cysteine = 57.021464
+add_Cterm_peptide = 0.0
+add_Cterm_protein = 0.0
+add_D_aspartic_acid = 0.0
+add_E_glutamic_acid = 0.0
+add_F_phenylalanine = 0.0
+add_G_glycine = 0.0
+add_H_histidine = 0.0
+add_I_isoleucine = 0.0
+add_J_user_amino_acid = 0.0
+add_K_lysine = 0.0
+add_L_leucine = 0.0
+add_M_methionine = 0.0
+add_N_asparagine = 0.0
+add_Nterm_peptide = 0.0
+add_Nterm_protein = 0.0
+add_O_user_amino_acid = 0.0  # O = pyrrolysine (237.14773 Da)
+add_P_proline = 0.0
+add_Q_glutamine = 0.0
+add_R_arginine = 0.0
+add_S_serine = 0.0
+add_T_threonine = 0.0
+add_U_user_amino_acid = 0.0  # U = selenocysteine (150.95363 Da)
+add_V_valine = 0.0
+add_W_tryptophan = 0.0
+add_X_user_amino_acid = 0.0
+add_Y_tyrosine = 0.0
+add_Z_user_amino_acid = 0.0
+Number of unique peptides
+	of length 7: 306451
+	of length 8: 301767
+	of length 9: 305353
+	of length 10: 295280
+	of length 11: 284910
+	of length 12: 279601
+	of length 13: 276950
+	of length 14: 266559
+	of length 15: 258475
+	of length 16: 247103
+	of length 17: 235937
+	of length 18: 233070
+	of length 19: 234555
+	of length 20: 212759
+	of length 21: 208087
+	of length 22: 201496
+	of length 23: 189352
+	of length 24: 182458
+	of length 25: 174911
+	of length 26: 164705
+	of length 27: 159362
+	of length 28: 161014
+	of length 29: 142801
+	of length 30: 136607
+	of length 31: 130949
+	of length 32: 124862
+	of length 33: 118564
+	of length 34: 113638
+	of length 35: 104639
+	of length 36: 102132
+	of length 37: 96168
+	of length 38: 90816
+	of length 39: 83573
+	of length 40: 80487
+	of length 41: 75679
+	of length 42: 72271
+	of length 43: 66626
+	of length 44: 62814
+	of length 45: 60283
+	of length 46: 55635
+	of length 47: 52990
+	of length 48: 49573
+	of length 49: 46740
+	of length 50: 44068
+In total 7092070 peptides.
+Generated 11773741 modified peptides.
+Number of peptides with more than 5000 modification patterns: 0
+Selected fragment index width 0.03 Da.
+562019362 fragments to be searched in 2 slices (8.37 GB total)
+Operating on slice 1 of 2: 
+	Fragment index slice generated in 2.90 s
+	001. MCF7Cell_O-GlcNAc_Petyuk_R1_15May20_Rage_Rep-20-05-01.mzBIN_calibrated 0.1 s
+		[progress: 14483/14483 (100%) - 44291 spectra/s] 0.3s
+Operating on slice 2 of 2: 
+	Fragment index slice generated in 2.69 s
+	001. MCF7Cell_O-GlcNAc_Petyuk_R1_15May20_Rage_Rep-20-05-01.mzBIN_calibrated 0.1 s
+		[progress: 14483/14483 (100%) - 68640 spectra/s] 0.2s | postprocessing 0.9 s
+***************************MAIN SEARCH DONE IN 0.265 MIN***************************
+
+*******************************TOTAL TIME 1.363 MIN********************************

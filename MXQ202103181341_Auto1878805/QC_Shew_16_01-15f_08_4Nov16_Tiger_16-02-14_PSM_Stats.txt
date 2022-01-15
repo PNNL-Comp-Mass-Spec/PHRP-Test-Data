@@ -1,0 +1,2 @@
+Dataset	Job	MSGF_Threshold	FDR_Threshold	Spectra_Searched	Total_PSMs_MSGF_Filtered	Unique_Peptides_MSGF_Filtered	Unique_Proteins_MSGF_Filtered	Total_PSMs_FDR_Filtered	Unique_Peptides_FDR_Filtered	Unique_Proteins_FDR_Filtered
+QC_Shew_16_01-15f_08_4Nov16_Tiger_16-02-14	1878805	1.00E-10	0.010	750	238	141	120	750	409	303
