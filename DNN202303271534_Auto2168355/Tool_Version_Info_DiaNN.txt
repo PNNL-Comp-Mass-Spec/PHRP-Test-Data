@@ -1,0 +1,8 @@
+Date: 2023-04-03 04:05:35 PM
+Dataset: MM_Strap_IMAC_FT_10xDilution_FAIMS_ID_01_FAIMS_Merry_03Feb23_REP-22-11-13
+Job: 2168355
+Step: 3
+Tool: DiaNN
+ToolVersionInfo:
+DIA-NN 1.8.1
+diann.exe: 2023-02-20 04:06:44 PM

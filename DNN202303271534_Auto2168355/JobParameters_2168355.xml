@@ -1,0 +1,58 @@
+<sections>
+  <section name="DIA-NN">
+    <item key="CacheFolderRootPath" value="\\proto-9\DIA-NN_Staging" />
+  </section>
+  <section name="JobParameters">
+    <item key="DataPackageID" value="0" />
+    <item key="DatasetArchivePath" value="\\adms.emsl.pnl.gov\dmsarch\Eclipse02\2023_1" />
+    <item key="DatasetFolderName" value="MM_Strap_IMAC_FT_10xDilution_FAIMS_ID_01_FAIMS_Merry_03Feb23_REP-22-11-13" />
+    <item key="DatasetID" value="1122833" />
+    <item key="DatasetName" value="MM_Strap_IMAC_FT_10xDilution_FAIMS_ID_01_FAIMS_Merry_03Feb23_REP-22-11-13" />
+    <item key="DatasetStoragePath" value="\\proto-9\Eclipse02\2023_1\" />
+    <item key="DatasetType" value="HMS-HCD-HMSn" />
+    <item key="Experiment" value="MM_Strap_IMAC_DIA" />
+    <item key="InstClass" value="LTQ_FT" />
+    <item key="Instrument" value="Eclipse02" />
+    <item key="InstrumentDataPurged" value="0" />
+    <item key="InstrumentGroup" value="Eclipse" />
+    <item key="OrgDbReqd" value="1" />
+    <item key="RawDataType" value="dot_raw_files" />
+    <item key="ResultType" value="DNN_Peptide_Hit" />
+    <item key="SettingsFileName" value="DiaNN_Standard.xml" />
+    <item key="Special_Processing" value="" />
+    <item key="ToolName" value="DiaNN" />
+    <item key="transferFolderPath" value="\\proto-9\DMS3_Xfer\" />
+  </section>
+  <section name="MSXMLGenerator">
+    <item key="CentroidMSXML" value="True" />
+    <item key="CentroidPeakCountToRetain" value="-1" />
+    <item key="MSXMLGenerator" value="MSConvert.exe" />
+    <item key="MSXMLOutputType" value="mzML" />
+  </section>
+  <section name="PeptideSearch">
+    <item key="LegacyFastaFileName" value="na" />
+    <item key="OrganismName" value="Homo_sapiens" />
+    <item key="ParamFileName" value="DiaNN_Tryp_Dyn_MetOx_Stat_CysAlk.txt" />
+    <item key="ParamFileStoragePath" value="\\gigasax\DMS_Parameter_Files\DiaNN" />
+    <item key="ProteinCollectionList" value="H_sapiens_UniProt_SPROT_2021-06-20_Filtered,Tryp_Pig_Bov" />
+    <item key="ProteinOptions" value="seq_direction=forward,filetype=fasta" />
+  </section>
+  <section name="StepParameters" step="1">
+    <item key="StepTool" value="MSXML_Gen" />
+    <item key="InputFolderName" value="" />
+    <item key="OutputFolderName" value="MSXML_Gen_1_194_1122833" />
+    <item key="ParamFileStoragePath" value="\\gigasax\DMS_Parameter_Files\MSXML_Gen" />
+  </section>
+  <section name="StepParameters" step="2">
+    <item key="StepTool" value="DiaNN_SpecLib" />
+    <item key="InputFolderName" value="MSXML_Gen_1_194_1122833" />
+    <item key="OutputFolderName" value="DNN202303271534_Auto2168355" />
+    <item key="ParamFileStoragePath" value="\\gigasax\DMS_Parameter_Files\DiaNN" />
+  </section>
+  <section name="StepParameters" step="3">
+    <item key="StepTool" value="DiaNN" />
+    <item key="InputFolderName" value="DNN202303271534_Auto2168355" />
+    <item key="OutputFolderName" value="DNN202303271534_Auto2168355" />
+    <item key="ParamFileStoragePath" value="\\gigasax\DMS_Parameter_Files\DiaNN" />
+  </section>
+</sections>
