@@ -1,0 +1,16 @@
+Date: 2025-03-28 09:29:00 PM
+Dataset: 06CPTAC4_SKCM_A_PNNL_09102023_B2S1_f06_150FMS_PTM_ADP_Lisa_30Nov23_WBEH-23-11-08
+Job: 2434909
+Step: 2
+Tool: FragPipe
+ToolVersionInfo:
+FragPipe version 22.0
+MSFragger version 4.1
+IonQuant version 1.10.27
+diaTracer version 1.1.5
+Philosopher version 5.1.1
+fragpipe.exe: 2024-05-29 09:14:38 PM
+MSFragger-4.1.jar: 2024-09-09 06:16:56 PM
+IonQuant-1.10.27.jar: 2024-09-09 06:16:43 PM
+philosopher-v5.1.1.exe: 2024-05-29 09:14:42 PM
+tmt-integrator-5.0.9.jar: 2024-05-29 09:14:42 PM

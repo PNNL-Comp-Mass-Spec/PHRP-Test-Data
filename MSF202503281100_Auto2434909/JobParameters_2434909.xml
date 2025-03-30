@@ -1,0 +1,52 @@
+﻿<sections>
+  <section name="FragPipe">
+    <item key="AutoDefineExperimentGroupWithDatasetName" value="true" />
+    <item key="AutoDefineExperimentGroupWithExperimentName" value="false" />
+    <item key="CacheFolderRootPath" value="\\proto-9\MSFragger_Staging" />
+    <item key="DatabaseSplitCount" value="1" />
+    <item key="FragPipeMemorySizeMB" value="10000" />
+    <item key="ReporterIonMode" value="auto" />
+  </section>
+  <section name="JobParameters">
+    <item key="DataPackageID" value="0" />
+    <item key="DatasetArchivePath" value="\\adms.emsl.pnl.gov\dmsarch\Ascend01\2024_1" />
+    <item key="DatasetFolderName" value="06CPTAC4_SKCM_A_PNNL_09102023_B2S1_f06_150FMS_PTM_ADP_Lisa_30Nov23_WBEH-23-11-08" />
+    <item key="DatasetID" value="1219106" />
+    <item key="DatasetName" value="06CPTAC4_SKCM_A_PNNL_09102023_B2S1_f06_150FMS_PTM_ADP_Lisa_30Nov23_WBEH-23-11-08" />
+    <item key="DatasetStoragePath" value="\\proto-9\Ascend01\2024_1\" />
+    <item key="DatasetType" value="HMS-HCD-HMSn" />
+    <item key="Experiment" value="06CPTAC4_SKCM_A_PNNL_09102023_B2S1_f06" />
+    <item key="InstClass" value="LTQ_FT" />
+    <item key="Instrument" value="Ascend01" />
+    <item key="InstrumentDataPurged" value="0" />
+    <item key="InstrumentGroup" value="Ascend" />
+    <item key="OrgDbReqd" value="1" />
+    <item key="RawDataType" value="dot_raw_files" />
+    <item key="ResultType" value="MSF_Peptide_Hit" />
+    <item key="SearchEngineInputFileFormats" value="mzML" />
+    <item key="SettingsFileName" value="FragPipe_Standard.xml" />
+    <item key="Special_Processing" value="" />
+    <item key="ToolName" value="FragPipe" />
+    <item key="TransferFolderPath" value="\\proto-9\DMS3_Xfer\" />
+  </section>
+  <section name="MSXMLGenerator">
+    <item key="CentroidMSXML" value="True" />
+    <item key="CentroidPeakCountToRetain" value="-1" />
+    <item key="MSXMLGenerator" value="MSConvert.exe" />
+    <item key="MSXMLOutputType" value="mzML" />
+  </section>
+  <section name="PeptideSearch">
+    <item key="LegacyFastaFileName" value="na" />
+    <item key="OrganismName" value="Homo_sapiens" />
+    <item key="ParamFileName" value="FragPipe_TMT18_Acetyl_Tryp_Dyn_MetOx_LysAcet_Lys_TMT_Stat_CysAlk_PepNTerm_TMT_18Plex_10ppmParTol_NoFDRFilter_NoIsobaricQuant.workflow" />
+    <item key="ParamFileStoragePath" value="\\gigasax\DMS_Parameter_Files\FragPipe" />
+    <item key="ProteinCollectionList" value="H_sapiens_Ensembl_rel108_GencodeV42_Basic_CHR_cRAP_Proteins_2022-10-01" />
+    <item key="ProteinOptions" value="seq_direction=decoy,filetype=fasta" />
+  </section>
+  <section name="StepParameters" step="2">
+    <item key="StepTool" value="FragPipe" />
+    <item key="InputFolderName" value="MSXML_Gen_1_194_1219106" />
+    <item key="OutputFolderName" value="MSF202503281100_Auto2434909" />
+    <item key="ParamFileStoragePath" value="\\gigasax\DMS_Parameter_Files\FragPipe" />
+  </section>
+</sections>

@@ -1,0 +1,8 @@
+Modification_Symbol	Monoisotopic_Mass	Target_Residues	Modification_Type	Mass_Correction_Tag	UniMod_Mod_Name
+-	57.021465	C	S	IodoAcet	Carbamidomethyl
+-	304.207146	<	T	TMT16Tag	TMTpro
+*	15.994915	M	D	Plus1Oxy	Oxidation
+#	42.010567	K	D	Acetyl	Acetyl
+@	43.005814	K	D	Carbamyl	Carbamyl
+$	304.207146	K	D	TMT16Tag	TMTpro
+&	0.984016	N	D	Deamide	Deamidated

@@ -1,0 +1,8 @@
+Modification_Symbol	Modification_Mass	Target_Residues	Modification_Type	Mass_Correction_Tag	Occurrence_Count
+-	57.021465	C	S	IodoAcet	1270
+-	304.207146	<	T	TMT16Tag	10233
+*	15.994915	M	D	Plus1Oxy	1482
+#	42.010567	K	D	Acetyl	8141
+@	43.005814	K	D	Carbamyl	576
+$	304.207146	K	D	TMT16Tag	5232
+&	0.984016	N	D	Deamide	477
